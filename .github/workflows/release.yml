@@ -1,0 +1,62 @@
+# SPDX-FileCopyrightText: The packages Authors
+# SPDX-License-Identifier: 0BSD
+
+name: Release
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: ${{ github.workflow }}
+  cancel-in-progress: false
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+      id-token: write # cosign keyless sign-blob
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          fetch-depth: 0
+          persist-credentials: false
+      - id: gate
+        uses: metio/ci/needs-release@f6c5da232253f67486721f46cf4cd5d488189e04 # 2026.10.31224636
+        with:
+          paths: "*.edn LICENSES"
+      - id: version
+        if: steps.gate.outputs.needed == 'true'
+        uses: metio/ci/calver@f6c5da232253f67486721f46cf4cd5d488189e04 # 2026.10.31224636
+      - id: notes
+        name: Generate release notes
+        if: steps.gate.outputs.needed == 'true'
+        uses: metio/ci/release-notes@f6c5da232253f67486721f46cf4cd5d488189e04 # 2026.10.31224636
+        with:
+          version: ${{ steps.version.outputs.version }}
+          previous: ${{ steps.gate.outputs.last }}
+      - name: Archive the definitions and their licenses
+        if: steps.gate.outputs.needed == 'true'
+        env:
+          VERSION: ${{ steps.version.outputs.version }}
+        run: |
+          set -euo pipefail
+          mkdir dist
+          tar --create --gzip --file "dist/packages-${VERSION}.tar.gz" --sort=name --owner=0 --group=0 --numeric-owner \
+            --mtime="@$(git log -1 --format=%ct)" -- *.edn LICENSES
+          (cd dist && sha256sum "packages-${VERSION}.tar.gz" > "packages_${VERSION}_SHA256SUMS")
+      - name: Sign the checksums
+        if: steps.gate.outputs.needed == 'true'
+        uses: metio/ci/cosign-sign-blob@f6c5da232253f67486721f46cf4cd5d488189e04 # 2026.10.31224636
+        with:
+          file: dist/packages_${{ steps.version.outputs.version }}_SHA256SUMS
+      - name: Tag and publish the GitHub release
+        if: steps.gate.outputs.needed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+          VERSION: ${{ steps.version.outputs.version }}
+          SHA: ${{ github.sha }}
+          NOTES: ${{ steps.notes.outputs.file }}
+        run: gh release create "$VERSION" --target "$SHA" --notes-file "$NOTES" --title "$VERSION" dist/*

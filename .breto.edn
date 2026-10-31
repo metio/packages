@@ -1,0 +1,4 @@
+;; SPDX-FileCopyrightText: The packages Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:packages ["@lint"]}
