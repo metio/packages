@@ -25,4 +25,4 @@ A scheduled workflow runs `breto check --all` every week against the latest rele
 
 ## License
 
-The definitions whose header names Shunsuke Suzuki were converted from the [aqua registry](https://github.com/aquaproj/aqua-registry) and are [MIT](LICENSES/MIT.txt)-licensed. Everything else is [0BSD](LICENSES/0BSD.txt).
+[0BSD](LICENSES/0BSD.txt).
