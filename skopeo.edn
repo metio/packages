@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Inspects and copies container images between registries"
+ :source {:go "go.podman.io/skopeo"
+          :package "go.podman.io/skopeo/cmd/skopeo"
+          :tags ["containers_image_openpgp"]}}
