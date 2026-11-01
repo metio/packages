@@ -1,7 +1,7 @@
 ;; SPDX-FileCopyrightText: The breto Authors
 ;; SPDX-License-Identifier: 0BSD
 
-{:description "Declarative installs of prebuilt binaries, as one executable with the package definitions of its release built in"
+{:description "Declarative installs of prebuilt binaries"
  :source {:github "metio/breto"}
  :tag-prefix ""
  :checksum "breto_{version}_SHA256SUMS"
