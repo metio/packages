@@ -1,0 +1,16 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Clones and maintains the repositories of forge organizations and users, and generates sessions for them"
+ :source {:github "metio/aro"}
+ :tag-prefix ""
+ :checksum "aro_{version}_SHA256SUMS"
+ :bins {"aro" "{asset}"}
+ :signature {:bundle "aro_{version}_SHA256SUMS.bundle"
+             :identity "https://github.com/metio/aro/.github/workflows/release.yml@refs/heads/main"
+             :issuer "https://token.actions.githubusercontent.com"
+             :of :checksum}
+ :platforms {"darwin-aarch64" {:asset "aro-darwin-aarch64"}
+             "darwin-x86_64" {:asset "aro-darwin-amd64"}
+             "linux-aarch64" {:asset "aro-linux-aarch64"}
+             "linux-x86_64" {:asset "aro-linux-amd64"}}}

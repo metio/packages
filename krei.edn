@@ -1,0 +1,16 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Keeps files that many repositories share in line with rules"
+ :source {:github "metio/krei"}
+ :tag-prefix ""
+ :checksum "krei_{version}_SHA256SUMS"
+ :bins {"krei" "{asset}"}
+ :signature {:bundle "krei_{version}_SHA256SUMS.bundle"
+             :identity "https://github.com/metio/krei/.github/workflows/release.yml@refs/heads/main"
+             :issuer "https://token.actions.githubusercontent.com"
+             :of :checksum}
+ :platforms {"darwin-aarch64" {:asset "krei-darwin-aarch64"}
+             "darwin-x86_64" {:asset "krei-darwin-amd64"}
+             "linux-aarch64" {:asset "krei-linux-aarch64"}
+             "linux-x86_64" {:asset "krei-linux-amd64"}}}
