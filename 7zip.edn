@@ -1,0 +1,12 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "7-Zip file archiver with a high compression ratio"
+ :source {:github "ip7z/7zip"}
+ :tag-prefix ""
+ :vars {:short {:replace ["." ""]}}
+ :bins {"7zz" "7zz"}
+ :platforms {"linux-x86_64" {:asset "7z{short}-linux-x64.tar.xz" :bins {"7zz" "7zz" "7zzs" "7zzs"}}
+             "linux-aarch64" {:asset "7z{short}-linux-arm64.tar.xz" :bins {"7zz" "7zz" "7zzs" "7zzs"}}
+             "darwin-x86_64" {:asset "7z{short}-mac.tar.xz"}
+             "darwin-aarch64" {:asset "7z{short}-mac.tar.xz"}}}

@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Postman-like API client for the terminal"
+ :source {:github "Julien-cpsn/ATAC"}
+ :platforms {"linux-x86_64" {:asset "atac-v{version}-x86_64-unknown-linux-musl.tar.gz"}
+             "linux-aarch64" {:asset "atac-v{version}-aarch64-unknown-linux-musl.tar.gz"}
+             "darwin-x86_64" {:asset "atac-v{version}-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "atac-v{version}-aarch64-apple-darwin.tar.gz"}}}

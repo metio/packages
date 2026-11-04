@@ -1,0 +1,20 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "VictoriaMetrics agent, alerting, backup and migration tools"
+ :source {:github "VictoriaMetrics/VictoriaMetrics"}
+ :bins {"vmagent" "vmagent-prod"
+        "vmalert" "vmalert-prod"
+        "vmalert-tool" "vmalert-tool-prod"
+        "vmauth" "vmauth-prod"
+        "vmbackup" "vmbackup-prod"
+        "vmrestore" "vmrestore-prod"
+        "vmctl" "vmctl-prod"}
+ :platforms {"linux-x86_64" {:asset "vmutils-linux-amd64-v{version}.tar.gz"
+                             :checksum "vmutils-linux-amd64-v{version}_checksums.txt"}
+             "linux-aarch64" {:asset "vmutils-linux-arm64-v{version}.tar.gz"
+                              :checksum "vmutils-linux-arm64-v{version}_checksums.txt"}
+             "darwin-x86_64" {:asset "vmutils-darwin-amd64-v{version}.tar.gz"
+                              :checksum "vmutils-darwin-amd64-v{version}_checksums.txt"}
+             "darwin-aarch64" {:asset "vmutils-darwin-arm64-v{version}.tar.gz"
+                               :checksum "vmutils-darwin-arm64-v{version}_checksums.txt"}}}

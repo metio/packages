@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Interactive cheatsheets on the command line"
+ :source {:github "cheat/cheat"}
+ :tag-prefix ""
+ :platforms {"linux-x86_64" {:asset "cheat-linux-amd64.gz"}
+             "linux-aarch64" {:asset "cheat-linux-arm64.gz"}
+             "darwin-x86_64" {:asset "cheat-darwin-amd64.gz"}
+             "darwin-aarch64" {:asset "cheat-darwin-arm64.gz"}}}

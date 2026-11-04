@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Inspektor Gadget: eBPF-based inspection of Linux hosts and containers"
+ :source {:github "inspektor-gadget/inspektor-gadget"}
+ :platforms {"linux-x86_64" {:asset "ig-linux-amd64-v{version}.tar.gz"}
+             "linux-aarch64" {:asset "ig-linux-arm64-v{version}.tar.gz"}}}

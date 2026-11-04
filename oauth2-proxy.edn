@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Reverse proxy that authenticates users through OAuth2 and OpenID Connect providers"
+ :source {:github "oauth2-proxy/oauth2-proxy"}
+ :checksum "{asset}-sha256sum.txt"
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "oauth2-proxy-v{version}.linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "oauth2-proxy-v{version}.linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "oauth2-proxy-v{version}.darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "oauth2-proxy-v{version}.darwin-arm64.tar.gz"}}}

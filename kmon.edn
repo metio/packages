@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Linux kernel manager and activity monitor"
+ :source {:github "orhun/kmon"}
+ :strip 1
+ :checksum "{asset}.sha512"
+ :man ["man/kmon.8"]
+ :completions {:bash "completions/kmon.bash" :zsh "completions/_kmon" :fish "completions/kmon.fish"}
+ :platforms {"linux-x86_64" {:asset "kmon-{version}-x86_64-unknown-linux-musl.tar.gz"}}}

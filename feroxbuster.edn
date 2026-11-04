@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Fast recursive content discovery for web servers"
+ :source {:github "epi052/feroxbuster"}
+ :platforms {"linux-x86_64" {:asset "x86_64-linux-feroxbuster.tar.gz"}
+             "linux-aarch64" {:asset "aarch64-linux-feroxbuster.zip"}
+             "darwin-x86_64" {:asset "x86_64-macos-feroxbuster.tar.gz"}
+             "darwin-aarch64" {:asset "aarch64-macos-feroxbuster.tar.gz"}}}

@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Private certificate authority and ACME server for X.509 and SSH"
+ :source {:github "smallstep/certificates"}
+ :checksum "checksums.txt"
+ :platforms {"linux-x86_64" {:asset "step-ca_linux_{version}_amd64.tar.gz"}
+             "linux-aarch64" {:asset "step-ca_linux_{version}_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "step-ca_darwin_{version}_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "step-ca_darwin_{version}_arm64.tar.gz"}}}

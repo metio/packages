@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Continuous peer-to-peer file synchronization"
+ :source {:github "syncthing/syncthing"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "syncthing-linux-amd64-v{version}.tar.gz"}
+             "linux-aarch64" {:asset "syncthing-linux-arm64-v{version}.tar.gz"}
+             "darwin-x86_64" {:asset "syncthing-macos-amd64-v{version}.zip"}
+             "darwin-aarch64" {:asset "syncthing-macos-arm64-v{version}.zip"}}}

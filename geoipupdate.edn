@@ -1,0 +1,12 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Downloads and updates MaxMind GeoIP2 and GeoLite2 databases"
+ :source {:github "maxmind/geoipupdate"}
+ :checksum "geoipupdate_{version}_checksums.txt"
+ :strip 1
+ :man ["geoipupdate.1" "GeoIP.conf.5"]
+ :platforms {"linux-x86_64" {:asset "geoipupdate_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "geoipupdate_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "geoipupdate_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "geoipupdate_{version}_darwin_arm64.tar.gz"}}}

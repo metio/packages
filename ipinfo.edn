@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Command-line client for the IPinfo API and offline IP tools"
+ :source {:github "ipinfo/cli"}
+ :tag-prefix "ipinfo-"
+ :platforms {"linux-x86_64" {:asset "ipinfo_{version}_linux_amd64.tar.gz" :bins {"ipinfo" "ipinfo_{version}_linux_amd64"}}
+             "linux-aarch64" {:asset "ipinfo_{version}_linux_arm64.tar.gz" :bins {"ipinfo" "ipinfo_{version}_linux_arm64"}}
+             "darwin-x86_64" {:asset "ipinfo_{version}_darwin_amd64.tar.gz" :bins {"ipinfo" "ipinfo_{version}_darwin_amd64"}}
+             "darwin-aarch64" {:asset "ipinfo_{version}_darwin_arm64.tar.gz" :bins {"ipinfo" "ipinfo_{version}_darwin_arm64"}}}}

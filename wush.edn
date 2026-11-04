@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Transfers files and opens shells between computers over WireGuard"
+ :source {:github "coder/wush"}
+ :checksum "wush_{version}_SHA256SUMS"
+ :platforms {"linux-x86_64" {:asset "wush_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "wush_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "wush_{version}_darwin_amd64.zip"}
+             "darwin-aarch64" {:asset "wush_{version}_darwin_arm64.zip"}}}

@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "SurrealDB multi-model database server and command-line client"
+ :source {:github "surrealdb/surrealdb"}
+ :bins {"surreal" "surreal"}
+ :platforms {"linux-x86_64" {:asset "surreal-v{version}.linux-amd64.tgz"}
+             "linux-aarch64" {:asset "surreal-v{version}.linux-arm64.tgz"}
+             "darwin-x86_64" {:asset "surreal-v{version}.darwin-amd64.tgz"}
+             "darwin-aarch64" {:asset "surreal-v{version}.darwin-arm64.tgz"}}}

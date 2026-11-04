@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Runs crowdsourced AI prompt patterns from the command line"
+ :source {:github "danielmiessler/fabric"}
+ :checksum "fabric_{version}_checksums.txt"
+ :platforms {"linux-x86_64" {:asset "fabric_Linux_x86_64.tar.gz"}
+             "linux-aarch64" {:asset "fabric_Linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "fabric_Darwin_x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "fabric_Darwin_arm64.tar.gz"}}}

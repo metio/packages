@@ -1,0 +1,12 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Command-line interface for STACKIT cloud resources"
+ :source {:github "stackitcloud/stackit-cli"}
+ :checksum "stackit-cli_{version}_checksums.txt"
+ :bins {"stackit" "stackit"}
+ :completions {:bash "completions/stackit.bash" :zsh "completions/stackit.zsh" :fish "completions/stackit.fish"}
+ :platforms {"linux-x86_64" {:asset "stackit-cli_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "stackit-cli_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "stackit-cli_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "stackit-cli_{version}_darwin_arm64.tar.gz"}}}

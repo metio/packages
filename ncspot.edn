@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "ncurses Spotify client"
+ :source {:github "hrkfdn/ncspot"}
+ :platforms {"linux-x86_64" {:asset "ncspot-v{version}-linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "ncspot-v{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "ncspot-v{version}-macos-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "ncspot-v{version}-macos-aarch64.tar.gz"}}}

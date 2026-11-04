@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Bitwarden password manager command-line client, open-source build"
+ :source {:github "bitwarden/clients"}
+ :tag-prefix "cli-v"
+ :bins {"bw" "bw"}
+ :platforms {"linux-x86_64" {:asset "bw-oss-linux-{version}.zip"}
+             "linux-aarch64" {:asset "bw-oss-linux-arm64-{version}.zip"}
+             "darwin-x86_64" {:asset "bw-oss-macos-{version}.zip"}
+             "darwin-aarch64" {:asset "bw-oss-macos-arm64-{version}.zip"}}}

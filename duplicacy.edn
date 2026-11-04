@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Lock-free deduplicating cloud backup; free for personal use, commercial use needs a license"
+ :source {:github "gilbertchen/duplicacy"}
+ :platforms {"linux-x86_64" {:asset "duplicacy_linux_x64_{version}"}
+             "linux-aarch64" {:asset "duplicacy_linux_arm64_{version}"}
+             "darwin-x86_64" {:asset "duplicacy_osx_x64_{version}"}
+             "darwin-aarch64" {:asset "duplicacy_osx_arm64_{version}"}}}

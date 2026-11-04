@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Daemon that runs the commands queued with pueue"
+ :source {:github "Nukesor/pueue"}
+ :platforms {"linux-x86_64" {:asset "pueued-x86_64-unknown-linux-musl"}
+             "linux-aarch64" {:asset "pueued-aarch64-unknown-linux-musl"}
+             "darwin-x86_64" {:asset "pueued-x86_64-apple-darwin"}
+             "darwin-aarch64" {:asset "pueued-aarch64-apple-darwin"}}}

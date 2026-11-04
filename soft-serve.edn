@@ -1,0 +1,14 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Self-hostable Git server for the command line"
+ :source {:github "charmbracelet/soft-serve"}
+ :checksum "checksums.txt"
+ :strip 1
+ :bins {"soft" "soft"}
+ :man ["manpages/soft-serve.1.gz"]
+ :completions {:bash "completions/soft-serve.bash" :zsh "completions/soft-serve.zsh" :fish "completions/soft-serve.fish"}
+ :platforms {"linux-x86_64" {:asset "soft-serve_{version}_Linux_x86_64.tar.gz"}
+             "linux-aarch64" {:asset "soft-serve_{version}_Linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "soft-serve_{version}_Darwin_x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "soft-serve_{version}_Darwin_arm64.tar.gz"}}}

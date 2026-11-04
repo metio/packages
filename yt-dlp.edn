@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Feature-rich command-line audio and video downloader"
+ :source {:github "yt-dlp/yt-dlp"}
+ :tag-prefix ""
+ :checksum "SHA2-256SUMS"
+ :platforms {"linux-x86_64" {:asset "yt-dlp_linux"}
+             "linux-aarch64" {:asset "yt-dlp_linux_aarch64"}
+             "darwin-x86_64" {:asset "yt-dlp_macos"}
+             "darwin-aarch64" {:asset "yt-dlp_macos"}}}

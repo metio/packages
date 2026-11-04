@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Command-line interface for Vultr services"
+ :source {:github "vultr/vultr-cli"}
+ :checksum "vultr-cli_v{version}_checksums.txt"
+ :platforms {"linux-x86_64" {:asset "vultr-cli_v{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "vultr-cli_v{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "vultr-cli_v{version}_macOs_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "vultr-cli_v{version}_macOs_arm64.tar.gz"}}}

@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "RDAP client for domain, IP and AS registration data"
+ :source {:github "openrdap/rdap"}
+ :platforms {"linux-x86_64" {:asset "rdap-linux-amd64.zip" :bins {"rdap" "rdap-linux-amd64"}}
+             "linux-aarch64" {:asset "rdap-linux-arm64.zip" :bins {"rdap" "rdap-linux-arm64"}}
+             "darwin-x86_64" {:asset "rdap-darwin-amd64.zip" :bins {"rdap" "rdap-darwin-amd64"}}
+             "darwin-aarch64" {:asset "rdap-darwin-arm64.zip" :bins {"rdap" "rdap-darwin-arm64"}}}}

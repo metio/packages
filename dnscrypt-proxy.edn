@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "DNS proxy supporting DNSCrypt, DNS-over-HTTPS and anonymized DNS"
+ :source {:github "DNSCrypt/dnscrypt-proxy"}
+ :tag-prefix ""
+ :platforms {"linux-x86_64" {:asset "dnscrypt-proxy-linux_x86_64-{version}.tar.gz" :strip 1}
+             "linux-aarch64" {:asset "dnscrypt-proxy-linux_arm64-{version}.tar.gz" :strip 1}
+             "darwin-x86_64" {:asset "dnscrypt-proxy-macos_x86_64-{version}.zip"}
+             "darwin-aarch64" {:asset "dnscrypt-proxy-macos_arm64-{version}.zip"}}}

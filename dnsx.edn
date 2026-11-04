@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Fast multi-purpose DNS toolkit for running many queries against a list of resolvers"
+ :source {:github "projectdiscovery/dnsx"}
+ :checksum "dnsx_{version}_checksums.txt"
+ :platforms {"linux-x86_64" {:asset "dnsx_{version}_linux_amd64.zip"}
+             "linux-aarch64" {:asset "dnsx_{version}_linux_arm64.zip"}
+             "darwin-x86_64" {:asset "dnsx_{version}_macOS_amd64.zip"}
+             "darwin-aarch64" {:asset "dnsx_{version}_macOS_arm64.zip"}}}

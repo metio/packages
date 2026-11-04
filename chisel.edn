@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Fast TCP/UDP tunnel over HTTP"
+ :source {:github "jpillora/chisel"}
+ :checksum "chisel_{version}_checksums.txt"
+ :platforms {"linux-x86_64" {:asset "chisel_{version}_linux_amd64.gz"}
+             "linux-aarch64" {:asset "chisel_{version}_linux_arm64.gz"}
+             "darwin-x86_64" {:asset "chisel_{version}_darwin_amd64.gz"}
+             "darwin-aarch64" {:asset "chisel_{version}_darwin_arm64.gz"}}}

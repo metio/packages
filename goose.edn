@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Database migration tool for SQL migrations and Go functions"
+ :source {:github "pressly/goose"}
+ :checksum "checksums.txt"
+ :platforms {"linux-x86_64" {:asset "goose_linux_x86_64"}
+             "linux-aarch64" {:asset "goose_linux_arm64"}
+             "darwin-x86_64" {:asset "goose_darwin_x86_64"}
+             "darwin-aarch64" {:asset "goose_darwin_arm64"}}}

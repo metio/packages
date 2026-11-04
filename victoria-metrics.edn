@@ -1,0 +1,14 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Single-node VictoriaMetrics time series database"
+ :source {:github "VictoriaMetrics/VictoriaMetrics"}
+ :bins {"victoria-metrics" "victoria-metrics-prod"}
+ :platforms {"linux-x86_64" {:asset "victoria-metrics-linux-amd64-v{version}.tar.gz"
+                             :checksum "victoria-metrics-linux-amd64-v{version}_checksums.txt"}
+             "linux-aarch64" {:asset "victoria-metrics-linux-arm64-v{version}.tar.gz"
+                              :checksum "victoria-metrics-linux-arm64-v{version}_checksums.txt"}
+             "darwin-x86_64" {:asset "victoria-metrics-darwin-amd64-v{version}.tar.gz"
+                              :checksum "victoria-metrics-darwin-amd64-v{version}_checksums.txt"}
+             "darwin-aarch64" {:asset "victoria-metrics-darwin-arm64-v{version}.tar.gz"
+                               :checksum "victoria-metrics-darwin-arm64-v{version}_checksums.txt"}}}

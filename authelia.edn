@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Single sign-on and multi-factor authentication portal for web applications"
+ :source {:github "authelia/authelia"}
+ :checksum "checksums.sha256"
+ :platforms {"linux-x86_64" {:asset "authelia-v{version}-linux-amd64-musl.tar.gz"}
+             "linux-aarch64" {:asset "authelia-v{version}-linux-arm64-musl.tar.gz"}}}

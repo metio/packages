@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "CLI of the Linkerd service mesh for Kubernetes, edge releases"
+ :source {:github "linkerd/linkerd2"}
+ :tag-prefix "edge-"
+ :platforms {"linux-x86_64" {:asset "linkerd2-cli-edge-{version}-linux-amd64"}
+             "linux-aarch64" {:asset "linkerd2-cli-edge-{version}-linux-arm64"}
+             "darwin-x86_64" {:asset "linkerd2-cli-edge-{version}-darwin"}
+             "darwin-aarch64" {:asset "linkerd2-cli-edge-{version}-darwin-arm64"}}}

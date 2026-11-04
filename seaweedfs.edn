@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Distributed storage for blobs, files and S3-compatible object storage"
+ :source {:github "seaweedfs/seaweedfs"}
+ :tag-prefix ""
+ :bins {"weed" "weed"}
+ :platforms {"linux-x86_64" {:asset "linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "darwin_arm64.tar.gz"}}}

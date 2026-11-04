@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Universal proxy platform"
+ :source {:github "SagerNet/sing-box"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "sing-box-{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "sing-box-{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "sing-box-{version}-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "sing-box-{version}-darwin-arm64.tar.gz"}}}

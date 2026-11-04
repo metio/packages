@@ -1,0 +1,13 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Sends emails from the terminal"
+ :source {:github "charmbracelet/pop"}
+ :checksum "checksums.txt"
+ :strip 1
+ :man ["manpages/pop.1.gz"]
+ :completions {:bash "completions/pop.bash" :zsh "completions/pop.zsh" :fish "completions/pop.fish"}
+ :platforms {"linux-x86_64" {:asset "pop_{version}_Linux_x86_64.tar.gz"}
+             "linux-aarch64" {:asset "pop_{version}_Linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "pop_{version}_Darwin_x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "pop_{version}_Darwin_arm64.tar.gz"}}}

@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Realtime backend with an embedded database, authentication and admin UI in one file"
+ :source {:github "pocketbase/pocketbase"}
+ :checksum "checksums.txt"
+ :platforms {"linux-x86_64" {:asset "pocketbase_{version}_linux_amd64.zip"}
+             "linux-aarch64" {:asset "pocketbase_{version}_linux_arm64.zip"}
+             "darwin-x86_64" {:asset "pocketbase_{version}_darwin_amd64.zip"}
+             "darwin-aarch64" {:asset "pocketbase_{version}_darwin_arm64.zip"}}}

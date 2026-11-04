@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Command-line interface for IONOS Cloud infrastructure"
+ :source {:github "ionos-cloud/ionosctl"}
+ :checksum "ionosctl-{version}-SHA256SUMS"
+ :platforms {"linux-x86_64" {:asset "ionosctl-{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "ionosctl-{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "ionosctl-{version}-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "ionosctl-{version}-darwin-arm64.tar.gz"}}}

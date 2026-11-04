@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Process control system compatible with the supervisor configuration format"
+ :source {:github "ochinchina/supervisord"}
+ :platforms {"linux-x86_64" {:asset "supervisord_linux_amd64"}
+             "linux-aarch64" {:asset "supervisord_linux_arm64"}
+             "darwin-x86_64" {:asset "supervisord_darwin_amd64"}
+             "darwin-aarch64" {:asset "supervisord_darwin_arm64"}}}

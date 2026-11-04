@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal user interface for Podman"
+ :source {:github "containers/podman-tui"}
+ :checksum "sha256sum"
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "podman-tui-release-linux_amd64.zip"}
+             "linux-aarch64" {:asset "podman-tui-release-linux_arm64.zip"}
+             "darwin-x86_64" {:asset "podman-tui-release-darwin_amd64.zip"}
+             "darwin-aarch64" {:asset "podman-tui-release-darwin_arm64.zip"}}}

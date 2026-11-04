@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Process manager for Procfile-based applications and tmux"
+ :source {:github "DarthSim/overmind"}
+ :checksum "{asset}.sha256sum"
+ :platforms {"linux-x86_64" {:asset "overmind-v{version}-linux-amd64.gz"}
+             "linux-aarch64" {:asset "overmind-v{version}-linux-arm64.gz"}
+             "darwin-x86_64" {:asset "overmind-v{version}-macos-amd64.gz"}
+             "darwin-aarch64" {:asset "overmind-v{version}-macos-arm64.gz"}}}

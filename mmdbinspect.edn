@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Looks up IPs and networks in MaxMind DB files"
+ :source {:github "maxmind/mmdbinspect"}
+ :checksum "checksums.txt"
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "mmdbinspect_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "mmdbinspect_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "mmdbinspect_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "mmdbinspect_{version}_darwin_arm64.tar.gz"}}}

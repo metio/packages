@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Command-line interface for Hetzner Cloud"
+ :source {:github "hetznercloud/cli"}
+ :checksum "checksums.txt"
+ :platforms {"linux-x86_64" {:asset "hcloud-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "hcloud-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "hcloud-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "hcloud-darwin-arm64.tar.gz"}}}

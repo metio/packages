@@ -1,0 +1,13 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Backs up and restores Ed25519 SSH keys as seed words"
+ :source {:github "charmbracelet/melt"}
+ :checksum "checksums.txt"
+ :strip 1
+ :man ["manpages/melt.1.gz"]
+ :completions {:bash "completions/melt.bash" :zsh "completions/melt.zsh" :fish "completions/melt.fish"}
+ :platforms {"linux-x86_64" {:asset "melt_{version}_Linux_x86_64.tar.gz"}
+             "linux-aarch64" {:asset "melt_{version}_Linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "melt_{version}_Darwin_x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "melt_{version}_Darwin_arm64.tar.gz"}}}

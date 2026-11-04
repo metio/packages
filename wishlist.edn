@@ -1,0 +1,13 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "SSH directory for picking a host to connect to"
+ :source {:github "charmbracelet/wishlist"}
+ :checksum "checksums.txt"
+ :strip 1
+ :man ["manpages/wishlist.1.gz"]
+ :completions {:bash "completions/wishlist.bash" :zsh "completions/wishlist.zsh" :fish "completions/wishlist.fish"}
+ :platforms {"linux-x86_64" {:asset "wishlist_{version}_Linux_x86_64.tar.gz"}
+             "linux-aarch64" {:asset "wishlist_{version}_Linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "wishlist_{version}_Darwin_x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "wishlist_{version}_Darwin_arm64.tar.gz"}}}
