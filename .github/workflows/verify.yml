@@ -8,6 +8,11 @@ on:
     branches: [main]
   push:
     branches: [main]
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: Packages to test, separated by spaces
+        required: true
 permissions:
   contents: read
 jobs:
@@ -23,9 +28,98 @@ jobs:
           registries: github:metio/toolchains
       - name: Validate every definition and group
         run: breto validate .
+  changed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      packages: ${{ steps.diff.outputs.packages }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+      - id: diff
+        name: List the definitions this change adds or modifies
+        env:
+          EVENT: ${{ github.event_name }}
+          REQUESTED: ${{ inputs.packages }}
+          PR_BASE: ${{ github.event.pull_request.base.sha }}
+          PUSH_BASE: ${{ github.event.before }}
+          GROUP_BASE: ${{ github.event.merge_group.base_sha }}
+        run: |
+          set -euo pipefail
+          case "$EVENT" in
+            workflow_dispatch) packages="$REQUESTED" ;;
+            *)
+              case "$EVENT" in
+                pull_request) base="$PR_BASE" ;;
+                merge_group) base="$GROUP_BASE" ;;
+                *) base="$PUSH_BASE" ;;
+              esac
+              packages=$(git diff --name-only --diff-filter=AMR "$base" HEAD -- '*.edn' \
+                | grep --invert-match --extended-regexp '^(@|\.)|/' \
+                | sed 's/\.edn$//' | tr '\n' ' ' || true)
+              ;;
+          esac
+          echo "packages=${packages}" >> "$GITHUB_OUTPUT"
+          echo "Testing: ${packages:-nothing}"
+  test:
+    needs: [validate, changed]
+    if: needs.changed.outputs.packages != ''
+    strategy:
+      fail-fast: false
+      matrix:
+        runner: [ubuntu-24.04, ubuntu-24.04-arm, macos-26-intel, macos-26]
+    runs-on: ${{ matrix.runner }}
+    # breto waits out the API limit of the workflow's token, which a large change can reach.
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7
+        with:
+          persist-credentials: false
+      - uses: metio/ci/breto@d4a165ac035d1fa1a7aee5b27192d0aed9c7a0b0 # 2026.11.1111906
+        with:
+          packages: cosign
+          cache: "false"
+      - name: Install every changed definition and run its tests
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          PACKAGES: ${{ needs.changed.outputs.packages }}
+          XDG_DATA_HOME: ${{ runner.temp }}/data
+          XDG_STATE_HOME: ${{ runner.temp }}/state
+        run: |
+          set -euo pipefail
+          printf '{:registries ["%s"] :bin-dir "%s"}\n' "$GITHUB_WORKSPACE" "$RUNNER_TEMP/bin" > "$RUNNER_TEMP/test.edn"
+          # breto builds these sources with a toolchain from its own store.
+          toolchains=$(for package in $PACKAGES; do
+            sed -n -E 's/.*:source \{:(pypi|go|npm|cargo|ghcup|coursier)[^a-z].*/\1/p' "$package.edn"
+          done | sed 's/^pypi$/uv/; s/^npm$/node/; s/^cargo$/rustup/' | sort -u | tr '\n' ' ')
+          # Each chunk starts from an empty store, so a large change fits on the runner's disk.
+          # shellcheck disable=SC2086 # one package name per word
+          printf '%s\n' $PACKAGES | split -l 50 - "$RUNNER_TEMP/chunk-"
+          status=0
+          for chunk in "$RUNNER_TEMP"/chunk-*; do
+            # shellcheck disable=SC2046,SC2086 # one package name per word
+            if ! breto test cosign $toolchains $(cat "$chunk") --config "$RUNNER_TEMP/test.edn"; then
+              status=1
+              breto report test --config "$RUNNER_TEMP/test.edn" | grep -v '^\[OK\]' >> "$RUNNER_TEMP/failures.txt" || true
+            fi
+            # breto seals every installed version read-only.
+            if [ -d "${XDG_DATA_HOME:?}/breto" ]; then chmod -R u+w "${XDG_DATA_HOME:?}/breto"; fi
+            rm -rf "${XDG_DATA_HOME:?}/breto" "${RUNNER_TEMP:?}/bin"
+          done
+          exit "$status"
+      - name: Summarize the failures
+        if: failure()
+        run: |
+          {
+            echo '```'
+            if [ -f "$RUNNER_TEMP/failures.txt" ]; then head -c 900000 "$RUNNER_TEMP/failures.txt"; fi
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
   verify:
     name: Verify
-    needs: [validate]
+    needs: [validate, changed, test]
     if: always()
     runs-on: ubuntu-latest
     timeout-minutes: 10
