@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A Spotify player in the terminal with full feature parity",
+ :source {:github "aome510/spotify-player"}
+ :bins {"spotify_player" "spotify_player"}
+ :platforms {"linux-x86_64" {:asset "spotify_player-x86_64-unknown-linux-gnu.tar.gz" :checksum "spotify_player-x86_64-unknown-linux-gnu.sha256"}
+             "linux-aarch64" {:asset "spotify_player-aarch64-unknown-linux-gnu.tar.gz" :checksum "spotify_player-aarch64-unknown-linux-gnu.sha256"}
+             "darwin-x86_64" {:asset "spotify_player-x86_64-apple-darwin.tar.gz" :checksum "spotify_player-x86_64-apple-darwin.sha256"}
+             "darwin-aarch64" {:asset "spotify_player-aarch64-apple-darwin.tar.gz" :checksum "spotify_player-aarch64-apple-darwin.sha256"}}}
