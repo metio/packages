@@ -4,6 +4,7 @@
 
 {:description "Why is this running",
  :source {:github "pranshuparmar/witr"}
+ :tests [{:args ["witr" "--version"] :expect "{version}"}]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "witr-linux-amd64"}
              "linux-aarch64" {:asset "witr-linux-arm64"}

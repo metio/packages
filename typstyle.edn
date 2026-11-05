@@ -4,6 +4,7 @@
 
 {:description "Beautiful and reliable typst code formatter",
  :source {:github "typstyle-rs/typstyle"}
+ :tests [{:args ["typstyle" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "typstyle-x86_64-unknown-linux-musl"}
              "linux-aarch64" {:asset "typstyle-aarch64-unknown-linux-gnu"}
              "darwin-x86_64" {:asset "typstyle-x86_64-apple-darwin"}

@@ -4,6 +4,7 @@
 
 {:description "YAML templating tool that works on YAML structure instead of text",
  :source {:github "carvel-dev/ytt"}
+ :tests [{:args ["ytt" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "ytt-linux-amd64"}
              "linux-aarch64" {:asset "ytt-linux-arm64"}

@@ -4,6 +4,7 @@
 
 {:description "Define your dev environment as code. For microservice apps on Kubernetes",
  :source {:github "tilt-dev/tilt"}
+ :tests [{:args ["tilt" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tilt.{version}.linux.x86_64.tar.gz"}
              "linux-aarch64" {:asset "tilt.{version}.linux.arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "umoci modifies Open Container images",
  :source {:github "opencontainers/umoci"}
+ :tests [{:args ["umoci" "--version"] :expect "{version}"}]
  :checksum "umoci.sha256sum"
  :platforms {"linux-x86_64" {:asset "umoci.linux.amd64"}
              "linux-aarch64" {:asset "umoci.linux.arm64"}}}

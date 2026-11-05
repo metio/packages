@@ -3,6 +3,7 @@
 
 {:description "Friendly and fast tool for sending HTTP requests",
  :source {:github "ducaale/xh"},
+ :tests [{:args ["xh" "--version"] :expect "{version}"}]
  :strip 1
  :platforms {"linux-x86_64" {:asset "xh-{tag}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "xh-{tag}-aarch64-unknown-linux-musl.tar.gz"}

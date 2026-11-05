@@ -3,4 +3,5 @@
 
 {:description "The TypeScript compiler tsc and language service tsserver"
  :source {:npm "typescript"}
+ :tests [{:args ["tsc" "--version"] :expect "{version}"}]
  :bins {"tsc" "node_modules/.bin/tsc" "tsserver" "node_modules/.bin/tsserver"}}

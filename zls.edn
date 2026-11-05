@@ -3,6 +3,7 @@
 
 {:description "Language server for Zig"
  :source {:github "zigtools/zls"}
+ :tests [{:args ["zls" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "zls-x86_64-linux.tar.xz"}
              "linux-aarch64" {:asset "zls-aarch64-linux.tar.xz"}

@@ -4,6 +4,7 @@
 
 {:description "AI-Powered, Non-Intrusive Terminal Assistant",
  :source {:github "alvinunreal/tmuxai"}
+ :tests [{:args ["tmuxai" "-v"] :expect "{version}"}]
  :checksum "checksums.sha256"
  :platforms {"linux-x86_64" {:asset "tmuxai_Linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tmuxai_Linux_arm64.tar.gz"}

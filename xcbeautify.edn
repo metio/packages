@@ -4,6 +4,7 @@
 
 {:description "A little beautifier tool for xcodebuild",
  :source {:github "cpisciotta/xcbeautify"}
+ :tests [["xcbeautify" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "xcbeautify-{tag}-x86_64-unknown-linux-gnu.tar.xz"}
              "darwin-x86_64" {:asset "xcbeautify-{tag}-x86_64-apple-macosx.zip"}

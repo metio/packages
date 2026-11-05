@@ -4,6 +4,7 @@
 
 {:description "Trino, the distributed SQL query engine for big data - Command Line Interface",
  :source {:github "trinodb/trino"}
+ :tests [{:args ["trino" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :bins {"trino" "{asset}"}
  :platforms {"linux-x86_64" {:asset "trino-cli-{tag}"}}}

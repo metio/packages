@@ -4,6 +4,7 @@
 
 {:description "Terraform graph beautifier",
  :source {:github "pcasteran/terraform-graph-beautifier"}
+ :tests [{:args ["terraform-graph-beautifier" "-v"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "terraform-graph-beautifier_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "terraform-graph-beautifier_{version}_linux_arm64.tar.gz"}

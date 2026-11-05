@@ -4,6 +4,7 @@
 
 {:description "search for files (even inside tar/zip/7z/rar) using a SQL-WHERE filter",
  :source {:github "laktak/zfind"}
+ :tests [{:args ["zfind" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "zfind-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "zfind-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "zfind-darwin-amd64.tar.gz"}

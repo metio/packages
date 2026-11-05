@@ -4,6 +4,7 @@
 
 {:description "Find vulnerabilities, misconfigurations, secrets, SBOM in containers, Kubernetes, code repositories, clouds and more",
  :source {:github "aquasecurity/trivy"}
+ :tests [{:args ["trivy" "--version"] :expect "{version}"}]
  :checksum "trivy_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "trivy_{version}_Linux-64bit.tar.gz"}
              "linux-aarch64" {:asset "trivy_{version}_Linux-ARM64.tar.gz"}

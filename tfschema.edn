@@ -4,6 +4,7 @@
 
 {:description "A schema inspector for Terraform / OpenTofu providers",
  :source {:github "minamijoyo/tfschema"}
+ :tests [{:args ["tfschema" "--version"] :expect "{version}"}]
  :checksum "tfschema_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "tfschema_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tfschema_{version}_linux_arm64.tar.gz"}

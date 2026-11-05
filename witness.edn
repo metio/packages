@@ -4,6 +4,7 @@
 
 {:description "Witness is a pluggable framework for software supply chain risk management.  It automates, normalizes, and verifies software artifact provenance",
  :source {:github "in-toto/witness"}
+ :tests [{:args ["witness" "version"] :expect "{version}"}]
  :checksum "witness_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "witness_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "witness_{version}_linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "An extensible command line tool or library to format yaml files",
  :source {:github "google/yamlfmt"}
+ :tests [{:args ["yamlfmt" "-version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "yamlfmt_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "yamlfmt_{version}_Linux_arm64.tar.gz"}

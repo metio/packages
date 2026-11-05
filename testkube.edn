@@ -3,6 +3,7 @@
 
 {:description "Command line client for Testkube, which runs tests inside Kubernetes"
  :source {:github "kubeshop/testkube"}
+ :tests [["kubectl-testkube" "help"]]
  :tag-prefix ""
  :checksum "checksums.txt"
  :bins {"testkube" "kubectl-testkube" "kubectl-testkube" "kubectl-testkube"}

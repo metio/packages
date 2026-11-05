@@ -4,6 +4,7 @@
 
 {:description "Fast and configurable TLS grabber focused on TLS based data collection",
  :source {:github "projectdiscovery/tlsx"}
+ :tests [{:args ["tlsx" "-version"] :expect "{version}"}]
  :checksum "tlsx_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "tlsx_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "tlsx_{version}_linux_arm64.zip"}

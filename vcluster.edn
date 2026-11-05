@@ -3,6 +3,7 @@
 
 {:description "Creates and manages virtual Kubernetes clusters inside a host cluster"
  :source {:github "loft-sh/vcluster"}
+ :tests [{:args ["vcluster" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"vcluster" "{asset}"}
  :signature {:of :checksum

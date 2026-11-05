@@ -4,6 +4,7 @@
 
 {:description "Todoist CLI Client. I  Todoist and CLI",
  :source {:github "sachaos/todoist"}
+ :tests [{:args ["todoist" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "todoist_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "todoist_Linux_arm64.tar.gz"}
