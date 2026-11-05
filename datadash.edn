@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Visualize and graph data in the terminal"
+ :source {:github "keithknott26/datadash"}
+ :platforms {"linux-x86_64" {:asset "datadash_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "datadash_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "datadash_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "datadash_{version}_darwin_arm64.tar.gz"}}}

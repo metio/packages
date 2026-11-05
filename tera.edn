@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Interactive terminal music radio player. Play your favorite radio station, CRUD your favorite lists, and explore new radio stations from your terminal. https://tera.codewithshin.com/"
+ :source {:github "shinokada/tera"}
+ :platforms {"linux-x86_64" {:asset "tera_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "tera_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "tera_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "tera_{version}_darwin_arm64.tar.gz"}}}

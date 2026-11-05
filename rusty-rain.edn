@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A cross platform matrix rain made with Rust."
+ :source {:github "cowboy8625/rusty-rain"}
+ :platforms {"linux-x86_64" {:asset "x86_64-unknown-linux-musl-rusty-rain-v{version}"}
+             "darwin-x86_64" {:asset "x86_64-apple-darwin-rusty-rain-v{version}"}
+             "darwin-aarch64" {:asset "aarch64-apple-darwin-rusty-rain-v{version}"}}}

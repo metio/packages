@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Keyboard-first terminal UI for Argo CD. Browse apps, scope by clusters/namespaces/projects, stream live resource status, trigger syncs, inspect diffs, and roll back safely — all without leaving your terminal."
+ :source {:github "darksworm/argonaut"}
+ :platforms {"linux-x86_64" {:asset "argonaut-{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "argonaut-{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "argonaut-{version}-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "argonaut-{version}-darwin-arm64.tar.gz"}}}

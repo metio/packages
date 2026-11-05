@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A fast and simple terminal-based task and todo manager built in go"
+ :source {:github "prime-run/togo"}
+ :bins {"togo" "togo-linux-amd64"}
+ :platforms {"linux-x86_64" {:asset "togo_{version}_linux_amd64.tar.gz"}}}

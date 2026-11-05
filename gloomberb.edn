@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Finance terminal, in your terminal."
+ :source {:github "gloom-sh/gloomberb"}
+ :platforms {"linux-x86_64" {:asset "gloomberb-linux-x64-musl.gz"}
+             "linux-aarch64" {:asset "gloomberb-linux-arm64-musl.gz"}
+             "darwin-x86_64" {:asset "gloomberb-darwin-x64.gz"}}}

@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Dockmate: The open-source Docker TUI & Podman manager for terminal productivity. A fast, lightweight alternative to lazydocker built in Go."
+ :source {:github "shubh-io/DockMate"}
+ :platforms {"linux-x86_64" {:asset "dockmate-linux-amd64"}
+             "linux-aarch64" {:asset "dockmate-linux-arm64"}
+             "darwin-x86_64" {:asset "dockmate-darwin-amd64"}
+             "darwin-aarch64" {:asset "dockmate-darwin-arm64"}}}

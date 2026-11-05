@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "DMARC aggregate report parser with a built-in dashboard. One Go binary, IMAP in, SQLite, Prometheus metrics, MCP server. Apache-2.0."
+ :source {:github "dmarcguardhq/parse-dmarc"}
+ :platforms {"linux-x86_64" {:asset "parse-dmarc_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "parse-dmarc_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "parse-dmarc_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "parse-dmarc_darwin_arm64.tar.gz"}}}

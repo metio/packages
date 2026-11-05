@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Give the agent a machine. Just not yours. Each AI coding agent gets its own isolated machine with root, Docker, and systemd - active defense detects and stops threats automatically."
+ :source {:github "coipond/coi"}
+ :platforms {"linux-x86_64" {:asset "coi-linux-amd64"}
+             "linux-aarch64" {:asset "coi-linux-arm64"}}}

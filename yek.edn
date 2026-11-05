@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A fast Rust based tool to serialize text-based files in a repository or directory for LLM consumption"
+ :source {:github "mohsen1/yek"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "yek-x86_64-unknown-linux-musl.tar.gz"}
+             "linux-aarch64" {:asset "yek-aarch64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "yek-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "yek-aarch64-apple-darwin.tar.gz"}}}

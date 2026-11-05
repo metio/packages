@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Quick File Copy using QUIC"
+ :source {:github "crazyscot/qcp"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "qcp-linux-x86_64-musl.tar.gz"}
+             "linux-aarch64" {:asset "qcp-linux-aarch64-musl.tar.gz"}
+             "darwin-x86_64" {:asset "qcp-osx-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "qcp-osx-aarch64.tar.gz"}}}

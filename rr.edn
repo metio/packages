@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Record and Replay Framework"
+ :source {:github "rr-debugger/rr"}
+ :tag-prefix ""
+ :strip 1
+ :bins {"rr" "bin/rr"}
+ :platforms {"linux-x86_64" {:asset "rr-{version}-Linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "rr-{version}-Linux-aarch64.tar.gz"}}}

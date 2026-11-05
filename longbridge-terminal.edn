@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "AI-native CLI for the Longbridge trading platform with real-time market data, portfolio, and trading..."
+ :source {:github "longbridge/longbridge-terminal"}
+ :bins {"longbridge" "longbridge"}
+ :platforms {"linux-x86_64" {:asset "longbridge-terminal-linux-musl-amd64.tar.gz"}
+             "linux-aarch64" {:asset "longbridge-terminal-linux-musl-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "longbridge-terminal-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "longbridge-terminal-darwin-arm64.tar.gz"}}}

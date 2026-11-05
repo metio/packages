@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Easy to use terminal SSH manager with advanced features. Binaries included!"
+ :source {:github "grafviktor/goto"}
+ :bins {"gg" "gg"}
+ :platforms {"linux-x86_64" {:asset "goto_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "goto_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "goto_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "goto_{version}_darwin_arm64.tar.gz"}}}

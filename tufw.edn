@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal UI for ufw"
+ :source {:github "peltho/tufw"}
+ :platforms {"linux-x86_64" {:asset "tufw_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "tufw_{version}_linux_arm64.tar.gz"}}}

@@ -1,0 +1,6 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "DooM in the terminal!"
+ :source {:github "wojciech-graj/doom-ascii"}
+ :platforms {"linux-x86_64" {:asset "doom-ascii-{version}-x86_64-linux.zip"}}}

@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "The Open Source Firebase Alternative with GraphQL."
+ :source {:github "nhost/nhost"}
+ :tag-prefix "cli@"
+ :bins {"nhost" "cli"}
+ :platforms {"linux-x86_64" {:asset "cli-{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "cli-{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "cli-{version}-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "cli-{version}-darwin-arm64.tar.gz"}}}

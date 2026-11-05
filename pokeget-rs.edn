@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A better rust version of pokeget."
+ :source {:github "talwat/pokeget-rs"}
+ :tag-prefix ""
+ :bins {"pokeget" "pokeget"}
+ :platforms {"linux-x86_64" {:asset "pokeget-Linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "pokeget-Linux-aarch64.tar.gz"}
+             "darwin-x86_64" {:asset "pokeget-macOS-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "pokeget-macOS-aarch64.tar.gz"}}}

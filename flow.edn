@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Flow Control: a programmer's text editor"
+ :source {:github "neurocyte/flow"}
+ :platforms {"linux-x86_64" {:asset "flow-v{version}-linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "flow-v{version}-linux-aarch64.tar.gz"}
+             "darwin-x86_64" {:asset "flow-v{version}-macos-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "flow-v{version}-macos-aarch64.tar.gz"}}}

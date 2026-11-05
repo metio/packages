@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Simplifying the way you read. Minimalistic Vim-like TUI document reader."
+ :source {:github "kruseio/hygg"}
+ :tag-prefix ""
+ :platforms {"linux-x86_64" {:asset "hygg-cli-{version}-x86_64-linux.tar.gz"}
+             "darwin-x86_64" {:asset "hygg-cli-{version}-macos-universal.tar.gz"}
+             "darwin-aarch64" {:asset "hygg-cli-{version}-macos-universal.tar.gz"}}}

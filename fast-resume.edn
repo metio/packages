@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Find that one coding agent session you want to get back to!"
+ :source {:github "angristan/fast-resume"}
+ :strip 1
+ :bins {"fr" "fr"}
+ :platforms {"linux-x86_64" {:asset "fast-resume-{version}-linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "fast-resume-{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "fast-resume-{version}-macos-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "fast-resume-{version}-macos-arm64.tar.gz"}}}

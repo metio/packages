@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Fast, safe-by-design, Vim-first TUI for PostgreSQL, MySQL, and SQLite, built in Rust."
+ :source {:github "riii111/sabiql"}
+ :platforms {"linux-x86_64" {:asset "sabiql-x86_64-unknown-linux-gnu.tar.gz"}
+             "linux-aarch64" {:asset "sabiql-aarch64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "sabiql-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "sabiql-aarch64-apple-darwin.tar.gz"}}}

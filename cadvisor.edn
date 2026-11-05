@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Analyzes resource usage and performance characteristics of running containers."
+ :source {:github "google/cadvisor"}
+ :platforms {"linux-x86_64" {:asset "cadvisor-v{version}-linux-amd64"}
+             "linux-aarch64" {:asset "cadvisor-v{version}-linux-arm64"}}}

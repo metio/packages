@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "k9s-inspired TUI for AWS resource management with vim-style navigation"
+ :source {:github "clawscli/claws"}
+ :platforms {"linux-x86_64" {:asset "claws-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "claws-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "claws-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "claws-darwin-arm64.tar.gz"}}}

@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Obsidian CLI (Community) - Interact with Obsidian in the terminal!"
+ :source {:github "Yakitrak/notesmd-cli"}
+ :platforms {"linux-x86_64" {:asset "notesmd-cli_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "notesmd-cli_{version}_linux_arm64.tar.gz"}
+             "darwin-aarch64" {:asset "notesmd-cli_{version}_darwin_all.tar.gz"}}}

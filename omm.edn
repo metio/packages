@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "on-my-mind: a keyboard-driven task manager for the command line"
+ :source {:github "dhth/omm"}
+ :platforms {"linux-x86_64" {:asset "omm_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "omm_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "omm_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "omm_{version}_darwin_arm64.tar.gz"}}}

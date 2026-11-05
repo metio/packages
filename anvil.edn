@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "CLI to streamline config management and tool installation. Install your full dev tool-chain in one command and sync configurations across machines seamlessly, leverages homebrew and private repos."
+ :source {:github "0xjuanma/anvil"}
+ :platforms {"linux-x86_64" {:asset "anvil-linux-amd64"}
+             "linux-aarch64" {:asset "anvil-linux-arm64"}
+             "darwin-x86_64" {:asset "anvil-darwin-amd64"}
+             "darwin-aarch64" {:asset "anvil-darwin-arm64"}}}

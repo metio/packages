@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal 3D Model Viewer - View 3D model files in your terminal"
+ :source {:github "taigrr/trophy"}
+ :platforms {"linux-x86_64" {:asset "trophy_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "trophy_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "trophy_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "trophy_{version}_darwin_arm64.tar.gz"}}}

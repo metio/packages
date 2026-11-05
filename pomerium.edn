@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Pomerium is an identity and context-aware access proxy."
+ :source {:github "pomerium/pomerium"}
+ :platforms {"linux-x86_64" {:asset "pomerium-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "pomerium-linux-arm64.tar.gz"}
+             "darwin-aarch64" {:asset "pomerium-darwin-arm64.tar.gz"}}}

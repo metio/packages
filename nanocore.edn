@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "NanoCore 8-bit CPU emulator in Rust"
+ :source {:github "AfaanBilal/NanoCore"}
+ :platforms {"linux-x86_64" {:asset "nanocore-linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "nanocore-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "nanocore-macos-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "nanocore-macos-arm64.tar.gz"}}}

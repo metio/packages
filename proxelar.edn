@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Scriptable local traffic workbench for inspecting, intercepting, replaying, and rewriting HTTP/HTTPS and WebSocket traffic."
+ :source {:github "emanuele-em/proxelar"}
+ :platforms {"linux-x86_64" {:asset "proxelar-v{version}-x86_64-unknown-linux-gnu.tar.gz"}
+             "linux-aarch64" {:asset "proxelar-v{version}-aarch64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "proxelar-v{version}-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "proxelar-v{version}-aarch64-apple-darwin.tar.gz"}}}

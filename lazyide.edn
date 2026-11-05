@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A full IDE experience anywhere you have a terminal. SSH into a server, run lazyide, and pair with your agentic coding tool."
+ :source {:github "TysonLabs/lazyide"}
+ :platforms {"linux-x86_64" {:asset "lazyide-linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "lazyide-linux-aarch64.tar.gz"}
+             "darwin-x86_64" {:asset "lazyide-macos-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "lazyide-macos-aarch64.tar.gz"}}}

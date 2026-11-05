@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "SSHamble: Unexpected Exposures in SSH"
+ :source {:github "runZeroInc/sshamble"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "sshamble-v{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "sshamble-v{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "sshamble-v{version}-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "sshamble-v{version}-darwin-arm64.tar.gz"}}}

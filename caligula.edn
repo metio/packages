@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A user-friendly, lightweight TUI for disk imaging"
+ :source {:github "ifd3f/caligula"}
+ :platforms {"linux-x86_64" {:asset "caligula-x86_64-linux"}
+             "linux-aarch64" {:asset "caligula-aarch64-linux"}
+             "darwin-x86_64" {:asset "caligula-x86_64-darwin"}
+             "darwin-aarch64" {:asset "caligula-aarch64-darwin"}}}

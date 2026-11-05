@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Run a command when files change"
+ :source {:github "cespare/reflex"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "reflex_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "reflex_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "reflex_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "reflex_darwin_arm64.tar.gz"}}}

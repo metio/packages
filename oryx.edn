@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "‍ TUI for sniffing network traffic using eBPF on Linux"
+ :source {:github "pythops/oryx"}
+ :platforms {"linux-x86_64" {:asset "oryx-x86_64-unknown-linux-musl"}
+             "linux-aarch64" {:asset "oryx-aarch64-unknown-linux-musl"}}}

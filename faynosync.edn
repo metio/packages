@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Self-hosted, open-source update server for desktop apps (Velopack, Electron, Tauri, native). Own your release pipeline: version metadata, stable/beta/nightly channels, S3 artifacts, simple checkVersion API."
+ :source {:github "ku9nov/faynoSync"}
+ :strip 1
+ :bins {"faynoSync" "faynoSync"}
+ :platforms {"linux-x86_64" {:asset "faynoSync_v{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "faynoSync_v{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "faynoSync_v{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "faynoSync_v{version}_darwin_arm64.tar.gz"}}}

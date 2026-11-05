@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "An interactive terminal user interface (TUI) application for exploring data of a kafka cluster."
+ :source {:github "MAIF/yozefu"}
+ :bins {"yozf" "yozf-x86_64-unknown-linux-gnu-{version}"}
+ :platforms {"linux-x86_64" {:asset "yozefu-x86_64-unknown-linux-gnu.tar.gz"}}}

@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Burn through tech debt with AI agents!"
+ :source {:github "bosun-ai/kwaak"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "kwaak-x86_64-unknown-linux-gnu.tar.xz"}
+             "linux-aarch64" {:asset "kwaak-aarch64-unknown-linux-gnu.tar.xz"}
+             "darwin-x86_64" {:asset "kwaak-x86_64-apple-darwin.tar.xz"}
+             "darwin-aarch64" {:asset "kwaak-aarch64-apple-darwin.tar.xz"}}}

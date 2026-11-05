@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Modern music streaming client for the terminal"
+ :source {:github "dhonus/jellyfin-tui"}
+ :platforms {"linux-x86_64" {:asset "jellyfin-tui-linux-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "jellyfin-tui-macos-aarch64.tar.gz"}}}

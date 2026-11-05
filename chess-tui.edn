@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Play chess in any terminal. Rust TUI, Stockfish, Lichess."
+ :source {:github "thomas-mauran/chess-tui"}
+ :tag-prefix ""
+ :platforms {"linux-x86_64" {:asset "chess-tui-{version}-x86_64-unknown-linux-gnu.tar.gz"}
+             "linux-aarch64" {:asset "chess-tui-{version}-aarch64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "chess-tui-{version}-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "chess-tui-{version}-aarch64-apple-darwin.tar.gz"}}}

@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Fast text search tool with advanced algorithms, SIMD acceleration, multi-threading, and regex support. Designed for rapid, large-scale pattern matching with memory-mapped I/O and hardware optimizations."
+ :source {:github "davidesantangelo/krep"}
+ :platforms {"linux-x86_64" {:asset "krep-linux-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "krep-macos-arm64.tar.gz"}}}

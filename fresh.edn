@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal based IDE & text editor: easy, powerful and fast"
+ :source {:github "sinelaw/fresh"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "fresh-editor-x86_64-unknown-linux-musl.tar.xz"}
+             "linux-aarch64" {:asset "fresh-editor-aarch64-unknown-linux-musl.tar.xz"}
+             "darwin-x86_64" {:asset "fresh-editor-x86_64-apple-darwin.tar.xz"}
+             "darwin-aarch64" {:asset "fresh-editor-aarch64-apple-darwin.tar.xz"}}}

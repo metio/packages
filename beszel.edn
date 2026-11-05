@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Lightweight server monitoring with historical data, docker stats, and alerts."
+ :source {:github "henrygd/beszel"}
+ :platforms {"linux-x86_64" {:asset "beszel_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "beszel_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "beszel_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "beszel_darwin_arm64.tar.gz"}}}

@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal Interface for the official MyAnimeList api."
+ :source {:github "L4z3x/mal-cli"}
+ :platforms {"linux-x86_64" {:asset "mal-cli-v{version}-linux-musl-x86_64"}
+             "darwin-x86_64" {:asset "mal-cli-v{version}-macos-x86_64"}}}

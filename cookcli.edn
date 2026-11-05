@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Recipe Management CLI + embedded web-server in one binary"
+ :source {:github "cooklang/cookcli"}
+ :bins {"cook" "cook"}
+ :platforms {"linux-x86_64" {:asset "cook-{version}-linux-x86_64-musl.tar.gz"}
+             "linux-aarch64" {:asset "cook-{version}-linux-aarch64-musl.tar.gz"}}}

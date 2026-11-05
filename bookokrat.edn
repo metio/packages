@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A terminal EPUB / PDF Book Reader (+djvu)"
+ :source {:github "bugzmanov/bookokrat"}
+ :platforms {"linux-x86_64" {:asset "bookokrat-v{version}-x86_64-unknown-linux-musl.tar.gz"}
+             "linux-aarch64" {:asset "bookokrat-v{version}-aarch64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "bookokrat-v{version}-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "bookokrat-v{version}-aarch64-apple-darwin.tar.gz"}}}

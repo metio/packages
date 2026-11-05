@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Interactive tree-like terminal file manager"
+ :source {:github "LeperGnome/bt"}
+ :platforms {"linux-x86_64" {:asset "bt-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "bt-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "bt-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "bt-darwin-arm64.tar.gz"}}}

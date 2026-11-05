@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A semantic diff utility and library for tree-like files such as JSON, JSON5, XML, HTML, YAML, and CSV."
+ :source {:github "trailofbits/graphtage"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "graphtage-{version}-linux-x86_64.zip"}
+             "darwin-aarch64" {:asset "graphtage-{version}-darwin-arm64.zip"}}}

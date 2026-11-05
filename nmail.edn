@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal-based email client for Linux and macOS"
+ :source {:github "d99kris/nmail"}
+ :strip 1
+ :bins {"nmail" "bin/nmail"}
+ :platforms {"linux-x86_64" {:asset "nmail-{version}-linux-x86_64-musl.tar.gz"}
+             "linux-aarch64" {:asset "nmail-{version}-linux-arm64-musl.tar.gz"}
+             "darwin-aarch64" {:asset "nmail-{version}-macos-arm64.tar.gz"}}}

@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Minimalist text editor with vim-compatible key bindings."
+ :source {:github "aretext/aretext"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "aretext_v{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "aretext_v{version}_linux_arm64.tar.gz"}
+             "darwin-aarch64" {:asset "aretext_v{version}_darwin_arm64.tar.gz"}}}

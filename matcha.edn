@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A beautiful and functional email client for your terminal, built with Go and the charming Bubble Tea TUI library. Never leave your command line to check your inbox or send an email again!"
+ :source {:github "floatpane/matcha"}
+ :platforms {"linux-x86_64" {:asset "matcha_{version}_linux_amd64.tar.gz"}
+             "linux-aarch64" {:asset "matcha_{version}_linux_arm64.tar.gz"}
+             "darwin-x86_64" {:asset "matcha_{version}_darwin_amd64.tar.gz"}
+             "darwin-aarch64" {:asset "matcha_{version}_darwin_arm64.tar.gz"}}}

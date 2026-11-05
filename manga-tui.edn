@@ -1,0 +1,8 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal-based manga reader and downloader with image rendering support"
+ :source {:github "josueBarretogit/manga-tui"}
+ :platforms {"linux-x86_64" {:asset "manga-tui-{version}-x86_64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "manga-tui-{version}-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "manga-tui-{version}-aarch64-apple-darwin.tar.gz"}}}

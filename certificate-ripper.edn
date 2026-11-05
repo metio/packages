@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A CLI tool to extract server certificates"
+ :source {:github "Hakky54/certificate-ripper"}
+ :tag-prefix ""
+ :bins {"crip" "crip"}
+ :platforms {"linux-x86_64" {:asset "crip-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "crip-linux-aarch64.tar.gz"}
+             "darwin-x86_64" {:asset "crip-macos-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "crip-macos-aarch64.tar.gz"}}}

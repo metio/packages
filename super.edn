@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "An analytics database that puts JSON and relational tables on equal footing"
+ :source {:github "superdb/super"}
+ :platforms {"linux-x86_64" {:asset "super-v{version}.linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "super-v{version}.linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "super-v{version}.darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "super-v{version}.darwin-arm64.tar.gz"}}}

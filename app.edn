@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A cross-platform package management assistant with super powers!"
+ :source {:github "hkdb/app"}
+ :bins {"app" "app-linux-amd64"}
+ :platforms {"linux-x86_64" {:asset "app-linux-amd64.zip"}}}

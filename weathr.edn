@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "a terminal weather app with ascii animation"
+ :source {:github "Veirt/weathr"}
+ :platforms {"linux-x86_64" {:asset "weathr-linux-musl-amd64"}
+             "linux-aarch64" {:asset "weathr-linux-musl-arm64"}
+             "darwin-x86_64" {:asset "weathr-macos-amd64"}
+             "darwin-aarch64" {:asset "weathr-macos-arm64"}}}

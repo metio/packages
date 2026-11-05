@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Distributed, code-native issue tracker - audit workflows via time-travel"
+ :source {:github "ljtn/epiq"}
+ :platforms {"linux-x86_64" {:asset "epiq-linux-x64"}
+             "linux-aarch64" {:asset "epiq-linux-arm64"}
+             "darwin-x86_64" {:asset "epiq-macos-x64"}
+             "darwin-aarch64" {:asset "epiq-macos-arm64"}}}

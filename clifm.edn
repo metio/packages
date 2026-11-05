@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "The shell-like, command-line terminal file manager"
+ :source {:github "leo-arch/clifm"}
+ :bins {"clifm" "bin/clifm"}
+ :platforms {"linux-x86_64" {:asset "clifm-{version}-linux-x86_64.tar.gz"}}}

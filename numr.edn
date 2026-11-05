@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Natural-language text calculator with TUI/CLI: variables, units, currencies, and live exchange rates"
+ :source {:github "nasedkinpv/numr"}
+ :platforms {"linux-x86_64" {:asset "numr-v{version}-x86_64-unknown-linux-gnu.tar.gz"}
+             "linux-aarch64" {:asset "numr-v{version}-aarch64-unknown-linux-gnu.tar.gz"}
+             "darwin-x86_64" {:asset "numr-v{version}-x86_64-apple-darwin.tar.gz"}
+             "darwin-aarch64" {:asset "numr-v{version}-aarch64-apple-darwin.tar.gz"}}}

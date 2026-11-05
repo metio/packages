@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A Beautiful YouTube Downloader/Player TUI"
+ :source {:github "xdagiz/xytz"}
+ :platforms {"linux-x86_64" {:asset "xytz-v{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "xytz-v{version}-linux-arm64.tar.gz"}
+             "darwin-x86_64" {:asset "xytz-v{version}-darwin-amd64.tar.gz"}
+             "darwin-aarch64" {:asset "xytz-v{version}-darwin-arm64.tar.gz"}}}

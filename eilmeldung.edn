@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "eilmeldung is a TUI RSS reader based on the awesome news-flash library."
+ :source {:github "christo-auer/eilmeldung"}
+ :tag-prefix ""
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "eilmeldung-x86_64-unknown-linux-musl-{version}.tar.gz"}
+             "linux-aarch64" {:asset "eilmeldung-aarch64-unknown-linux-musl-{version}.tar.gz"}
+             "darwin-x86_64" {:asset "eilmeldung-x86_64-apple-darwin-{version}.tar.gz"}
+             "darwin-aarch64" {:asset "eilmeldung-aarch64-apple-darwin-{version}.tar.gz"}}}

@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "My personal text editor"
+ :source {:github "evanlin96069/nino"}
+ :platforms {"linux-x86_64" {:asset "nino-x86_64-linux"}
+             "linux-aarch64" {:asset "nino-aarch64-linux"}}}

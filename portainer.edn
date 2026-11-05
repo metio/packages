@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Making Docker and Kubernetes management easy."
+ :source {:github "portainer/portainer"}
+ :tag-prefix ""
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "portainer-{version}-linux-amd64.tar.gz"}
+             "linux-aarch64" {:asset "portainer-{version}-linux-arm64.tar.gz"}}}

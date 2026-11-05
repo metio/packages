@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal-native 3-way git mergetool and diff viewer"
+ :source {:github "chojs23/ec"}
+ :platforms {"linux-x86_64" {:asset "ec-linux-amd64"}
+             "linux-aarch64" {:asset "ec-linux-arm64"}
+             "darwin-x86_64" {:asset "ec-darwin-amd64"}
+             "darwin-aarch64" {:asset "ec-darwin-arm64"}}}

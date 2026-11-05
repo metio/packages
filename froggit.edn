@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Simplify your Git workflow with visual feedback, keyboard-driven controls, and a streamlined experience."
+ :source {:github "thewizardshell/froggit"}
+ :bins {"froggit" "froggit-linux-amd64"}
+ :platforms {"linux-x86_64" {:asset "linux-amd64.zip"}}}

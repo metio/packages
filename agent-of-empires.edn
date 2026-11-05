@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Manage multiple Claude Code, OpenCode agents from either TUI or Web for easy access on mobile. Also supports Mistral Vibe, Codex CLI, Gemini CLI, Pi.dev, Copilot CLI, Factory Droid Coding."
+ :source {:github "agent-of-empires/agent-of-empires"}
+ :bins {"aoe" "aoe-linux-amd64"}
+ :platforms {"linux-x86_64" {:asset "aoe-linux-amd64.tar.gz"}}}

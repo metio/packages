@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "A neofetch alternative for GitHub quick view"
+ :source {:github "Matars/gitfetch"}
+ :platforms {"linux-x86_64" {:asset "gitfetch-linux-x86_64"}
+             "darwin-aarch64" {:asset "gitfetch-macos-arm64"}}}

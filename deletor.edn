@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Manage and delete files efficiently with an interactive TUI and scriptable CLI."
+ :source {:github "pashkov256/deletor"}
+ :tag-prefix ""
+ :platforms {"linux-x86_64" {:asset "deletor-v{version}-linux-amd64"}
+             "linux-aarch64" {:asset "deletor-v{version}-linux-arm64"}
+             "darwin-x86_64" {:asset "deletor-v{version}-darwin-amd64"}
+             "darwin-aarch64" {:asset "deletor-v{version}-darwin-arm64"}}}

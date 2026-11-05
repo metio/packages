@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Manage your GnuPG keys with ease!"
+ :source {:github "orhun/gpg-tui"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "gpg-tui-{version}-x86_64-unknown-linux-gnu.tar.gz"}}}

@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Music Player TUI written in Rust"
+ :source {:github "tramhao/termusic"}
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "termusic-v{version}-x86_64-linux.tar.xz"}
+             "linux-aarch64" {:asset "termusic-v{version}-aarch64-linux.tar.xz"}
+             "darwin-x86_64" {:asset "termusic-v{version}-x86_64-macos.tar.xz"}
+             "darwin-aarch64" {:asset "termusic-v{version}-aarch64-macos.tar.xz"}}}

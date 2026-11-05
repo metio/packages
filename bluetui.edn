@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "TUI for managing bluetooth on Linux"
+ :source {:github "pythops/bluetui"}
+ :platforms {"linux-x86_64" {:asset "bluetui-x86_64-linux-musl"}
+             "linux-aarch64" {:asset "bluetui-aarch64-linux-musl"}}}

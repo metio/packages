@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Ultra-fast token & cost tracker for LLM Token Usage (e.g. Claude Code)"
+ :source {:github "mag123c/toktrack"}
+ :platforms {"linux-x86_64" {:asset "toktrack-linux-musl-x64"}
+             "linux-aarch64" {:asset "toktrack-linux-musl-arm64"}
+             "darwin-x86_64" {:asset "toktrack-darwin-x64.tar.gz"}
+             "darwin-aarch64" {:asset "toktrack-darwin-arm64.tar.gz"}}}

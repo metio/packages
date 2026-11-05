@@ -1,0 +1,11 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "OAuth credential Manager"
+ :source {:github "pdobsan/oama"}
+ :tag-prefix ""
+ :strip 1
+ :platforms {"linux-x86_64" {:asset "oama-{version}-Linux-x86_64.tar.gz"}
+             "linux-aarch64" {:asset "oama-{version}-Linux-aarch64.tar.gz"}
+             "darwin-x86_64" {:asset "oama-{version}-Darwin-x86_64.tar.gz"}
+             "darwin-aarch64" {:asset "oama-{version}-Darwin-arm64.tar.gz"}}}

@@ -1,0 +1,10 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal-based messaging client for Linux and macOS with Telegram, WhatsApp and Signal support"
+ :source {:github "d99kris/nchat"}
+ :strip 1
+ :bins {"nchat" "bin/nchat"}
+ :platforms {"linux-x86_64" {:asset "nchat-{version}-linux-x86_64-musl.tar.gz"}
+             "linux-aarch64" {:asset "nchat-{version}-linux-arm64-musl.tar.gz"}
+             "darwin-aarch64" {:asset "nchat-{version}-macos-arm64.tar.gz"}}}

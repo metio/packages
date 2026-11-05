@@ -1,0 +1,9 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Terminal navigator for interactive ls workflows."
+ :source {:github "dkaslovsky/nav"}
+ :platforms {"linux-x86_64" {:asset "nav_linux_amd64"}
+             "linux-aarch64" {:asset "nav_linux_arm64"}
+             "darwin-x86_64" {:asset "nav_darwin_amd64"}
+             "darwin-aarch64" {:asset "nav_darwin_arm64"}}}
