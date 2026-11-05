@@ -6,5 +6,4 @@
  :source {:github "spotDL/spotify-downloader"}
  :tests [["spotify-downloader" "--version"]]
  :platforms {"linux-x86_64" {:asset "spotdl-{version}-linux"}
-             "darwin-x86_64" {:asset "spotdl-{version}-darwin"}
              "darwin-aarch64" {:asset "spotdl-{version}-darwin"}}}
