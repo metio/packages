@@ -3,6 +3,7 @@
 
 {:description "Magical shell history",
  :source {:github "atuinsh/atuin"},
+ :tests [["atuin" "--version"]]
  :checksum "{asset}.sha256",
  :strip 1,
  :completions {:bash {:args ["gen-completions" "--shell" "bash"]}}

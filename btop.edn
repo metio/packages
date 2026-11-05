@@ -4,6 +4,7 @@
 
 {:description "A monitor of resources",
  :source {:github "aristocratos/btop"}
+ :tests [["btop" "--version"]]
  :bins {"btop" "btop/bin/btop"}
  :platforms {"linux-x86_64" {:asset "btop-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "btop-aarch64-unknown-linux-musl.tar.gz"}}}

@@ -4,6 +4,7 @@
 
 {:description "A Git subcommand that makes `git worktree` simple",
  :source {:github "k1LoW/git-wt"}
+ :tests [["git-wt" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "git-wt_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "git-wt_{tag}_linux_arm64.tar.gz"}

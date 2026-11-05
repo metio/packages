@@ -3,6 +3,7 @@
 
 {:description "Lightweight server monitoring with historical data, docker stats, and alerts."
  :source {:github "henrygd/beszel"}
+ :tests [["beszel" "--version"]]
  :platforms {"linux-x86_64" {:asset "beszel_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "beszel_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "beszel_darwin_amd64.tar.gz"}

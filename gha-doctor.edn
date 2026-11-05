@@ -4,6 +4,7 @@
 
 {:description "Diagnose GitHub Actions: flaky jobs, wasted minutes, slow steps, and anti-patterns",
  :source {:github "linnea-bakshi/gha-doctor"}
+ :tests [["gha-doctor" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gha-doctor_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "gha-doctor_{version}_linux_arm64.tar.gz"}

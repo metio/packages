@@ -4,6 +4,7 @@
 
 {:description "Unified lint runners for various configuration files",
  :source {:github "mumoshu/conflint"}
+ :tests [["conflint" "--version"]]
  :checksum "conflint_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "conflint_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "conflint_{version}_darwin_amd64.tar.gz"}}}

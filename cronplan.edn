@@ -4,6 +4,7 @@
 
 {:description "Cron expression parser for Amazon EventBridge",
  :source {:github "winebarrel/cronplan"}
+ :tests [["cronplan" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "cronplan_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "cronplan_{version}_linux_arm64.tar.gz"}

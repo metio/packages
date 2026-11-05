@@ -3,4 +3,5 @@
 
 {:description "Fork of the Pyright type checker and language server with more checks and editor features"
  :source {:pypi "basedpyright"}
+ :tests [["basedpyright" "--version"]]
  :bins {"basedpyright" "venv/bin/basedpyright" "basedpyright-langserver" "venv/bin/basedpyright-langserver"}}

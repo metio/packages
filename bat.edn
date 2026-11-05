@@ -3,6 +3,7 @@
 
 {:description "A cat clone with syntax highlighting and Git integration"
  :source {:github "sharkdp/bat"}
+ :tests [["bat" "--version"]]
  :strip 1
  :man ["bat.1"]
  :completions {:bash "autocomplete/bat.bash"}

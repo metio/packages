@@ -3,6 +3,7 @@
 
 {:description "The Lean toolchain manager, whose proxies run the Lean version a lean-toolchain file or elan default selects"
  :source {:github "leanprover/elan"}
+ :tests [["elan" "--version"]]
  :bins {"elan" "elan-init"
         "lean" "elan-init"
         "lake" "elan-init"

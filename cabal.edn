@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "The Haskell build tool and package manager, installed with ghcup"
+ :tests [["cabal" "--version"]]
  :source {:ghcup "cabal"}}

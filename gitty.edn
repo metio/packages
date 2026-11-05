@@ -4,6 +4,7 @@
 
 {:description "Contextual information about your git projects, right on the command-line",
  :source {:github "muesli/gitty"}
+ :tests [["gitty" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gitty_{version}_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "gitty_{version}_linux_arm64.tar.gz"}

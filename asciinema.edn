@@ -4,6 +4,7 @@
 
 {:description "Terminal session recorder, streamer and player",
  :source {:github "asciinema/asciinema"}
+ :tests [["asciinema" "--version"]]
  :platforms {"linux-x86_64" {:asset "asciinema-x86_64-unknown-linux-musl"}
              "linux-aarch64" {:asset "asciinema-aarch64-unknown-linux-gnu"}
              "darwin-x86_64" {:asset "asciinema-x86_64-apple-darwin"}

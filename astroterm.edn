@@ -3,6 +3,7 @@
 
 {:description "A planetarium for your terminal! Explore stars, planets, constellations, and more, all rendered right in the command line—no telescope required."
  :source {:github "da-luce/astroterm"}
+ :tests [["astroterm" "--version"]]
  :platforms {"linux-x86_64" {:asset "astroterm-linux-x86_64"}
              "darwin-x86_64" {:asset "astroterm-darwin-x86_64"}
              "darwin-aarch64" {:asset "astroterm-darwin-aarch64"}}}

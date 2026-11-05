@@ -3,6 +3,7 @@
 
 {:description "Fast recursive content discovery for web servers"
  :source {:github "epi052/feroxbuster"}
+ :tests [["feroxbuster" "--version"]]
  :platforms {"linux-x86_64" {:asset "x86_64-linux-feroxbuster.tar.gz"}
              "linux-aarch64" {:asset "aarch64-linux-feroxbuster.zip"}
              "darwin-x86_64" {:asset "x86_64-macos-feroxbuster.tar.gz"}

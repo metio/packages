@@ -4,6 +4,7 @@
 
 {:description "A beautiful CLI dashboard for GitHub",
  :source {:github "dlvhdr/gh-dash"}
+ :tests [["gh-dash" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gh-dash_{tag}_linux-amd64"}
              "linux-aarch64" {:asset "gh-dash_{tag}_linux-arm64"}

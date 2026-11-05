@@ -3,6 +3,7 @@
 
 {:description "Fast TCP/UDP tunnel over HTTP"
  :source {:github "jpillora/chisel"}
+ :tests [["chisel" "--version"]]
  :checksum "chisel_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "chisel_{version}_linux_amd64.gz"}
              "linux-aarch64" {:asset "chisel_{version}_linux_arm64.gz"}

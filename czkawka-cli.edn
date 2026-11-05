@@ -3,6 +3,7 @@
 
 {:description "Finds duplicate files, empty folders, similar images and other clutter"
  :source {:github "qarmin/czkawka"}
+ :tests [["czkawka_cli" "--version"]]
  :tag-prefix ""
  :bins {"czkawka_cli" "{asset}"}
  :platforms {"linux-x86_64" {:asset "linux_czkawka_cli_x86_64"}

@@ -3,6 +3,7 @@
 
 {:description "Expose the contents of .docx files without leaving your terminal. Fast, safe, and smart — no Office required!"
  :source {:github "bgreenwell/doxx"}
+ :tests [["doxx" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "doxx-x86_64-unknown-linux-musl.tar.xz"}
              "linux-aarch64" {:asset "doxx-aarch64-unknown-linux-gnu.tar.xz"}

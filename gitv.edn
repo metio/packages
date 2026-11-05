@@ -3,6 +3,7 @@
 
 {:description "gitv is a terminal-based viewer for GitHub issues. It allows you to view and manage your GitHub issues directly from the terminal."
  :source {:github "JayanAXHF/gitv"}
+ :tests [["gitv" "--version"]]
  :tag-prefix "gitv-tui-v"
  :platforms {"linux-x86_64" {:asset "gitv-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "gitv-aarch64-unknown-linux-musl.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "GitHub's official command line tool",
  :source {:github "cli/cli"}
+ :tests [["gh" "--version"]]
  :checksum "gh_{version}_checksums.txt"
  :strip 1
  :bins {"gh" "bin/gh"}

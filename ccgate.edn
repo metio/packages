@@ -4,6 +4,7 @@
 
 {:description "LLM-powered PermissionRequest hook for Claude Code",
  :source {:github "tak848/ccgate"}
+ :tests [["ccgate" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "ccgate-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "ccgate-linux-arm64.tar.gz"}

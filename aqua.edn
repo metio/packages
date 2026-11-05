@@ -3,6 +3,7 @@
 
 {:description "Declarative CLI version manager with lazy install and a shared registry"
  :source {:github "aquaproj/aqua"}
+ :tests [["aqua" "--version"]]
  :checksum "aqua_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "aqua_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "aqua_linux_arm64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "client-go credential plugin for Azure Kubernetes Service with Microsoft Entra ID"
  :source {:github "Azure/kubelogin"}
+ :tests [["kubelogin" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "kubelogin-linux-amd64.zip" :bins {"kubelogin" "bin/linux_amd64/kubelogin"}}
              "linux-aarch64" {:asset "kubelogin-linux-arm64.zip" :bins {"kubelogin" "bin/linux_arm64/kubelogin"}}

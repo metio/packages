@@ -3,6 +3,7 @@
 
 {:description "Cross-platform config file CLI toolchain. Validates syntax, schema compliance, and formatting across 18 different configuration file types. Written in Go."
  :source {:github "Boeing/config-file-validator"}
+ :tests [["cfv" "--version"]]
  :bins {"cfv" "cfv"}
  :platforms {"linux-x86_64" {:asset "cfv-{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "cfv-{version}-linux-arm64.tar.gz"}

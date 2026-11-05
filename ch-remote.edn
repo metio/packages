@@ -4,5 +4,6 @@
 
 {:description "Remotely control a cloud-hypervisor VMM",
  :source {:github "cloud-hypervisor/cloud-hypervisor"}
+ :tests [["ch-remote" "--version"]]
  :platforms {"linux-x86_64" {:asset "ch-remote-static"}
              "linux-aarch64" {:asset "ch-remote-static-aarch64"}}}

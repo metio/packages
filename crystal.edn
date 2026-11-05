@@ -3,6 +3,7 @@
 
 {:description "The Crystal programming language and its shards dependency manager, bundled with the libraries its compiler links against"
  :source {:github "crystal-lang/crystal"}
+ :tests [["crystal" "--version"]]
  :tag-prefix ""
  :strip 2
  :layout :tree

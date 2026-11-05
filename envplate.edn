@@ -4,6 +4,7 @@
 
 {:description "Docker-friendly trivial templating for configuration files using environment keys",
  :source {:github "kreuzwerker/envplate"}
+ :tests [["ep" "--help"]]
  :checksum "checksums.txt"
  :bins {"ep" "envplate"}
  :platforms {"linux-x86_64" {:asset "envplate_{version}_Linux_x86_64.tar.gz"}

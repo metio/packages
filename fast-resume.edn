@@ -3,6 +3,7 @@
 
 {:description "Find that one coding agent session you want to get back to!"
  :source {:github "angristan/fast-resume"}
+ :tests [["fr" "--version"]]
  :strip 1
  :bins {"fr" "fr"}
  :platforms {"linux-x86_64" {:asset "fast-resume-{version}-linux-x86_64.tar.gz"}

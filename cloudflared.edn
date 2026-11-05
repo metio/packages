@@ -4,6 +4,7 @@
 
 {:description "Cloudflare Tunnel client",
  :source {:github "cloudflare/cloudflared"}
+ :tests [["cloudflared" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "cloudflared-linux-amd64"}
              "linux-aarch64" {:asset "cloudflared-linux-arm64"}

@@ -4,6 +4,7 @@
 
 {:description "A Go module datastore and proxy",
  :source {:github "gomods/athens"}
+ :tests [["athens" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "athens_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "athens_{version}_linux_arm64.tar.gz"}

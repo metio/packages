@@ -4,6 +4,7 @@
 
 {:description "coglet is a tool for User pool of Amazon Cognito",
  :source {:github "k1LoW/coglet"}
+ :tests [["coglet" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "coglet_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "coglet_{tag}_linux_arm64.tar.gz"}

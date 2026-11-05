@@ -4,6 +4,7 @@
 
 {:description "Open and extensible continuous delivery solution for Kubernetes. Powered by GitOps Toolkit",
  :source {:github "fluxcd/flux2"}
+ :tests [["flux" "--version"]]
  :checksum "flux_{version}_checksums.txt"
  :bins {"flux" "flux"}
  :platforms {"linux-x86_64" {:asset "flux_{version}_linux_amd64.tar.gz"}

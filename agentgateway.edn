@@ -4,6 +4,7 @@
 
 {:description "Next Generation Agentic Proxy for AI Agents and MCP servers",
  :source {:github "agentgateway/agentgateway"}
+ :tests [["agentgateway" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "agentgateway-linux-amd64"}
              "linux-aarch64" {:asset "agentgateway-linux-arm64"}

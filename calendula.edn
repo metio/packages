@@ -3,6 +3,7 @@
 
 {:description "CLI to manage calendars.",
  :source {:github "pimalaya/calendula"}
+ :tests [["calendula" "--version"]]
  :man ["share/man/*.1.gz"],
  :completions {:bash "share/completions/calendula.bash",
                :zsh "share/completions/_calendula",

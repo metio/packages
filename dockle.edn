@@ -4,6 +4,7 @@
 
 {:description "Container Image Linter for Security, Helping build the Best-Practice Docker Image, Easy to start",
  :source {:github "goodwithtech/dockle"}
+ :tests [["dockle" "--version"]]
  :checksum "dockle_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "dockle_{version}_Linux-64bit.tar.gz"}
              "linux-aarch64" {:asset "dockle_{version}_Linux-ARM64.tar.gz"}

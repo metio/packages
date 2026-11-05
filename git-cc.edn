@@ -3,6 +3,7 @@
 
 {:description "a git extension to help write conventional commits"
  :source {:github "SKalt/git-cc"}
+ :tests [["git-cc" "--version"]]
  :platforms {"linux-x86_64" {:asset "git-cc_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "git-cc_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "git-cc_{version}_darwin_amd64.tar.gz"}

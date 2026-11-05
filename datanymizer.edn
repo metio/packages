@@ -4,6 +4,7 @@
 
 {:description "Powerful database anonymizer with flexible rules. Written in Rust",
  :source {:github "datanymizer/datanymizer"}
+ :tests [["pg_datanymizer" "--version"]]
  :bins {"pg_datanymizer" "pg_datanymizer"}
  :platforms {"linux-x86_64" {:asset "pg_datanymizer-linux-x86_64.tar.gz"}
              "darwin-x86_64" {:asset "pg_datanymizer-darwin-x86_64.tar.gz"}}}

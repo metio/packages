@@ -4,6 +4,7 @@
 
 {:description "Declarative GitHub infrastructure management via YAML",
  :source {:github "babarot/gh-infra"}
+ :tests [["gh-infra" "--version"]]
  :checksum "gh-infra_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "gh-infra_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "gh-infra_linux_arm64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Downloads and updates MaxMind GeoIP2 and GeoLite2 databases"
  :source {:github "maxmind/geoipupdate"}
+ :tests [["geoipupdate" "--version"]]
  :checksum "geoipupdate_{version}_checksums.txt"
  :strip 1
  :man ["geoipupdate.1" "GeoIP.conf.5"]

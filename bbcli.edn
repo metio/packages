@@ -3,6 +3,7 @@
 
 {:description "Browse BBC News like a hacker."
  :source {:github "hako/bbcli"}
+ :tests [["bbcli" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "bbcli-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "bbcli-aarch64-unknown-linux-musl.tar.gz"}

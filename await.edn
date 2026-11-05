@@ -3,6 +3,7 @@
 
 {:description "40K, small memory footprint, single binary that run list of commands in parallel and waits for their termination"
  :source {:github "slavaGanzin/await"}
+ :tests [["await" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "await-{version}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "await-{version}-aarch64-unknown-linux-musl.tar.gz"}

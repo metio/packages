@@ -4,6 +4,7 @@
 
 {:description "Google Antigravity CLI companion",
  :source {:github "google-antigravity/antigravity-cli"}
+ :tests [["agy" "--version"]]
  :tag-prefix ""
  :bins {"agy" "antigravity"}
  :platforms {"linux-x86_64" {:asset "agy_cli_linux_x64.tar.gz"}

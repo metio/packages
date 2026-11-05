@@ -4,6 +4,7 @@
 
 {:description "The CLI for the Claude API",
  :source {:github "anthropics/anthropic-cli"}
+ :tests [["ant" "--version"]]
  :checksum "ant_{version}_checksums.txt"
  :bins {"ant" "ant"}
  :platforms {"linux-x86_64" {:asset "ant_{version}_linux_amd64.tar.gz"}

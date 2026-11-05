@@ -3,6 +3,7 @@
 
 {:description "The ultimate beauty gRPC Client on your Terminal!"
  :source {:github "felangga/chiko"}
+ :tests [["chiko" "--help"]]
  :platforms {"linux-x86_64" {:asset "chiko_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "chiko_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "chiko_{version}_darwin_amd64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Rust rewrite of the GNU findutils, linked as uu-find, uu-xargs, uu-locate and uu-updatedb beside the system tools"
  :source {:github "uutils/findutils"}
+ :tests [["uu-find" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :strip 1

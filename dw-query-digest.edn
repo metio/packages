@@ -4,6 +4,7 @@
 
 {:description "MySQL slow log analyzer. Alternative to pt-query-digest",
  :source {:github "devops-works/dw-query-digest"}
+ :tests [["dw-query-digest" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "dw-query-digest_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "dw-query-digest_{version}_darwin_amd64.tar.gz"}}}
