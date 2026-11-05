@@ -4,6 +4,7 @@
 
 {:description "Linter to check newlines at the end of files",
  :source {:github "suzuki-shunsuke/nllint"}
+ :tests [["nllint" "--version"]]
  :checksum "nllint_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "nllint_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "nllint_linux_arm64.tar.gz"}

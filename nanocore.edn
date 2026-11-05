@@ -3,6 +3,7 @@
 
 {:description "NanoCore 8-bit CPU emulator in Rust"
  :source {:github "AfaanBilal/NanoCore"}
+ :tests [["nanocore" "--version"]]
  :platforms {"linux-x86_64" {:asset "nanocore-linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "nanocore-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "nanocore-macos-x86_64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Terminal-based email client for Linux and macOS"
  :source {:github "d99kris/nmail"}
+ :tests [["nmail" "--version"]]
  :strip 1
  :bins {"nmail" "bin/nmail"}
  :platforms {"linux-x86_64" {:asset "nmail-{version}-linux-x86_64-musl.tar.gz"}

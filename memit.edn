@@ -4,6 +4,7 @@
 
 {:description "Run binaries straight from memory in Linux",
  :source {:github "liamg/memit"}
+ :tests [["memit" "--version"]]
  :checksum "memit_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "memit-linux-amd64"}
              "linux-aarch64" {:asset "memit-linux-arm64"}}}

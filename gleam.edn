@@ -4,6 +4,7 @@
 
 {:description "A friendly language for building type-safe, scalable systems",
  :source {:github "gleam-lang/gleam"}
+ :tests [["gleam" "--version"]]
  :checksum "{asset}.sha512"
  :platforms {"linux-x86_64" {:asset "gleam-{tag}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "gleam-{tag}-aarch64-unknown-linux-musl.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Enforce git message commit consistency",
  :source {:github "antham/gommit"}
+ :tests [["gommit" "--help"]]
  :checksum "gommit_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "gommit_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "gommit_{version}_darwin_amd64.tar.gz"}}}

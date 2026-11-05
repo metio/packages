@@ -4,6 +4,7 @@
 
 {:description "Sort manfest files in a proper order by Kind",
  :source {:github "superbrothers/ksort"}
+ :tests [["ksort" "--version"]]
  :checksum "checksums.txt"
  :bins {"ksort" "ksort", "kubectl-sort_manifests" "ksort"}
  :platforms {"linux-x86_64" {:asset "ksort-linux-amd64.zip"}

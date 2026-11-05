@@ -4,6 +4,7 @@
 
 {:description "Secure HTTP and TCP tunnels that just work",
  :source {:github "inlets/inlets-pro"}
+ :tests [["inlets-pro" "--help"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "inlets-pro"}

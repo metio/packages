@@ -4,6 +4,7 @@
 
 {:description "terminal UI for npm",
  :source {:github "jesseduffield/lazynpm"}
+ :tests [["lazynpm" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "lazynpm_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "lazynpm_{version}_Linux_arm64.tar.gz"}

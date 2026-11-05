@@ -3,6 +3,7 @@
 
 {:description "qo is an interactive TUI to query JSON and CSV using SQL."
  :source {:github "kiki-ki/go-qo"}
+ :tests [["qo" "--version"]]
  :bins {"qo" "qo"}
  :platforms {"linux-x86_64" {:asset "qo_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "qo_{version}_linux_arm64.tar.gz"}

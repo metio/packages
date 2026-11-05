@@ -3,6 +3,7 @@
 
 {:description "Fast, async, stream-based link checker written in Rust. Finds broken URLs and mail addresses inside Markdown, HTML, reStructuredText, websites and more!"
  :source {:github "lycheeverse/lychee"}
+ :tests [["lychee" "--version"]]
  :tag-prefix "lychee-v"
  :strip 1
  :platforms {"linux-x86_64" {:asset "lychee-x86_64-unknown-linux-musl.tar.gz"}

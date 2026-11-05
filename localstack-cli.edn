@@ -4,6 +4,7 @@
 
 {:description "The LocalStack CLI packaged using pyinstaller",
  :source {:github "localstack/localstack-cli"}
+ :tests [["localstack" "--version"]]
  :checksum "localstack-cli-{version}-checksums.txt"
  :bins {"localstack" "localstack"}
  :platforms {"linux-x86_64" {:asset "localstack-cli-{version}-linux-amd64-onefile.tar.gz"}

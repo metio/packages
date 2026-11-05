@@ -3,6 +3,7 @@
 
 {:description "The Nim programming language with its nimble package manager and tools"
  :source {:text "https://nim-lang.org/channels/stable"}
+ :tests [["nim" "--version"]]
  :tag-prefix ""
  :url "https://nim-lang.org/download/{asset}"
  :checksum "{asset}.sha256"

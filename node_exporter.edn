@@ -3,6 +3,7 @@
 
 {:description "Prometheus exporter for hardware and operating system metrics"
  :source {:github "prometheus/node_exporter"}
+ :tests [["node_exporter" "--version"]]
  :checksum "sha256sums.txt"
  :strip 1
  :platforms {"linux-x86_64" {:asset "node_exporter-{version}.linux-amd64.tar.gz"}

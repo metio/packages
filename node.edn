@@ -3,6 +3,7 @@
 
 {:description "Node.js, the JavaScript runtime, with npm and npx, in its current release"
  :source {:text "https://nodejs.org/dist/latest/SHASUMS256.txt" :match "node-(v\\d+\\.\\d+\\.\\d+)\\.tar\\.gz"}
+ :tests [["node" "--version"]]
  :url "https://nodejs.org/dist/{tag}/{asset}"
  :checksum "https://nodejs.org/dist/{tag}/SHASUMS256.txt"
  :strip 1

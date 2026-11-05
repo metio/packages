@@ -3,4 +3,5 @@
 
 {:description "GDB TUI Dashboard for the understanding of vast knowledge"
  :source {:github "wcampbell0x2a/heretek"}
+ :tests [["heretek" "--version"]]
  :platforms {"linux-x86_64" {:asset "heretek-v{version}-x86_64-unknown-linux-musl.tar.gz"}}}

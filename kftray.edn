@@ -3,5 +3,6 @@
 
 {:description "kubectl port-forward manager and reverse tunnel (ngrok-like) for exposing local services publicly, with TLS termination, HTTP traffic inspection, UDP forwarding, multi-hop proxy routing through k8s clusters, stateful config via filesystem or git - GUI and TUI available"
  :source {:github "hcavarsan/kftray"}
+ :tests [["kftui" "--version"]]
  :bins {"kftui" "kftui_linux_amd64"}
  :platforms {"linux-x86_64" {:asset "kftui_linux_amd64.tar.gz"}}}

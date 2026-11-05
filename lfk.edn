@@ -3,6 +3,7 @@
 
 {:description "LFK is a lightning-fast, keyboard-focused, yazi-inspired terminal user interface for navigating and managing Kubernetes clusters. Built for speed and efficiency, it brings a three-column Miller columns layout with an owner-based resource hierarchy to your terminal."
  :source {:github "janosmiko/lfk"}
+ :tests [["lfk" "--version"]]
  :platforms {"linux-x86_64" {:asset "lfk_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "lfk_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "lfk_{version}_darwin_amd64.zip"}

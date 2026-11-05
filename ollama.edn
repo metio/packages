@@ -3,6 +3,7 @@
 
 {:description "Runs large language models locally"
  :source {:github "ollama/ollama"}
+ :tests [["ollama" "--version"]]
  :checksum "sha256sum.txt"
  :layout :tree
  :bins {"ollama" "bin/ollama"}

@@ -4,6 +4,7 @@
 
 {:description "reviewdog nightly releases",
  :source {:github "reviewdog/nightly"}
+ :tests [["reviewdog" "--version"]]
  :checksum "checksums.txt"
  :bins {"reviewdog" "reviewdog"}
  :platforms {"linux-x86_64" {:asset "reviewdog_{version}_Linux_x86_64.tar.gz"}

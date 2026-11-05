@@ -4,6 +4,7 @@
 
 {:description "Kubectl plugin to find and report outdated images running in a Kubernetes cluster",
  :source {:github "replicatedhq/outdated"}
+ :tests [["kubectl-outdated" "--help"]]
  :checksum "outdated_{version}_checksums.txt"
  :bins {"kubectl-outdated" "outdated"}
  :platforms {"linux-x86_64" {:asset "outdated_linux_amd64.tar.gz"}

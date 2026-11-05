@@ -4,6 +4,7 @@
 
 {:description "ʕ◉ϖ◉ʔ loooooooooooooooooooooong gopher",
  :source {:github "sheepla/longgopher"}
+ :tests [["longgopher" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "longgopher_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "longgopher_{version}_Linux_arm64.tar.gz"}

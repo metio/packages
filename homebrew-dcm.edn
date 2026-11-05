@@ -4,6 +4,7 @@
 
 {:description "Homebrew formula for DCM",
  :source {:github "CQLabs/homebrew-dcm"}
+ :tests [["dcm" "--version"]]
  :tag-prefix ""
  :bins {"dcm" "dcm"}
  :platforms {"linux-x86_64" {:asset "dcm-linux-x64-release.zip"}

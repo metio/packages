@@ -2,6 +2,7 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:source {:github "Han8931/gorae"}
+ :tests [["gorae" "--help"]]
  :platforms {"linux-x86_64" {:asset "gorae-linux-amd64"}
              "linux-aarch64" {:asset "gorae-linux-arm64"}
              "darwin-x86_64" {:asset "gorae-darwin-amd64"}

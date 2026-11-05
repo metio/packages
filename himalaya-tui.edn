@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "TUI to manage emails, built from the newest commit of its repository"
+ :tests [["himalaya-tui" "--version"]]
  :source {:cargo "himalaya-tui" :git "pimalaya/himalaya-tui"}}

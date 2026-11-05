@@ -4,6 +4,7 @@
 
 {:description "CLI for building apps using Cloud Native Buildpacks",
  :source {:github "buildpacks/pack"}
+ :tests [["pack" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "pack-{tag}-linux.tgz"}
              "linux-aarch64" {:asset "pack-{tag}-linux-arm64.tgz"}

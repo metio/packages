@@ -3,5 +3,6 @@
 
 {:description "TUI for managing wifi on Linux"
  :source {:github "pythops/impala"}
+ :tests [["impala" "--version"]]
  :platforms {"linux-x86_64" {:asset "impala-x86_64-unknown-linux-musl"}
              "linux-aarch64" {:asset "impala-aarch64-unknown-linux-musl"}}}

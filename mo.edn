@@ -4,6 +4,7 @@
 
 {:description "mo is a Markdown viewer that opens .md files in a browser",
  :source {:github "k1LoW/mo"}
+ :tests [["mo" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "mo_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "mo_{tag}_linux_arm64.tar.gz"}

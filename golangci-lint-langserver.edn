@@ -4,6 +4,7 @@
 
 {:description "golangci-lint language server",
  :source {:github "nametake/golangci-lint-langserver"}
+ :tests [["golangci-lint-langserver" "--help"]]
  :checksum "golangci-lint-langserver_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "golangci-lint-langserver_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "golangci-lint-langserver_Linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Play video in terminal",
  :source {:github "koki-develop/moview"}
+ :tests [["moview" "--version"]]
  :checksum "moview_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "moview_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "moview_Linux_arm64.tar.gz"}

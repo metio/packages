@@ -3,6 +3,7 @@
 
 {:description "Test generated HTML for problems"
  :source {:github "wjdp/htmltest"}
+ :tests [["htmltest" "--version"]]
  :checksum "htmltest_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "htmltest_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "htmltest_{version}_linux_arm64.tar.gz"}

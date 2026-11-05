@@ -4,6 +4,7 @@
 
 {:description "Multitree-based personal task manager",
  :source {:github "climech/grit"}
+ :tests [["grit" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "grit_{tag}_linux_amd64.tar.gz" :bins {"grit" "grit_{tag}_linux_amd64/grit"}}
              "linux-aarch64" {:asset "grit_{tag}_linux_arm64.tar.gz" :bins {"grit" "grit_{tag}_linux_arm64/grit"}}

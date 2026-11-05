@@ -4,6 +4,7 @@
 
 {:description "Gogs is a painless self-hosted Git service",
  :source {:github "gogs/gogs"}
+ :tests [["gogs" "--version"]]
  :checksum "https://dl.gogs.io/{version}/checksum_sha256.txt"
  :bins {"gogs" "gogs/gogs"}
  :platforms {"linux-x86_64" {:asset "gogs_{tag}_linux_amd64.tar.gz"}

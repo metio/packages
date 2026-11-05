@@ -4,6 +4,7 @@
 
 {:description "A git prepare-commit-msg hook for authoring commit messages with GPT-3",
  :source {:github "zurawiki/gptcommit"}
+ :tests [["gptcommit" "--version"]]
  :platforms {"linux-x86_64" {:asset "gptcommit-x86_64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "gptcommit-x86_64-apple-darwin.tar.gz"}
              "darwin-aarch64" {:asset "gptcommit-aarch64-apple-darwin.tar.gz"}}}

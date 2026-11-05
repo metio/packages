@@ -4,6 +4,7 @@
 
 {:description "kubernetes log viewer",
  :source {:github "boz/kail"}
+ :tests [["kail" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kail_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kail_{tag}_linux_arm64.tar.gz"}

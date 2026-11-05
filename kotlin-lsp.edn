@@ -3,6 +3,7 @@
 
 {:description "JetBrains' language server for Kotlin, with its own Java runtime"
  :source {:github "Kotlin/kotlin-lsp"}
+ :tests [["kotlin-lsp" "--version"]]
  :tag-prefix "kotlin-lsp/v"
  :url "https://download.jetbrains.com/language-server/kotlin-server/{version}/{asset}"
  :checksum "{asset}.sha256"

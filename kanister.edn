@@ -4,6 +4,7 @@
 
 {:description "An extensible framework for application-level data management on Kubernetes",
  :source {:github "kanisterio/kanister"}
+ :tests [["kanctl" "--version"]]
  :tag-prefix ""
  :checksum "checksums.txt"
  :bins {"kanctl" "kanctl"}

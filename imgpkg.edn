@@ -4,6 +4,7 @@
 
 {:description "Store application configuration files in Docker/OCI registries",
  :source {:github "carvel-dev/imgpkg"}
+ :tests [["imgpkg" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "imgpkg-linux-amd64"}
              "linux-aarch64" {:asset "imgpkg-linux-arm64"}

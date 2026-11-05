@@ -4,6 +4,7 @@
 
 {:description "Redirect HTTP requests to specific URI",
  :source {:github "livesense-inc/go-simple-http-redirector"}
+ :tests [["redirector" "--version"]]
  :checksum "redirector_{version}_checksums.txt"
  :bins {"redirector" "redirector"}
  :platforms {"linux-x86_64" {:asset "redirector-linux-amd64.zip"}

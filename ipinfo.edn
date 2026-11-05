@@ -3,6 +3,7 @@
 
 {:description "Command-line client for the IPinfo API and offline IP tools"
  :source {:github "ipinfo/cli"}
+ :tests [["ipinfo" "--version"]]
  :tag-prefix "ipinfo-"
  :platforms {"linux-x86_64" {:asset "ipinfo_{version}_linux_amd64.tar.gz" :bins {"ipinfo" "ipinfo_{version}_linux_amd64"}}
              "linux-aarch64" {:asset "ipinfo_{version}_linux_arm64.tar.gz" :bins {"ipinfo" "ipinfo_{version}_linux_arm64"}}

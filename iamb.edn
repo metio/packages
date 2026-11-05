@@ -3,6 +3,7 @@
 
 {:description "A Matrix client for Vim addicts.",
  :source {:github "ulyssa/iamb"}
+ :tests [["iamb" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "iamb-{version}-x86_64-unknown-linux-musl.tar.gz"
                              :history [{:before "0.0.13" :asset "iamb-x86_64-unknown-linux-musl-binary.zip" :strip 0}

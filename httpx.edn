@@ -4,6 +4,7 @@
 
 {:description "httpx is a fast and multi-purpose HTTP toolkit allows to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads",
  :source {:github "projectdiscovery/httpx"}
+ :tests [["httpx" "--version"]]
  :checksum "httpx_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "httpx_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "httpx_{version}_linux_arm64.zip"}

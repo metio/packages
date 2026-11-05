@@ -3,6 +3,7 @@
 
 {:description "The beautiful game in your terminal. Minimal TUI app to keep up with live & recent football/soccer matches written in Go."
  :source {:github "0xjuanma/golazo"}
+ :tests [["golazo" "--version"]]
  :platforms {"linux-x86_64" {:asset "golazo-linux-amd64"}
              "linux-aarch64" {:asset "golazo-linux-arm64"}
              "darwin-x86_64" {:asset "golazo-darwin-amd64"}

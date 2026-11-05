@@ -3,6 +3,7 @@
 
 {:description "Command line client of the KCL configuration language"
  :source {:github "kcl-lang/cli"}
+ :tests [["kcl" "--version"]]
  :checksum "cli_{version}_checksums.txt"
  :bins {"kcl" "kcl"}
  :platforms {"linux-x86_64" {:asset "kcl-{tag}-linux-amd64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "The OCaml package manager, which builds compilers and packages into switches of its own"
  :source {:github "ocaml/opam"}
+ :tests [["opam" "--version"]]
  :tag-prefix ""
  :bins {"opam" "{asset}"}
  :platforms {"linux-x86_64" {:asset "opam-{version}-x86_64-linux"}

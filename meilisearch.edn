@@ -3,6 +3,7 @@
 
 {:description "Search engine with typo tolerance and hybrid search behind a REST API"
  :source {:github "meilisearch/meilisearch"}
+ :tests [["meilisearch" "--version"]]
  :platforms {"linux-x86_64" {:asset "meilisearch-linux-amd64"}
              "linux-aarch64" {:asset "meilisearch-linux-aarch64"}
              "darwin-x86_64" {:asset "meilisearch-macos-amd64"}

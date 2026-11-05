@@ -3,6 +3,7 @@
 
 {:description "Robust, fast, intuitive plain text accounting tool with CLI, TUI and web interfaces."
  :source {:github "hledgerorg/hledger"}
+ :tests [["hledger" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "hledger-linux-x64.tar.gz"}
              "darwin-x86_64" {:asset "hledger-mac-x64.tar.gz"}
