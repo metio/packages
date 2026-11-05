@@ -4,6 +4,7 @@
 
 {:description "Simple and flexible tool for managing secrets",
  :source {:github "getsops/sops"}
+ :tests [{:args ["sops" "--version"] :expect "{version}"}]
  :checksum "sops-{tag}.checksums.txt"
  :platforms {"linux-x86_64" {:asset "sops-{tag}.linux.amd64"}
              "linux-aarch64" {:asset "sops-{tag}.linux.arm64"}

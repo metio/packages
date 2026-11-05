@@ -4,6 +4,7 @@
 
 {:description "Fast SQL formatter/linter",
  :source {:github "quarylabs/sqruff"}
+ :tests [{:args ["sqruff" "--version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "sqruff-linux-x86_64-musl.tar.gz"}
              "linux-aarch64" {:asset "sqruff-linux-aarch64-musl.tar.gz"}

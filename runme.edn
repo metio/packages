@@ -4,6 +4,7 @@
 
 {:description "DevOps Notebooks Built with Markdown",
  :source {:github "runmedev/runme"}
+ :tests [{:args ["runme" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "runme_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "runme_linux_arm64.tar.gz"}

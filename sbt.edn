@@ -3,6 +3,7 @@
 
 {:description "sbt, the interactive build tool for Scala and Java, which runs on the java found through JAVA_HOME or PATH"
  :source {:github "sbt/sbt"}
+ :tests [{:args ["sbt" "--version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
  :strip 1
  :layout :tree

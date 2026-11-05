@@ -4,6 +4,7 @@
 
 {:description "Pretty fancy and modern terminal file manager",
  :source {:github "yorukot/superfile"}
+ :tests [{:args ["spf" "-v"] :expect "{version}"}]
  :checksum "superfile-{tag}-checksums.txt"
  :platforms {"linux-x86_64" {:asset "superfile-linux-{tag}-amd64.tar.gz" :bins {"spf" "dist/superfile-linux-{tag}-amd64/spf"}}
              "linux-aarch64" {:asset "superfile-linux-{tag}-arm64.tar.gz" :bins {"spf" "dist/superfile-linux-{tag}-arm64/spf"}}

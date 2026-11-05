@@ -4,6 +4,7 @@
 
 {:description "CLI for the OSD utilities",
  :source {:github "openshift/osdctl"}
+ :tests [{:args ["osdctl" "version"] :expect "{version}"}]
  :checksum "sha256sum.txt"
  :platforms {"linux-x86_64" {:asset "osdctl_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "osdctl_{version}_Linux_arm64.tar.gz"}

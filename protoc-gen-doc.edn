@@ -4,6 +4,7 @@
 
 {:description "Documentation generator plugin for Google Protocol Buffers",
  :source {:github "pseudomuto/protoc-gen-doc"}
+ :tests [{:args ["protoc-gen-doc" "-version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "protoc-gen-doc_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "protoc-gen-doc_{version}_linux_arm64.tar.gz"}

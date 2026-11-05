@@ -4,6 +4,7 @@
 
 {:description "pinact is a CLI to edit GitHub Workflow and Composite action files and pin versions of Actions and Reusable Workflows. pinact can also update their versions and verify version annotations",
  :source {:github "suzuki-shunsuke/pinact"}
+ :tests [{:args ["pinact" "--version"] :expect "{version}"}]
  :checksum "pinact_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "pinact_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "pinact_linux_arm64.tar.gz"}

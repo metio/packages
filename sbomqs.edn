@@ -4,6 +4,7 @@
 
 {:description "sbomqs: The Comprehensive SBOM Quality & Compliance Tool",
  :source {:github "interlynk-io/sbomqs"}
+ :tests [{:args ["sbomqs" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "sbomqs_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "sbomqs_{version}_Linux_arm64.tar.gz"}

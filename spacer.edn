@@ -4,6 +4,7 @@
 
 {:description "CLI tool to insert spacers when command output stops",
  :source {:github "samwho/spacer"}
+ :tests [{:args ["spacer" "--version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "spacer-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "spacer-aarch64-unknown-linux-musl.tar.gz"}

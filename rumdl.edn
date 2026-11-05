@@ -4,6 +4,7 @@
 
 {:description "A Markdown Linter written in Rust",
  :source {:github "rvben/rumdl"}
+ :tests [{:args ["rumdl" "version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "rumdl-{tag}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "rumdl-{tag}-aarch64-unknown-linux-musl.tar.gz"}

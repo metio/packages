@@ -4,6 +4,7 @@
 
 {:description "OpenTofu / Terraform version manager",
  :source {:github "tofuutils/tenv"}
+ :tests [{:args ["tenv" "--version"] :expect "{version}"}]
  :checksum "tenv_{tag}_checksums.txt"
  :bins {"atmos" "atmos", "tenv" "tenv", "terraform" "terraform", "terragrunt" "terragrunt", "tf" "tf", "tofu" "tofu"}
  :platforms {"linux-x86_64" {:asset "tenv_{tag}_Linux_x86_64.tar.gz"}

@@ -4,5 +4,6 @@
 
 {:description "Install and Run Python Applications in Isolated Environments",
  :source {:github "pypa/pipx"}
+ :tests [["pipx" "--help"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "pipx.pyz"}}}

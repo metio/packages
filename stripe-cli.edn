@@ -4,6 +4,7 @@
 
 {:description "A command-line tool for Stripe",
  :source {:github "stripe/stripe-cli"}
+ :tests [{:args ["stripe" "version"] :expect "{version}"}]
  :bins {"stripe" "stripe"}
  :platforms {"linux-x86_64" {:asset "stripe_{version}_linux_x86_64.tar.gz" :checksum "stripe-linux-checksums.txt"}
              "linux-aarch64" {:asset "stripe_{version}_linux_arm64.tar.gz" :checksum "stripe-linux-checksums.txt"}

@@ -4,6 +4,7 @@
 
 {:description "Terminal user interface for SSH",
  :source {:github "quantumsheep/sshs"}
+ :tests [{:args ["sshs" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "sshs-linux-amd64"}
              "linux-aarch64" {:asset "sshs-linux-arm64"}

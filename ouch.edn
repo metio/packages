@@ -4,6 +4,7 @@
 
 {:description "Painless compression and decompression in the terminal",
  :source {:github "ouch-org/ouch"}
+ :tests [{:args ["ouch" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "ouch-x86_64-unknown-linux-musl.tar.gz" :bins {"ouch" "ouch-x86_64-unknown-linux-musl/ouch"}}
              "linux-aarch64" {:asset "ouch-aarch64-unknown-linux-musl.tar.gz" :bins {"ouch" "ouch-aarch64-unknown-linux-musl/ouch"}}

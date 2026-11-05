@@ -4,6 +4,7 @@
 
 {:description "A cli tool to help discover deprecated apiVersions in Kubernetes",
  :source {:github "FairwindsOps/pluto"}
+ :tests [{:args ["pluto" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "pluto_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "pluto_{version}_linux_arm64.tar.gz"}

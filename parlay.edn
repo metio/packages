@@ -4,6 +4,7 @@
 
 {:description "Enrich SBOMs with data from third party services",
  :source {:github "snyk/parlay"}
+ :tests [{:args ["parlay" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "parlay_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "parlay_Linux_arm64.tar.gz"}

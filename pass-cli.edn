@@ -3,6 +3,7 @@
 ;; SPDX-License-Identifier: MIT
 
 {:source {:github "protonpass/pass-cli"}
+ :tests [{:args ["pass-cli" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "pass-cli-linux-x86_64"}

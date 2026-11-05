@@ -4,6 +4,7 @@
 
 {:description "Smart session manager for the terminal",
  :source {:github "joshmedeski/sesh"}
+ :tests [{:args ["sesh" "--version"] :expect "{version}"}]
  :checksum "sesh_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "sesh_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "sesh_Linux_arm64.tar.gz"}

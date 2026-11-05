@@ -4,6 +4,7 @@
 
 {:description "A configuration as code language with rich validation and tooling",
  :source {:github "apple/pkl"}
+ :tests [{:args ["pkl" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "pkl-linux-amd64"}
              "linux-aarch64" {:asset "pkl-linux-aarch64"}

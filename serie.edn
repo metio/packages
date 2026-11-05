@@ -4,6 +4,7 @@
 
 {:description "A rich git commit graph in your terminal, like magic",
  :source {:github "lusingander/serie"}
+ :tests [{:args ["serie" "--version"] :expect "{version}"}]
  :checksum "checksum.txt"
  :platforms {"linux-x86_64" {:asset "serie-{version}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "serie-{version}-aarch64-unknown-linux-musl.tar.gz"}

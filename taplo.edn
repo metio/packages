@@ -3,6 +3,7 @@
 
 {:description "TOML toolkit with a formatter, linter and language server"
  :source {:github "tamasfe/taplo"}
+ :tests [{:args ["taplo" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :history [{:before "0.10.1" :verify false}]
  :platforms {"linux-x86_64" {:asset "taplo-linux-x86_64.gz"}

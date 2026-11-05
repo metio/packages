@@ -4,6 +4,7 @@
 
 {:description "A simple and powerful SSH keys manager",
  :source {:github "TimothyYe/skm"}
+ :tests [{:args ["skm" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "skm_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "skm_{version}_linux_arm64.tar.gz"}

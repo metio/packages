@@ -4,6 +4,7 @@
 
 {:description "CLI tool to easily migrate Kubernetes persistent volumes",
  :source {:github "utkuozdemir/pv-migrate"}
+ :tests [{:args ["pv-migrate" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "pv-migrate_{tag}_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "pv-migrate_{tag}_linux_arm64.tar.gz"}
