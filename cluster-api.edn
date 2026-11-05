@@ -4,6 +4,7 @@
 
 {:description "Home for Cluster API, a subproject of sig-cluster-lifecycle",
  :source {:github "kubernetes-sigs/cluster-api"}
+ :tests [["clusterctl" "--help"]]
  :bins {"clusterctl" "{asset}"}
  :platforms {"linux-x86_64" {:asset "clusterctl-linux-amd64"}
              "linux-aarch64" {:asset "clusterctl-linux-arm64"}

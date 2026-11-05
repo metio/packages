@@ -3,6 +3,7 @@
 
 {:description "The Go programming language toolchain"
  :source {:json "https://go.dev/dl/?mode=json" :version [0 :version]}
+ :tests [["go" "--help"]]
  :tag-prefix "go"
  :url "https://dl.google.com/go/{asset}"
  :checksum "{asset}.sha256"

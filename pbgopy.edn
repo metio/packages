@@ -3,6 +3,7 @@
 
 {:description "Copy and paste between devices"
  :source {:github "nakabonne/pbgopy"}
+ :tests [["pbgopy" "--help"]]
  :platforms {"linux-x86_64" {:asset "pbgopy_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "pbgopy_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "pbgopy_{version}_darwin_amd64.tar.gz"}

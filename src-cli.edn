@@ -4,6 +4,7 @@
 
 {:description "Sourcegraph CLI",
  :source {:github "sourcegraph/src-cli"}
+ :tests [["src" "--help"]]
  :tag-prefix ""
  :checksum "src-cli_{tag}_checksums.txt"
  :bins {"src" "src"}

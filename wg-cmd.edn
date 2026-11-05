@@ -3,5 +3,6 @@
 
 {:description "TUI for managing WireGuard configuration files"
  :source {:github "AndrianBdn/wg-cmd"}
+ :tests [["wg-cmd" "--help"]]
  :platforms {"linux-x86_64" {:asset "wg-cmd-linux-amd64"}
              "linux-aarch64" {:asset "wg-cmd-linux-arm64"}}}

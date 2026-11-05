@@ -3,5 +3,6 @@
 
 {:description "Inspektor Gadget: eBPF-based inspection of Linux hosts and containers"
  :source {:github "inspektor-gadget/inspektor-gadget"}
+ :tests [["ig" "--help"]]
  :platforms {"linux-x86_64" {:asset "ig-linux-amd64-v{version}.tar.gz"}
              "linux-aarch64" {:asset "ig-linux-arm64-v{version}.tar.gz"}}}

@@ -4,6 +4,7 @@
 
 {:description "lambroll is a minimal deployment tool for AWS Lambda",
  :source {:github "fujiwara/lambroll"}
+ :tests [["lambroll" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "lambroll_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "lambroll_{tag}_linux_arm64.tar.gz"}

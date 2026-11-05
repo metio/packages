@@ -3,6 +3,7 @@
 
 {:description "copy pasting in terminal with vimium/vimperator like hints."
  :source {:github "Morantron/tmux-fingers"}
+ :tests [["tmux-fingers" "--help"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "tmux-fingers-{version}-linux-x86_64"}
              "darwin-aarch64" {:asset "tmux-fingers-{version}-macos-arm64"}}}

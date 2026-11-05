@@ -3,6 +3,7 @@
 
 {:description "A helm plugin that unit tests the templates of a chart, found by helm through HELM_PLUGINS in a project that uses it"
  :source {:github "helm-unittest/helm-unittest"}
+ :tests [["helm-unittest" "--help"]]
  :layout :tree
  :bins {}
  :env {"HELM_PLUGINS" "{install-dirs}"}

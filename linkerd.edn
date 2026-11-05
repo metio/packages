@@ -3,6 +3,7 @@
 
 {:description "CLI of the Linkerd service mesh for Kubernetes, edge releases"
  :source {:github "linkerd/linkerd2"}
+ :tests [["linkerd" "--help"]]
  :tag-prefix "edge-"
  :platforms {"linux-x86_64" {:asset "linkerd2-cli-edge-{version}-linux-amd64"}
              "linux-aarch64" {:asset "linkerd2-cli-edge-{version}-linux-arm64"}

@@ -4,6 +4,7 @@
 
 {:description "bootstrap K3s over SSH in < 60s",
  :source {:github "alexellis/k3sup"}
+ :tests [["k3sup" "--help"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "k3sup"}

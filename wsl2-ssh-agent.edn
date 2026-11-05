@@ -4,6 +4,7 @@
 
 {:description "A bridge from WSL2 ssh client to Windows ssh-agent.exe service",
  :source {:github "mame/wsl2-ssh-agent"}
+ :tests [["wsl2-ssh-agent" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "wsl2-ssh-agent"}
              "linux-aarch64" {:asset "wsl2-ssh-agent-arm64"}}}

@@ -3,6 +3,7 @@
 
 {:description "The SPDX license list in every format the SPDX project publishes; SPDX_LICENSE_LIST_DATA points at the directory holding json/licenses.json"
  :source {:github "spdx/license-list-data"}
+ :tests [["spdx-license-list-data" "--help"]]
  :url "https://github.com/spdx/license-list-data/archive/refs/tags/{tag}.tar.gz"
  :asset "license-list-data-{version}.tar.gz"
  :verify false

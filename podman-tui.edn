@@ -3,6 +3,7 @@
 
 {:description "Terminal user interface for Podman"
  :source {:github "containers/podman-tui"}
+ :tests [["podman-tui" "--help"]]
  :checksum "sha256sum"
  :strip 1
  :platforms {"linux-x86_64" {:asset "podman-tui-release-linux_amd64.zip"}

@@ -4,6 +4,7 @@
 
 {:description "A simple CLI that provides an overview of the resource requests, limits, and utilization in a Kubernetes cluster",
  :source {:github "robscott/kube-capacity"}
+ :tests [["kube-capacity" "--help"]]
  :checksum "checksums.txt"
  :bins {"kube-capacity" "kube-capacity", "kubectl-resource_capacity" "kube-capacity"}
  :platforms {"linux-x86_64" {:asset "kube-capacity_{tag}_linux_x86_64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "From git log to SemVer in no time",
  :source {:github "GitTools/GitVersion"}
+ :tests [["gitversion" "--help"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "gitversion-linux-x64-{tag}.tar.gz"}
              "linux-aarch64" {:asset "gitversion-linux-arm64-{tag}.tar.gz"}

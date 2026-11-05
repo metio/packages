@@ -3,5 +3,6 @@
 
 {:description "Datadog's QA manager for releases of GitHub repositories"
  :source {:github "DataDog/ddqa"}
+ :tests [["ddqa" "--help"]]
  :bins {"ddqa" "ddqa-{version}-x86_64-unknown-linux-musl"}
  :platforms {"linux-x86_64" {:asset "ddqa-{version}-x86_64-unknown-linux-musl.tar.gz"}}}

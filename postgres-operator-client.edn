@@ -4,6 +4,7 @@
 
 {:description "the Command Line Interface (CLI) for the Crunchy Postgres Operator",
  :source {:github "CrunchyData/postgres-operator-client"}
+ :tests [["kubectl-pgo" "--help"]]
  :bins {"kubectl-pgo" "{asset}"}
  :platforms {"linux-x86_64" {:asset "kubectl-pgo-linux-amd64"}
              "linux-aarch64" {:asset "kubectl-pgo-linux-arm64"}

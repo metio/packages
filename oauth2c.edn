@@ -4,6 +4,7 @@
 
 {:description "User-friendly OAuth2 CLI",
  :source {:github "SecureAuthCorp/oauth2c"}
+ :tests [["oauth2c" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "oauth2c_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "oauth2c_{version}_Linux_arm64.tar.gz"}

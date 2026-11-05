@@ -4,6 +4,7 @@
 
 {:description "ECS Task Assistant tool",
  :source {:github "fujiwara/ecsta"}
+ :tests [["ecsta" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "ecsta_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "ecsta_{version}_linux_arm64.tar.gz"}

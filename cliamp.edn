@@ -3,6 +3,7 @@
 
 {:description "cliamp - Terminal music player inspired by winamp"
  :source {:github "bjarneo/cliamp"}
+ :tests [["cliamp" "--help"]]
  :platforms {"linux-x86_64" {:asset "cliamp-linux-amd64"}
              "linux-aarch64" {:asset "cliamp-linux-arm64"}
              "darwin-x86_64" {:asset "cliamp-darwin-amd64"}

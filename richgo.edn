@@ -4,6 +4,7 @@
 
 {:description "Enrich `go test` outputs with text decorations",
  :source {:github "kyoh86/richgo"}
+ :tests [["richgo" "--help"]]
  :checksum "richgo_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "richgo_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "richgo_{version}_linux_arm64.tar.gz"}

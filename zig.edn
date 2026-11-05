@@ -3,6 +3,7 @@
 
 {:description "The Zig programming language and its C and C++ compiler"
  :source {:text "https://ziglang.org/download/index.json" :match "\"(\\d+\\.\\d+\\.\\d+)\":\\s*\\{"}
+ :tests [["zig" "--help"]]
  :tag-prefix ""
  :url "https://ziglang.org/download/{version}/{asset}"
  :strip 1

@@ -3,6 +3,7 @@
 
 {:description "A feature-rich TUI client for Discord"
  :source {:github "chojs23/concord"}
+ :tests [["concord" "--help"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "concord-x86_64-unknown-linux-gnu.tar.xz"}
              "linux-aarch64" {:asset "concord-aarch64-unknown-linux-gnu.tar.xz"}

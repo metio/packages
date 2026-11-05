@@ -3,6 +3,7 @@
 
 {:description "Declarative installs of prebuilt binaries"
  :source {:github "metio/breto"}
+ :tests [["breto" "--help"]]
  :tag-prefix ""
  :checksum "breto_{version}_SHA256SUMS"
  :bins {"breto" "{asset}"}

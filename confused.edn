@@ -4,6 +4,7 @@
 
 {:description "Tool to check for dependency confusion vulnerabilities in multiple package management systems",
  :source {:github "visma-prodsec/confused"}
+ :tests [["confused" "--help"]]
  :checksum "confused_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "confused_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "confused_{version}_linux_arm64.tar.gz"}

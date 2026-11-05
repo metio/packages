@@ -4,6 +4,7 @@
 
 {:description "tbls-ask is an external subcommand of tbls for asking LLM of the datasource",
  :source {:github "k1LoW/tbls-ask"}
+ :tests [["tbls-ask" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tbls-ask_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tbls-ask_{tag}_linux_arm64.tar.gz"}

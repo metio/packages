@@ -4,6 +4,7 @@
 
 {:description "Store files and directory in an archive. Like tar, but faster and with direct random access",
  :source {:github "jubako/arx"}
+ :tests [["arx" "--help"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "arx-{tag}-linux.tar.gz" :bins {"arx" "arx-{tag}-linux/arx"}}

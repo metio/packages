@@ -3,6 +3,7 @@
 ;; SPDX-License-Identifier: MIT
 
 {:source {:github "mashiike/stefunny"}
+ :tests [["stefunny" "--help"]]
  :checksum "stefunny_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "stefunny_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "stefunny_{version}_linux_arm64.tar.gz"}

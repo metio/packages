@@ -4,6 +4,7 @@
 
 {:description "Go compiler for small places. Microcontrollers, WebAssembly (WASM/WASI), and command-line tools. Based on LLVM",
  :source {:github "tinygo-org/tinygo"}
+ :tests [["tinygo" "--help"]]
  :bins {"tinygo" "tinygo/bin/tinygo"}
  :platforms {"linux-x86_64" {:asset "tinygo{version}.linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "tinygo{version}.linux-arm64.tar.gz"}

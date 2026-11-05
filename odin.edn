@@ -3,6 +3,7 @@
 
 {:description "The Odin programming language, released as a monthly build"
  :source {:github "odin-lang/Odin"}
+ :tests [["odin" "--help"]]
  :tag-prefix "dev-"
  :strip 1
  :layout :tree

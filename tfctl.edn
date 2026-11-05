@@ -4,6 +4,7 @@
 
 {:description "A GitOps OpenTofu and Terraform controller for Flux",
  :source {:github "flux-iac/tofu-controller"}
+ :tests [["tfctl" "--help"]]
  :checksum "tofu-controller_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "tfctl_Linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tfctl_Linux_arm64.tar.gz"}

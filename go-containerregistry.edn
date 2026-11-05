@@ -4,6 +4,7 @@
 
 {:description "Go library and CLIs for working with container registries",
  :source {:github "google/go-containerregistry"}
+ :tests [["crane" "--help"]]
  :checksum "checksums.txt"
  :bins {"crane" "crane", "gcrane" "gcrane"}
  :platforms {"linux-x86_64" {:asset "go-containerregistry_Linux_x86_64.tar.gz"}

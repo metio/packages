@@ -4,6 +4,7 @@
 
 {:description "Run agents in containers with credential injection and full observability",
  :source {:github "majorcontext/moat"}
+ :tests [["moat" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "moat_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "moat_{version}_linux_arm64.tar.gz"}

@@ -3,5 +3,6 @@
 
 {:description "Configurable TUI clipboard manager for Unix"
  :source {:github "savedra1/clipse"}
+ :tests [["clipse" "--help"]]
  :bins {"clipse" "clipse-linux-x11-amd64"}
  :platforms {"linux-x86_64" {:asset "clipse_v{version}_linux_x11_amd64.tar.gz"}}}

@@ -4,4 +4,5 @@
 
 {:description "OpenAPI Generator allows generation of API client libraries (SDK generation), server stubs, documentation and configuration automatically given an OpenAPI Spec (v2, v3)",
  :source {:github "OpenAPITools/openapi-generator"}
+ :tests [["openapi-generator" "--help"]]
  :platforms {"linux-x86_64" {:asset "openapi-generator-cli-{version}.jar"}}}

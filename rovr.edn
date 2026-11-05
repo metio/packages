@@ -3,6 +3,7 @@
 
 {:description "a stylish, batteries-included terminal file manager."
  :source {:github "NSPC911/rovr"}
+ :tests [["rovr" "--help"]]
  :platforms {"linux-x86_64" {:asset "rovr-linux-x64-nuitka.zip"}
              "linux-aarch64" {:asset "rovr-linux-arm64-nuitka.zip"}
              "darwin-x86_64" {:asset "rovr-macos-x64-nuitka.zip"}

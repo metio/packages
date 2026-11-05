@@ -3,6 +3,7 @@
 
 {:description "ncurses Spotify client"
  :source {:github "hrkfdn/ncspot"}
+ :tests [["ncspot" "--help"]]
  :platforms {"linux-x86_64" {:asset "ncspot-v{version}-linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "ncspot-v{version}-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "ncspot-v{version}-macos-x86_64.tar.gz"}

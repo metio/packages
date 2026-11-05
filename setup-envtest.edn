@@ -4,6 +4,7 @@
 
 {:description "Repo for the controller-runtime subproject of kubebuilder (sig-apimachinery)",
  :source {:github "kubernetes-sigs/controller-runtime"}
+ :tests [["setup-envtest" "--help"]]
  :platforms {"linux-x86_64" {:asset "setup-envtest-linux-amd64"}
              "linux-aarch64" {:asset "setup-envtest-linux-arm64"}
              "darwin-x86_64" {:asset "setup-envtest-darwin-amd64"}

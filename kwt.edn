@@ -4,6 +4,7 @@
 
 {:description "Kubernetes Workstation Tools CLI",
  :source {:github "carvel-dev/kwt"}
+ :tests [["kwt" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kwt-linux-amd64"}
              "linux-aarch64" {:asset "kwt-linux-arm64"}

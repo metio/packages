@@ -4,6 +4,7 @@
 
 {:description "Automatic license scanning and reports",
  :source {:github "awslabs/yesiscan"}
+ :tests [["yesiscan" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "yesiscan_{version}_linux_amd64"}
              "linux-aarch64" {:asset "yesiscan_{version}_linux_arm64"}
