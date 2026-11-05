@@ -4,6 +4,7 @@
 
 {:description "GitHub's official MCP Server",
  :source {:github "github/github-mcp-server"}
+ :tests [{:args ["github-mcp-server" "--version"] :expect "{version}"}]
  :checksum "github-mcp-server_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "github-mcp-server_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "github-mcp-server_Linux_arm64.tar.gz"}

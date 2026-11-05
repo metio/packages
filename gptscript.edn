@@ -4,6 +4,7 @@
 
 {:description "Natural Language Programming",
  :source {:github "gptscript-ai/gptscript"}
+ :tests [{:args ["gptscript" "-v"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gptscript-{tag}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "gptscript-{tag}-linux-arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Replacement for UNIX rm command",
  :source {:github "babarot/gomi"}
+ :tests [{:args ["gomi" "--version"] :expect "{version}"}]
  :checksum "gomi_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "gomi_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "gomi_Linux_arm64.tar.gz"}

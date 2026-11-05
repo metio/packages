@@ -4,6 +4,7 @@
 
 {:description "Web File Browser",
  :source {:github "filebrowser/filebrowser"}
+ :tests [{:args ["filebrowser" "version"] :expect "{version}"}]
  :checksum "filebrowser_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "linux-amd64-filebrowser.tar.gz"}
              "linux-aarch64" {:asset "linux-arm64-filebrowser.tar.gz"}

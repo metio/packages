@@ -4,6 +4,7 @@
 
 {:description "Habit tracking for geeks. A minimalist, command line tool for tracking and understanding your habits",
  :source {:github "wakatara/harsh"}
+ :tests [{:args ["harsh" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "harsh_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "harsh_Linux_arm64.tar.gz"}

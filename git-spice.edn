@@ -4,6 +4,7 @@
 
 {:description "Manage stacked Git branches",
  :source {:github "abhinav/git-spice"}
+ :tests [{:args ["git-spice" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "git-spice.Linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "git-spice.Linux-aarch64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "A super fast CLI tool to decode and encode JWTs built in Rust",
  :source {:github "mike-engel/jwt-cli"}
+ :tests [{:args ["jwt" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :bins {"jwt" "jwt"}
  :platforms {"linux-x86_64" {:asset "jwt-linux-musl.tar.gz" :checksum "jwt-linux-musl.sha256"}

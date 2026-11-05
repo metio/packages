@@ -4,6 +4,7 @@
 
 {:description "An actively maintained, feature-rich and performance oriented, neofetch like system information tool",
  :source {:github "fastfetch-cli/fastfetch"}
+ :tests [["fastfetch" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "fastfetch-linux-amd64.tar.gz" :bins {"fastfetch" "fastfetch-linux-amd64/usr/bin/fastfetch"}}
              "linux-aarch64" {:asset "fastfetch-linux-aarch64.tar.gz" :bins {"fastfetch" "fastfetch-linux-aarch64/usr/bin/fastfetch"}}

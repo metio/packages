@@ -4,6 +4,7 @@
 
 {:description "Generate directory trees and the directories itself using Markdown or Programmatically. Provide CLI, Golang library and Web (using WebAssembly)",
  :source {:github "ddddddO/gtree"}
+ :tests [{:args ["gtree" "version"] :expect "{version}"}]
  :checksum "gtree_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "gtree_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "gtree_Linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "the runtime your coding agents live on",
  :source {:github "herdrdev/herdr"}
+ :tests [{:args ["herdr" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "herdr-linux-x86_64"}
              "linux-aarch64" {:asset "herdr-linux-aarch64"}
              "darwin-x86_64" {:asset "herdr-macos-x86_64"}

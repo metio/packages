@@ -3,6 +3,7 @@
 
 {:description "A post-modern modal text editor",
  :source {:github "helix-editor/helix"}
+ :tests [["hx" "--help"]]
  :tag-prefix ""
  :strip 1
  :layout :tree

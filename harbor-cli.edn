@@ -4,6 +4,7 @@
 
 {:description "[Sandbox] Official Harbor CLI",
  :source {:github "goharbor/harbor-cli"}
+ :tests [{:args ["harbor" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"harbor" "harbor-cli"}
  :platforms {"linux-x86_64" {:asset "harbor-cli_{version}_linux_amd64.tar.gz"}

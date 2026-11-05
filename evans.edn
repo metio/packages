@@ -4,6 +4,7 @@
 
 {:description "Evans: more expressive universal gRPC client",
  :source {:github "ktr0731/evans"}
+ :tests [{:args ["evans" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "evans_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "evans_linux_arm64.tar.gz"}

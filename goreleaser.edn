@@ -4,6 +4,7 @@
 
 {:description "Deliver Go binaries as fast and easily as possible",
  :source {:github "goreleaser/goreleaser"}
+ :tests [{:args ["goreleaser" "-v"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "goreleaser_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "goreleaser_Linux_arm64.tar.gz"}

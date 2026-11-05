@@ -4,6 +4,7 @@
 
 {:description "JSON diff and patch",
  :source {:github "josephburnett/jd"}
+ :tests [{:args ["jd" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "jd-amd64-linux"}
              "linux-aarch64" {:asset "jd-arm64-linux"}
              "darwin-x86_64" {:asset "jd-amd64-darwin"}

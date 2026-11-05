@@ -4,6 +4,7 @@
 
 {:description "Keyless Git signing using Sigstore",
  :source {:github "sigstore/gitsign"}
+ :tests [{:args ["gitsign" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gitsign_{version}_linux_amd64"}
              "linux-aarch64" {:asset "gitsign_{version}_linux_arm64"}

@@ -4,6 +4,7 @@
 
 {:description "Google Suite CLI: Gmail, GCal, GDrive, GContacts",
  :source {:github "openclaw/gogcli"}
+ :tests [{:args ["gog" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"gog" "gog"}
  :platforms {"linux-x86_64" {:asset "gogcli_{version}_linux_amd64.tar.gz"}

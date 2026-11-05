@@ -4,6 +4,7 @@
 
 {:description "The easiest way to access your cloud",
  :source {:github "fwdcloudsec/granted"}
+ :tests [{:args ["granted" "--version"] :expect "{version}"} {:args ["assume" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"assume" "assume", "assumego" "assumego", "granted" "granted"}
  :platforms {"linux-x86_64" {:asset "granted_{version}_linux_x86_64.tar.gz"}

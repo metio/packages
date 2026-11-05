@@ -4,6 +4,7 @@
 
 {:description "gup - Update binaries installed by \"go install\" with goroutines",
  :source {:github "nao1215/gup"}
+ :tests [{:args ["gup" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gup_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "gup_{version}_linux_arm64.tar.gz"}

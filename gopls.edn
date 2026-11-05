@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "The Go language server"
+ :tests [{:args ["gopls" "version"] :expect "{version}"}]
  :source {:go "golang.org/x/tools/gopls"}}

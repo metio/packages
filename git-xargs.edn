@@ -4,6 +4,7 @@
 
 {:description "git-xargs is a command-line tool (CLI) for making updates across multiple Github repositories with a single command",
  :source {:github "gruntwork-io/git-xargs"}
+ :tests [{:args ["git-xargs" "--version"] :expect "{version}"}]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "git-xargs_linux_amd64"}
              "linux-aarch64" {:asset "git-xargs_linux_arm64"}
