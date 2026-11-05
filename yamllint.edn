@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "A linter for YAML files"
+ :tests [["yamllint" "--version"]]
  :source {:pypi "yamllint"}}

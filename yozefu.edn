@@ -3,5 +3,6 @@
 
 {:description "An interactive terminal user interface (TUI) application for exploring data of a kafka cluster."
  :source {:github "MAIF/yozefu"}
+ :tests [["yozf" "--version"]]
  :bins {"yozf" "yozf-x86_64-unknown-linux-gnu-{version}"}
  :platforms {"linux-x86_64" {:asset "yozefu-x86_64-unknown-linux-gnu.tar.gz"}}}

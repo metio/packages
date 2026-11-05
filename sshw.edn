@@ -4,6 +4,7 @@
 
 {:description "ssh client wrapper for automatic login",
  :source {:github "yinheli/sshw"}
+ :tests [["sshw" "--version"]]
  :checksum "sshw_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "sshw_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "sshw_{tag}_linux_arm64.tar.gz"}

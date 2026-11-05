@@ -3,6 +3,7 @@
 
 {:description "Command line client for Talos Linux clusters"
  :source {:github "siderolabs/talos"}
+ :tests [["talosctl" "--help"]]
  :checksum "sha256sum.txt"
  :bins {"talosctl" "{asset}"}
  :signature {:bundle "{asset}.bundle"

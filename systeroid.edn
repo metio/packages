@@ -3,6 +3,7 @@
 
 {:description "A more powerful alternative to sysctl(8) with a terminal user interface"
  :source {:github "orhun/systeroid"}
+ :tests [["systeroid" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "systeroid-{version}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "systeroid-{version}-aarch64-unknown-linux-musl.tar.gz"}}}

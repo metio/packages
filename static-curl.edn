@@ -4,6 +4,7 @@
 
 {:description "static builds cURL with HTTP3",
  :source {:github "stunnel/static-curl"}
+ :tests [["curl" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "curl-linux-x86_64-dev-{tag}.tar.xz" :bins {"curl" "curl-x86_64/bin/curl", "curl-config" "curl-x86_64/bin/curl-config"}}
              "linux-aarch64" {:asset "curl-linux-aarch64-dev-{tag}.tar.xz" :bins {"curl" "curl-aarch64/bin/curl" "curl-config" "curl-aarch64/bin/curl-config"}}

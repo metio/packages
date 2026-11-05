@@ -4,6 +4,7 @@
 
 {:description "Flexible, reusable and concise configuration for Kubernetes",
  :source {:github "grafana/tanka"}
+ :tests [["tk" "--version"]]
  :bins {"tk" "{asset}"}
  :platforms {"linux-x86_64" {:asset "tk-linux-amd64"}
              "linux-aarch64" {:asset "tk-linux-arm64"}

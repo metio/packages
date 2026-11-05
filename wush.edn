@@ -3,6 +3,7 @@
 
 {:description "Transfers files and opens shells between computers over WireGuard"
  :source {:github "coder/wush"}
+ :tests [["wush" "--version"]]
  :checksum "wush_{version}_SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "wush_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "wush_{version}_linux_arm64.tar.gz"}

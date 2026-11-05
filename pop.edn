@@ -3,6 +3,7 @@
 
 {:description "Sends emails from the terminal"
  :source {:github "charmbracelet/pop"}
+ :tests [["pop" "--version"]]
  :checksum "checksums.txt"
  :strip 1
  :man ["manpages/pop.1.gz"]

@@ -4,6 +4,7 @@
 
 {:description "Create, share, and run runbooks from your terminal",
  :source {:github "getsavvyinc/savvy-cli"}
+ :tests [["savvy" "--help"]]
  :tag-prefix ""
  :checksum "savvy_{tag}_checksums.txt"
  :bins {"savvy" "{asset}"}

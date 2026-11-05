@@ -4,6 +4,7 @@
 
 {:description "Concurrent traceroute built on trippy that publishes routes",
  :source {:github "Alice39s/xmtr"}
+ :tests [["xmtr" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "xmtr-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "xmtr-aarch64-unknown-linux-musl.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Build APIs your users love  with Speakeasy.  Polished and type-safe SDKs.  Terraform providers and Contract Tests for your API. OpenAPI native",
  :source {:github "speakeasy-api/speakeasy"}
+ :tests [["speakeasy" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "speakeasy_linux_amd64.zip"}
              "linux-aarch64" {:asset "speakeasy_linux_arm64.zip"}

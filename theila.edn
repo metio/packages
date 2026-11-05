@@ -4,6 +4,7 @@
 
 {:description "Theila is the UI for all things Sidero Labs",
  :source {:github "siderolabs/theila"}
+ :tests [["theila" "--help"]]
  :checksum "sha256sum.txt"
  :platforms {"linux-x86_64" {:asset "theila-linux-amd64"}
              "linux-aarch64" {:asset "theila-linux-arm64"}

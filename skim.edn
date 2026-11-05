@@ -3,6 +3,7 @@
 
 {:description "Fuzzy Finder in rust",
  :source {:github "skim-rs/skim"},
+ :tests [["sk" "--version"]]
  :checksum "{asset}.sha256",
  :strip 1,
  :bins {"sk" "sk"},

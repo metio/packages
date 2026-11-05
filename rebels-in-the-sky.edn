@@ -3,6 +3,7 @@
 
 {:description "P2P terminal game about spacepirates playing basketball across the galaxy"
  :source {:github "ricott1/rebels-in-the-sky"}
+ :tests [["rebels" "--version"]]
  :strip 1
  :bins {"rebels" "rebels"}
  :platforms {"linux-x86_64" {:asset "rebels-v{version}-x86_64-unknown-linux-gnu.tar.gz"}

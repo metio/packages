@@ -3,6 +3,7 @@
 
 {:description "Zeit, erfassen. A command line tool for tracking time. (https://tty.fail/mrus/zeit)"
  :source {:github "mrusme/zeit"}
+ :tests [["zeit" "--version"]]
  :platforms {"linux-x86_64" {:asset "zeit_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "zeit_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "zeit_{version}_darwin_amd64.tar.gz"}

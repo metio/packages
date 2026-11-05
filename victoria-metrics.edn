@@ -3,6 +3,7 @@
 
 {:description "Single-node VictoriaMetrics time series database"
  :source {:github "VictoriaMetrics/VictoriaMetrics"}
+ :tests [["victoria-metrics" "--version"]]
  :bins {"victoria-metrics" "victoria-metrics-prod"}
  :platforms {"linux-x86_64" {:asset "victoria-metrics-linux-amd64-v{version}.tar.gz"
                              :checksum "victoria-metrics-linux-amd64-v{version}_checksums.txt"}

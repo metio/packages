@@ -3,6 +3,7 @@
 
 {:description "Terminal-based markdown note manager."
  :source {:github "Linus-Mussmaecher/rucola"}
+ :tests [["rucola" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "rucola-notes-x86_64-unknown-linux-gnu.tar.xz"}
              "darwin-x86_64" {:asset "rucola-notes-x86_64-apple-darwin.tar.xz"}}}

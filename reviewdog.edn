@@ -4,6 +4,7 @@
 
 {:description "Automated code review tool integrated with any code analysis tools regardless of programming language",
  :source {:github "reviewdog/reviewdog"}
+ :tests [["reviewdog" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "reviewdog_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "reviewdog_{version}_Linux_arm64.tar.gz"}

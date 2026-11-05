@@ -3,6 +3,7 @@
 
 {:description "sleek typing tui with visualized results and historical logging"
  :source {:github "jrnxf/thokr"}
+ :tests [["thokr" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "thokr-{version}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "thokr-{version}-aarch64-unknown-linux-musl.tar.gz"}

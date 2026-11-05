@@ -4,6 +4,7 @@
 
 {:description "A terminal UI for tshark, inspired by Wireshark",
  :source {:github "gcla/termshark"}
+ :tests [["termshark" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "termshark_{version}_linux_x64.tar.gz" :bins {"termshark" "termshark_{version}_linux_x64/termshark"}}
              "linux-aarch64" {:asset "termshark_{version}_linux_arm64.tar.gz" :bins {"termshark" "termshark_{version}_linux_arm64/termshark"}}

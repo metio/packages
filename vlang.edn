@@ -3,6 +3,7 @@
 
 {:description "The V programming language"
  :source {:github "vlang/v"}
+ :tests [["v" "--version"]]
  :tag-prefix ""
  :strip 1
  :layout :tree

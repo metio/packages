@@ -3,5 +3,6 @@
 
 {:description "Crontab-compatible job runner for containers"
  :source {:github "aptible/supercronic"}
+ :tests [["supercronic" "--version"]]
  :platforms {"linux-x86_64" {:asset "supercronic-linux-amd64"}
              "linux-aarch64" {:asset "supercronic-linux-arm64"}}}

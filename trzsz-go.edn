@@ -4,6 +4,7 @@
 
 {:description "trzsz-go is the go version of trzsz, makes all terminals that support local shell to support trzsz ( trz / tsz )",
  :source {:github "trzsz/trzsz-go"}
+ :tests [["trz" "--version"]]
  :checksum "trzsz_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "trzsz_{version}_linux_x86_64.tar.gz" :bins {"trz" "trzsz_{version}_linux_x86_64/trz", "trzsz" "trzsz_{version}_linux_x86_64/trzsz", "tsz" "trzsz_{version}_linux_x86_64/tsz"}}
              "linux-aarch64" {:asset "trzsz_{version}_linux_aarch64.tar.gz" :bins {"trz" "trzsz_{version}_linux_aarch64/trz" "trzsz" "trzsz_{version}_linux_aarch64/trzsz" "tsz" "trzsz_{version}_linux_aarch64/tsz"}}

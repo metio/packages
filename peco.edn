@@ -4,6 +4,7 @@
 
 {:description "Simplistic interactive filtering tool",
  :source {:github "peco/peco"}
+ :tests [["peco" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "peco_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "peco_{version}_linux_arm64.tar.gz"}

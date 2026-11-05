@@ -4,6 +4,7 @@
 
 {:description "Visual Diff Viewer",
  :source {:github "orangekame3/viff"}
+ :tests [["viff" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "viff_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "viff_Linux_arm64.tar.gz"}

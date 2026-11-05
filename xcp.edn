@@ -3,6 +3,7 @@
 
 {:description "An extended cp with progress bars and parallel copies"
  :source {:github "tarka/xcp"}
+ :tests [["xcp" "--version"]]
  :tag-prefix "xcp-v"
  :strip 1
  :bins {"xcp" "bin/xcp"}

@@ -4,6 +4,7 @@
 
 {:description "Nightly builds for youtube-dl",
  :source {:github "ytdl-org/ytdl-nightly"}
+ :tests [["youtube-dl" "--version"]]
  :tag-prefix ""
  :bins {"youtube-dl" "youtube-dl/youtube-dl"}
  :platforms {"linux-x86_64" {:asset "youtube-dl-{tag}.tar.gz"}}}

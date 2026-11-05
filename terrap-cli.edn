@@ -4,6 +4,7 @@
 
 {:description "Terrap - a powerful CLI tool that scans your infrastructure and identifies any required changes",
  :source {:github "sirrend/terrap-cli"}
+ :tests [["terrap" "--help"]]
  :checksum "checksums.txt"
  :bins {"terrap" "terrap"}
  :platforms {"linux-x86_64" {:asset "terrap-cli_{version}_linux_amd64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "A Beautiful YouTube Downloader/Player TUI"
  :source {:github "xdagiz/xytz"}
+ :tests [["xytz" "--version"]]
  :platforms {"linux-x86_64" {:asset "xytz-v{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "xytz-v{version}-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "xytz-v{version}-darwin-amd64.tar.gz"}

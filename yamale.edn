@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "A schema and validator for YAML"
+ :tests [["yamale" "--version"]]
  :source {:pypi "yamale"}}

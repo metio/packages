@@ -3,6 +3,7 @@
 
 {:description "Making Docker and Kubernetes management easy."
  :source {:github "portainer/portainer"}
+ :tests [["portainer" "--version"]]
  :tag-prefix ""
  :strip 1
  :platforms {"linux-x86_64" {:asset "portainer-{version}-linux-amd64.tar.gz"}

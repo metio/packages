@@ -3,6 +3,7 @@
 
 {:description "Command-line interface for Vultr services"
  :source {:github "vultr/vultr-cli"}
+ :tests [["vultr-cli" "--help"]]
  :checksum "vultr-cli_v{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "vultr-cli_v{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "vultr-cli_v{version}_linux_arm64.tar.gz"}

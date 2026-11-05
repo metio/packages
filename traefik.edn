@@ -3,6 +3,7 @@
 
 {:description "Cloud-native reverse proxy and load balancer"
  :source {:github "traefik/traefik"}
+ :tests [["traefik" "--help"]]
  :checksum "traefik_v{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "traefik_v{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "traefik_v{version}_linux_arm64.tar.gz"}

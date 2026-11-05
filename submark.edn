@@ -4,6 +4,7 @@
 
 {:description "Extract a part from CommonMark/Markdown docs",
  :source {:github "dahlia/submark"}
+ :tests [["submark" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "submark-linux-x86_64"}
              "linux-aarch64" {:asset "submark-linux-aarch64"}

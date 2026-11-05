@@ -3,6 +3,7 @@
 
 {:description "An extremely fast Python package installer and resolver, written in Rust",
  :source {:github "astral-sh/uv"},
+ :tests [["uv" "--version"]]
  :tag-prefix "",
  :strip 1,
  :bins {"uv" "uv", "uvx" "uvx"}

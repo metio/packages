@@ -3,6 +3,7 @@
 
 {:description "tmux session manager with fzf-powered project and template selection"
  :source {:github "Aietes/smux"}
+ :tests [["smux" "--version"]]
  :checksum "SHA256SUMS"
  :strip 1
  :completions {:bash {:args ["completions" "bash"]}}

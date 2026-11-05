@@ -4,6 +4,7 @@
 
 {:description "OpenTofu Language Server",
  :source {:github "opentofu/tofu-ls"}
+ :tests [["tofu-ls" "--version"]]
  :checksum "tofu-ls_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "tofu-ls_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "tofu-ls_Linux_arm64.tar.gz"}

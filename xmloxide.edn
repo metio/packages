@@ -4,6 +4,7 @@
 
 {:description "A pure Rust reimplementation of libxml2",
  :source {:github "jonwiggins/xmloxide"}
+ :tests [["xmllint" "--version"]]
  :checksum "SHA256SUMS"
  :bins {"xmllint" "{asset}"}
  :platforms {"linux-x86_64" {:asset "xmllint_linux-x86-64"}
