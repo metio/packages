@@ -4,6 +4,7 @@
 
 {:description "Command-line Git information tool",
  :source {:github "o2sh/onefetch"}
+ :tests [["onefetch" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "onefetch-linux.tar.gz"}
              "darwin-x86_64" {:asset "onefetch-mac.tar.gz"}

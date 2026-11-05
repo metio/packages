@@ -4,6 +4,7 @@
 
 {:description "Command line utility to send messages with attachments to Slack channels via Incoming Webhooks",
  :source {:github "cloudposse/slack-notifier"}
+ :tests [["slack-notifier" "--version"]]
  :tag-prefix ""
  :checksum "slack-notifier_{tag}_SHA256SUMS"
  :bins {"slack-notifier" "slack-notifier_v{tag}"}

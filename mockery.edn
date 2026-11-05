@@ -4,6 +4,7 @@
 
 {:description "A mock code autogenerator for Go",
  :source {:github "vektra/mockery"}
+ :tests [["mockery" "--version"]]
  :checksum "checksum.txt"
  :platforms {"linux-x86_64" {:asset "mockery_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "mockery_{version}_Linux_arm64.tar.gz"}

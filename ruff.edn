@@ -4,6 +4,7 @@
 
 {:description "An extremely fast Python linter and code formatter, written in Rust",
  :source {:github "astral-sh/ruff"}
+ :tests [["ruff" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "ruff-x86_64-unknown-linux-musl.tar.gz" :bins {"ruff" "ruff-x86_64-unknown-linux-musl/ruff"}}

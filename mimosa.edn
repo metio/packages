@@ -4,6 +4,7 @@
 
 {:description "Zero-config docker image promotion",
  :source {:github "hytromo/mimosa"}
+ :tests [["mimosa" "--version"]]
  :checksum "mimosa_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "mimosa_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "mimosa_{version}_linux_arm64.tar.gz"}

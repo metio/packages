@@ -4,6 +4,7 @@
 
 {:description "Customizable Boilerplate Project Creator",
  :source {:github "denizgursoy/gotouch"}
+ :tests [["gotouch" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gotouch_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "gotouch_{version}_Linux_arm64.tar.gz"}

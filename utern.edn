@@ -4,6 +4,7 @@
 
 {:description "Multi group and stream log tailing for AWS CloudWatch Logs",
  :source {:github "knqyf263/utern"}
+ :tests [["utern" "--version"]]
  :checksum "utern_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "utern_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "utern_{version}_linux_arm64.zip"}

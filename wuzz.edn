@@ -4,5 +4,6 @@
 
 {:description "Interactive cli tool for HTTP inspection",
  :source {:github "asciimoo/wuzz"}
+ :tests [["wuzz" "--version"]]
  :platforms {"linux-x86_64" {:asset "wuzz_linux_amd64"}
              "darwin-x86_64" {:asset "wuzz_darwin_amd64"}}}

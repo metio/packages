@@ -4,6 +4,7 @@
 
 {:description "Interactive coding agent CLI",
  :source {:github "earendil-works/pi"}
+ :tests [["pi" "--version"]]
  :bins {"pi" "pi/pi"}
  :platforms {"linux-x86_64" {:asset "pi-linux-x64.tar.gz"}
              "linux-aarch64" {:asset "pi-linux-arm64.tar.gz"}

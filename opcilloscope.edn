@@ -3,6 +3,7 @@
 
 {:description "Browse and monitor OPC UA servers from your terminal. Lightweight, cross-platform, keyboard and mouse friendly."
  :source {:github "SquareWaveSystems/opcilloscope"}
+ :tests [["opcilloscope" "--version"]]
  :platforms {"linux-x86_64" {:asset "opcilloscope-linux-x64.tar.gz"}
              "linux-aarch64" {:asset "opcilloscope-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "opcilloscope-osx-x64.tar.gz"}

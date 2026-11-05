@@ -4,6 +4,7 @@
 
 {:description "Required tags validation on terraform resources",
  :source {:github "terratags/terratags"}
+ :tests [["terratags" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "terratags_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "terratags_Linux_arm64.tar.gz"}

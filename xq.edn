@@ -3,6 +3,7 @@
 
 {:description "Command-line XML and HTML beautifier and content extractor"
  :source {:github "sibprogrammer/xq"}
+ :tests [["xq" "--version"]]
  :platforms {"linux-x86_64" {:asset "xq_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "xq_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "xq_{version}_darwin_amd64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Lightweight Ruby",
  :source {:github "IxDay/mruby"}
+ :tests [["mrake" "--version"]]
  :tag-prefix ""
  :bins {"mrake" "mrake", "mruby" "mruby"}
  :platforms {"linux-x86_64" {:asset "mruby-linux-x86_64.zip"}

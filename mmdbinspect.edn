@@ -3,6 +3,7 @@
 
 {:description "Looks up IPs and networks in MaxMind DB files"
  :source {:github "maxmind/mmdbinspect"}
+ :tests [["mmdbinspect" "--version"]]
  :checksum "checksums.txt"
  :strip 1
  :platforms {"linux-x86_64" {:asset "mmdbinspect_{version}_linux_amd64.tar.gz"}

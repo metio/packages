@@ -4,6 +4,7 @@
 
 {:description "Cross-platform, unofficial CLI for Cloudflare Warp",
  :source {:github "ViRb3/wgcf"}
+ :tests [["wgcf" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "wgcf_{version}_linux_amd64"}
              "linux-aarch64" {:asset "wgcf_{version}_linux_arm64"}

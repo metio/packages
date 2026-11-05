@@ -4,6 +4,7 @@
 
 {:description "Share your terminal over the web",
  :source {:github "tsl0922/ttyd"}
+ :tests [["ttyd" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "ttyd.x86_64"}
              "linux-aarch64" {:asset "ttyd.aarch64"}}}

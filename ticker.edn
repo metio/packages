@@ -3,6 +3,7 @@
 
 {:description "Track stocks, crypto, and derivatives prices and positions in real time from your terminal"
  :source {:github "achannarasappa/ticker"}
+ :tests [["ticker" "--version"]]
  :platforms {"linux-x86_64" {:asset "ticker-{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "ticker-{version}-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "ticker-{version}-mac-amd64.tar.gz"}

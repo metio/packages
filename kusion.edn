@@ -4,6 +4,7 @@
 
 {:description "Deliver intentions to Kubernetes and Clouds",
  :source {:github "KusionStack/kusion"}
+ :tests [["kusion" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kusion_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "kusion_{version}_darwin_amd64.tar.gz"}

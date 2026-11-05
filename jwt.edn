@@ -4,6 +4,7 @@
 
 {:description "jwt cli",
  :source {:github "pete911/jwt"}
+ :tests [["jwt" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "jwt_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "jwt_{version}_linux_arm64.tar.gz"}

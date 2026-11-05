@@ -3,6 +3,7 @@
 
 {:description "Command line client and server for HashiCorp Vault, which manages secrets"
  :source {:json "https://checkpoint-api.hashicorp.com/v1/check/vault" :version [:current_version]}
+ :tests [["vault" "--version"]]
  :tag-prefix ""
  :url "https://releases.hashicorp.com/vault/{version}/{asset}"
  :checksum "vault_{version}_SHA256SUMS"

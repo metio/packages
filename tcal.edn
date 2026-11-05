@@ -3,6 +3,7 @@
 
 {:description "Edit and merge iCalendars as ergonomic TOML.",
  :source {:github "pimalaya/tcal"}
+ :tests [["tcal" "--version"]]
  :man ["share/man/*.1.gz"],
  :completions {:bash "share/completions/tcal.bash",
                :zsh "share/completions/_tcal",

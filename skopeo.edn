@@ -3,5 +3,6 @@
 
 {:description "Inspects and copies container images between registries"
  :source {:go "go.podman.io/skopeo"
+ :tests [["skopeo" "--version"]]
           :package "go.podman.io/skopeo/cmd/skopeo"
           :tags ["containers_image_openpgp"]}}

@@ -4,6 +4,7 @@
 
 {:description "Lazygit but for Jira",
  :source {:github "textfuel/lazyjira"}
+ :tests [["lazyjira" "--version"]]
  :checksum "lazyjira_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "lazyjira_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "lazyjira_linux_arm64.tar.gz"}

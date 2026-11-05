@@ -4,6 +4,7 @@
 
 {:description "r2sync is a command-line tool for synchronizing files between a local directory and Cloudflare R2",
  :source {:github "Songmu/r2sync"}
+ :tests [["r2sync" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "r2sync_{tag}_linux_amd64.tar.gz" :bins {"r2sync" "r2sync_{tag}_linux_amd64/r2sync"}}
              "linux-aarch64" {:asset "r2sync_{tag}_linux_arm64.tar.gz" :bins {"r2sync" "r2sync_{tag}_linux_arm64/r2sync"}}

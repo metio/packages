@@ -3,6 +3,7 @@
 
 {:description "A CLI tool for managing and executing SQL queries across multiple databases. Written in Go, made beautiful with BubbleTea"
  :source {:github "eduardofuncao/squix"}
+ :tests [["squix" "--version"]]
  :platforms {"linux-x86_64" {:asset "squix-linux-amd64"}
              "linux-aarch64" {:asset "squix-linux-arm64"}
              "darwin-x86_64" {:asset "squix-darwin-amd64"}

@@ -4,4 +4,5 @@
 
 {:description "tcpterm is a packet visualizer in TUI",
  :source {:github "sachaos/tcpterm"}
+ :tests [["tcpterm" "--version"]]
  :platforms {"linux-x86_64" {:asset "tcpterm_linux_amd64"}}}

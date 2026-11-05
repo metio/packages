@@ -3,6 +3,7 @@
 
 {:description "⬛ GUI/CLI tool and library for saving complete web pages as a single HTML file"
  :source {:github "Y2Z/monolith"}
+ :tests [["monolith" "--version"]]
  :platforms {"linux-x86_64" {:asset "monolith-cli-linux-x86_64"}
              "linux-aarch64" {:asset "monolith-cli-linux-aarch64"}
              "darwin-x86_64" {:asset "monolith-cli-macos-x86_64-apple-darwin"}}}

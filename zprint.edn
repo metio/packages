@@ -4,5 +4,6 @@
 
 {:description "Beautifully format Clojure and Clojurescript source code and s-expressions",
  :source {:github "kkinnear/zprint"}
+ :tests [["zprint" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "zprintl-{tag}"}}}

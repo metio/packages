@@ -3,6 +3,7 @@
 
 {:description "ZFS backup and replication"
  :source {:github "zrepl/zrepl"}
+ :tests [["zrepl" "--version"]]
  :checksum "sha512sum.txt"
  :platforms {"linux-x86_64" {:asset "zrepl-linux-amd64"}
              "linux-aarch64" {:asset "zrepl-linux-arm64"}}}

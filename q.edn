@@ -4,6 +4,7 @@
 
 {:description "q - Run SQL directly on CSV or TSV files",
  :source {:github "harelba/q"}
+ :tests [["q" "--version"]]
  :platforms {"linux-x86_64" {:asset "linux-q"}
              "darwin-x86_64" {:asset "macos-q"}
              "darwin-aarch64" {:asset "macos-q"}}}

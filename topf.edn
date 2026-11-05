@@ -4,6 +4,7 @@
 
 {:description "Talos orchestrator by PostFinance",
  :source {:github "postfinance/topf"}
+ :tests [["topf" "--version"]]
  :checksum "topf_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "topf_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "topf_linux_arm64.tar.gz"}

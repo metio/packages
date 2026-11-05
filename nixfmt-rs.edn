@@ -4,6 +4,7 @@
 
 {:description "Rust reimplementation of nixfmt with byte-identical output",
  :source {:github "Mic92/nixfmt-rs"}
+ :tests [["nixfmt" "--version"]]
  :tag-prefix ""
  :checksum "SHA256SUMS"
  :bins {"nixfmt" "{asset}"}

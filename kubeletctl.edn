@@ -4,6 +4,7 @@
 
 {:description "A client for kubelet",
  :source {:github "cyberark/kubeletctl"}
+ :tests [["kubeletctl" "--version"]]
  :platforms {"linux-x86_64" {:asset "kubeletctl_linux_amd64"}
              "linux-aarch64" {:asset "kubeletctl_linux_arm64"}
              "darwin-x86_64" {:asset "kubeletctl_darwin_amd64"}

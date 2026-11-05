@@ -3,6 +3,7 @@
 
 {:description "Neon Modem Overdrive (https://tty.fail/mrus/neonmodem)"
  :source {:github "mrusme/neonmodem"}
+ :tests [["neonmodem" "--version"]]
  :platforms {"linux-x86_64" {:asset "neonmodem_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "neonmodem_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "neonmodem_{version}_darwin_amd64.tar.gz"}

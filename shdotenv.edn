@@ -4,4 +4,5 @@
 
 {:description "dotenv for shells with support for POSIX-compliant and multiple .env file syntax",
  :source {:github "ko1nksm/shdotenv"}
+ :tests [["shdotenv" "--version"]]
  :platforms {"linux-x86_64" {:asset "shdotenv"}}}

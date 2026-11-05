@@ -3,6 +3,7 @@
 ;; SPDX-License-Identifier: MIT
 
 {:source {:github "defenseunicorns/uds-cli"}
+ :tests [["uds" "--version"]]
  :checksum "checksums.txt"
  :bins {"uds" "{asset}"}
  :platforms {"linux-x86_64" {:asset "uds-cli_{tag}_Linux_amd64"}

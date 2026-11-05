@@ -4,6 +4,7 @@
 
 {:description "Less verbose and more shell friendly Terraform",
  :source {:github "dex4er/tf"}
+ :tests [["tf" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tf-linux-amd64"}
              "linux-aarch64" {:asset "tf-linux-arm64"}

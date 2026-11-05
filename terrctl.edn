@@ -4,6 +4,7 @@
 
 {:description "A command-line client for Fastly Terrarium. https://wasm.fastlylabs.com",
  :source {:github "fastly/terrctl"}
+ :tests [["terrctl" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "terrctl-linux_x86_64-{tag}.tar.gz" :bins {"terrctl" "linux-x86_64/terrctl"}}
              "linux-aarch64" {:asset "terrctl-linux_arm64-{tag}.tar.gz" :bins {"terrctl" "linux-arm64/terrctl"}}

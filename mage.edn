@@ -4,6 +4,7 @@
 
 {:description "a Make/rake-like dev tool using Go",
  :source {:github "magefile/mage"}
+ :tests [["mage" "--version"]]
  :checksum "mage_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "mage_{version}_Linux-64bit.tar.gz"}
              "linux-aarch64" {:asset "mage_{version}_Linux-ARM64.tar.gz"}

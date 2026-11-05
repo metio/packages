@@ -4,6 +4,7 @@
 
 {:description "A blazing-fast modern Lua linter written in Rust",
  :source {:github "Kampfkarren/selene"}
+ :tests [["selene" "--version"]]
  :tag-prefix ""
  :bins {"selene" "selene"}
  :platforms {"linux-x86_64" {:asset "selene-light-{tag}-linux.zip"}

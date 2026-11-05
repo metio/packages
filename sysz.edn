@@ -4,5 +4,6 @@
 
 {:description "An fzf  terminal UI for systemctl",
  :source {:github "joehillen/sysz"}
+ :tests [["sysz" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "sysz"}}}

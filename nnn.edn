@@ -3,5 +3,6 @@
 
 {:description "Small and fast terminal file manager, static musl build"
  :source {:github "jarun/nnn"}
+ :tests [["nnn" "--version"]]
  :bins {"nnn" "nnn-musl-static"}
  :platforms {"linux-x86_64" {:asset "nnn-musl-static-{version}.x86_64.tar.gz"}}}

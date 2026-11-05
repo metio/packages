@@ -3,6 +3,7 @@
 
 {:description "Podcasts in any terminal. Fast, clean, offline."
  :source {:github "timkicker/podliner"}
+ :tests [["podliner" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "podliner-linux-x64.tar.gz"}
              "linux-aarch64" {:asset "podliner-linux-arm64.tar.gz"}

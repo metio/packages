@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "The Scala language server, built into a standalone launcher with coursier; it runs on the java of JAVA_HOME, else the one on PATH"
+ :tests [["metals" "--version"]]
  :source {:coursier "org.scalameta:metals_2.13"}}

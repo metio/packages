@@ -3,6 +3,7 @@
 
 {:description "Terminal-based presentations using Pandoc"
  :source {:github "jaspervdj/patat"}
+ :tests [["patat" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "patat-v{version}-linux-x86_64.tar.gz"}
              "darwin-aarch64" {:asset "patat-v{version}-darwin-arm64.zip"}}}

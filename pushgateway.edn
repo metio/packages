@@ -3,6 +3,7 @@
 
 {:description "Prometheus push acceptor for ephemeral and batch jobs"
  :source {:github "prometheus/pushgateway"}
+ :tests [["pushgateway" "--version"]]
  :checksum "sha256sums.txt"
  :strip 1
  :platforms {"linux-x86_64" {:asset "pushgateway-{version}.linux-amd64.tar.gz"}

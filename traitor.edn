@@ -4,5 +4,6 @@
 
 {:description "Automatic Linux privesc via exploitation of low-hanging fruit e.g. gtfobins, pwnkit, dirty pipe, +w docker.sock",
  :source {:github "liamg/traitor"}
+ :tests [["traitor" "--version"]]
  :platforms {"linux-x86_64" {:asset "traitor-amd64"}
              "linux-aarch64" {:asset "traitor-arm64"}}}

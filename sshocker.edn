@@ -4,6 +4,7 @@
 
 {:description "ssh + reverse sshfs + port forwarder, in Docker-like CLI (predecessor of Lima)",
  :source {:github "lima-vm/sshocker"}
+ :tests [["sshocker" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "sshocker-Linux-x86_64"}
              "linux-aarch64" {:asset "sshocker-Linux-aarch64"}

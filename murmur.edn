@@ -4,6 +4,7 @@
 
 {:description "Pass secrets as environment variables to a process",
  :source {:github "busser/murmur"}
+ :tests [["murmur" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "murmur_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "murmur_{version}_Linux_arm64.tar.gz"}

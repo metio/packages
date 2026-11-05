@@ -4,6 +4,7 @@
 
 {:description "Command-line launcher",
  :source {:github "pomdtr/sunbeam"}
+ :tests [["sunbeam" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "sunbeam-linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "sunbeam-linux_arm64.tar.gz"}

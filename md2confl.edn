@@ -4,6 +4,7 @@
 
 {:description "md2confl is a CLI tool to convert the markdown text to confluence wiki format",
  :source {:github "kentaro-m/md2confl"}
+ :tests [["md2confl" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "md2confl_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "md2confl_{version}_Linux_arm64.tar.gz"}

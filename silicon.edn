@@ -4,5 +4,6 @@
 
 {:description "Create beautiful image of your source code",
  :source {:github "Aloxaf/silicon"}
+ :tests [["silicon" "--version"]]
  :platforms {"linux-x86_64" {:asset "silicon-{tag}-x86_64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "silicon-{tag}-x86_64-apple-darwin.tar.gz"}}}

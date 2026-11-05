@@ -4,6 +4,7 @@
 
 {:description "Summarize Kubernetes RBAC roles for the specified subjects",
  :source {:github "Ladicle/kubectl-rolesum"}
+ :tests [["kubectl-rolesum" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kubectl-rolesum_linux-amd64.tar.gz" :bins {"kubectl-rolesum" "kubectl-rolesum_linux-amd64/kubectl-rolesum"}}
              "linux-aarch64" {:asset "kubectl-rolesum_linux-arm64.tar.gz" :bins {"kubectl-rolesum" "kubectl-rolesum_linux-arm64/kubectl-rolesum"}}

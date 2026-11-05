@@ -3,6 +3,7 @@
 
 {:description "A terminal-native remote access suite for SSH, cloud inventories, provider-backed connectors, parallel commands, mux workspaces, file transfer, and monitoring."
  :source {:github "blacknon/lssh"}
+ :tests [["lssh" "--version"]]
  :strip 1
  :bins {"lssh" "bin/lssh"}
  :platforms {"linux-x86_64" {:asset "lssh_{version}_linux_amd64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Zenith - sort of like top or htop but with zoom-able charts, CPU, GPU, network, and disk usage",
  :source {:github "bvaisvil/zenith"}
+ :tests [["zenith" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "zenith-Linux-gnu-x86_64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "k9s for Okta — a Go/Bubbletea TUI to inspect Okta admin resources",
  :source {:github "tedilabs/ota"}
+ :tests [["ota" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "ota_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "ota_{version}_linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Homebrew, but with Docker images",
  :source {:github "whalebrew/whalebrew"}
+ :tests [["whalebrew" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "whalebrew-Linux-x86_64"}
              "linux-aarch64" {:asset "whalebrew-Linux-arm64"}

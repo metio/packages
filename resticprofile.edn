@@ -3,6 +3,7 @@
 
 {:description "Configuration profiles and scheduling for restic backups"
  :source {:github "creativeprojects/resticprofile"}
+ :tests [["resticprofile" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "resticprofile_no_self_update_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "resticprofile_no_self_update_{version}_linux_arm64.tar.gz"}

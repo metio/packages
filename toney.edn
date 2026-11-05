@@ -3,6 +3,7 @@
 
 {:description "Toney is a fast, lightweight, terminal-based note-taking app for the modern developer."
  :source {:github "SourcewareLab/Toney"}
+ :tests [["toney" "--version"]]
  :platforms {"linux-x86_64" {:asset "toney_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "toney_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "toney_{version}_darwin_amd64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "WireGuard-based overlay network client with identity-based access control"
  :source {:github "netbirdio/netbird"}
+ :tests [["netbird" "--version"]]
  :checksum "netbird_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "netbird_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "netbird_{version}_linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Create inlets servers on the top cloud platforms",
  :source {:github "inlets/inletsctl"}
+ :tests [["inletsctl" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "inletsctl.tgz"}
              "linux-aarch64" {:asset "inletsctl-arm64.tgz"}

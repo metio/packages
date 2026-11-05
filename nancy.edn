@@ -4,6 +4,7 @@
 
 {:description "A tool to check for vulnerabilities in your Golang dependencies, powered by Sonatype OSS Index",
  :source {:github "sonatype-nexus-community/nancy"}
+ :tests [["nancy" "--version"]]
  :checksum "nancychecksums.txt"
  :platforms {"linux-x86_64" {:asset "nancy-{tag}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "nancy-{tag}-linux-arm64.tar.gz"}

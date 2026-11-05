@@ -3,6 +3,7 @@
 
 {:description "A grep-like tool which understands source code syntax and allows for manipulation in addition to search"
  :source {:github "alexpovel/srgn"}
+ :tests [["srgn" "--version"]]
  :tag-prefix "srgn-v"
  :strip 1
  :platforms {"linux-x86_64" {:asset "srgn-x86_64-unknown-linux-gnu.tgz"}

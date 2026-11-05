@@ -4,6 +4,7 @@
 
 {:description "A tiny TCP load balancer",
  :source {:github "inlets/mixctl"}
+ :tests [["mixctl" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "mixctl"}

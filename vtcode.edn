@@ -3,6 +3,7 @@
 
 {:description "VT Code is an open-source Rust terminal coding agent."
  :source {:github "vinhnx/VTCode"}
+ :tests [["vtcode" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "vtcode-{version}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "vtcode-{version}-aarch64-unknown-linux-gnu.tar.gz"}

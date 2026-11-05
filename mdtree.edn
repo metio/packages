@@ -4,6 +4,7 @@
 
 {:description "Convert markdown lists into ASCII trees",
  :source {:github "caarlos0/mdtree"}
+ :tests [["mdtree" "--version"]]
  :checksum "mdtree_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "mdtree_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "mdtree_{version}_linux_arm64.tar.gz"}

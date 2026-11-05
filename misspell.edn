@@ -4,6 +4,7 @@
 
 {:description "Correct commonly misspelled English words in source files",
  :source {:github "golangci/misspell"}
+ :tests [["misspell" "--version"]]
  :checksum "misspell_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "misspell_{version}_linux_amd64.tar.gz" :bins {"misspell" "misspell_{version}_linux_amd64/misspell"}}
              "linux-aarch64" {:asset "misspell_{version}_linux_arm64.tar.gz" :bins {"misspell" "misspell_{version}_linux_arm64/misspell"}}

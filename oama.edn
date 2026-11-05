@@ -3,6 +3,7 @@
 
 {:description "OAuth credential Manager"
  :source {:github "pdobsan/oama"}
+ :tests [["oama" "--version"]]
  :tag-prefix ""
  :strip 1
  :platforms {"linux-x86_64" {:asset "oama-{version}-Linux-x86_64.tar.gz"}

@@ -4,5 +4,6 @@
 
 {:description "A CLI tool for Kafka",
  :source {:github "xitonix/trubka"}
+ :tests [["trubka" "--version"]]
  :platforms {"linux-x86_64" {:asset "trubka_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "trubka_{version}_darwin_amd64.tar.gz"}}}

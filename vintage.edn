@@ -4,6 +4,7 @@
 
 {:description "VCL Transpiler for Edge Runtime",
  :source {:github "ysugimoto/vintage"}
+ :tests [["vintage" "--version"]]
  :platforms {"linux-x86_64" {:asset "vintage-linux-amd64.tar.gz"}
              "darwin-x86_64" {:asset "vintage-darwin-amd64.tar.gz"}
              "darwin-aarch64" {:asset "vintage-darwin-arm64.tar.gz"}}}

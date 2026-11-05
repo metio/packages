@@ -3,6 +3,7 @@
 
 {:description "Record and Replay Framework"
  :source {:github "rr-debugger/rr"}
+ :tests [["rr" "--version"]]
  :tag-prefix ""
  :strip 1
  :bins {"rr" "bin/rr"}

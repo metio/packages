@@ -4,6 +4,7 @@
 
 {:description "A refactoring tool for Terraform",
  :source {:github "minamijoyo/tfedit"}
+ :tests [["tfedit" "--version"]]
  :checksum "tfedit_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "tfedit_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tfedit_{version}_linux_arm64.tar.gz"}

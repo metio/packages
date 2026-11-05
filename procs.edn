@@ -4,6 +4,7 @@
 
 {:description "A modern replacement for ps written in Rust",
  :source {:github "dalance/procs"}
+ :tests [["procs" "--version"]]
  :platforms {"linux-x86_64" {:asset "procs-{tag}-x86_64-linux.zip"}
              "linux-aarch64" {:asset "procs-{tag}-aarch64-linux.zip"}
              "darwin-x86_64" {:asset "procs-{tag}-x86_64-mac.zip"}

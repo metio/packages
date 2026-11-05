@@ -4,6 +4,7 @@
 
 {:description "A lightweight super-fast container image builder",
  :source {:github "container-tools/spectrum"}
+ :tests [["spectrum" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "spectrum_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "spectrum_{version}_Linux_arm64.tar.gz"}

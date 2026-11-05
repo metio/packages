@@ -4,5 +4,6 @@
 
 {:description "Lightweight static analyzer for several programming languages",
  :source {:github "flatt-security/shisho"}
+ :tests [["shisho" "--version"]]
  :platforms {"linux-x86_64" {:asset "build-x86_64-unknown-linux-gnu.zip"}
              "darwin-x86_64" {:asset "build-x86_64-apple-darwin.zip"}}}

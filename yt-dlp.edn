@@ -3,6 +3,7 @@
 
 {:description "Feature-rich command-line audio and video downloader"
  :source {:github "yt-dlp/yt-dlp"}
+ :tests [["yt-dlp" "--version"]]
  :tag-prefix ""
  :checksum "SHA2-256SUMS"
  :platforms {"linux-x86_64" {:asset "yt-dlp_linux"}

@@ -3,6 +3,7 @@
 
 {:description "Transfer files over wifi from your computer to your mobile device by scanning a QR code without leaving the terminal."
  :source {:github "claudiodangelis/qrcp"}
+ :tests [["qrcp" "--version"]]
  :platforms {"linux-x86_64" {:asset "qrcp_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "qrcp_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "qrcp_{version}_darwin_amd64.tar.gz"}

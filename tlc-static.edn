@@ -4,6 +4,7 @@
 
 {:description "Native, JVM-free TLA+ TLC. Fully static on Linux",
  :source {:github "yashikota/tlc-static"}
+ :tests [["tlc" "--version"]]
  :checksum "SHA256SUMS"
  :bins {"tlc" "tlc"}
  :platforms {"linux-x86_64" {:asset "tlc-linux-amd64.tar.gz"}

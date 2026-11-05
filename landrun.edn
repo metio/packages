@@ -3,5 +3,6 @@
 
 {:description "Run any Linux process in a secure, unprivileged sandbox using Landlock. Think firejail, but lightweight, user-friendly, and baked into the kernel."
  :source {:github "Zouuup/landrun"}
+ :tests [["landrun" "--version"]]
  :platforms {"linux-x86_64" {:asset "landrun-linux-amd64"}
              "linux-aarch64" {:asset "landrun-linux-arm64"}}}

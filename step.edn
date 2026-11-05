@@ -3,6 +3,7 @@
 
 {:description "Command line client for public key infrastructure, X.509 and SSH certificates, and step-ca"
  :source {:github "smallstep/cli"}
+ :tests [["step" "--version"]]
  :checksum "checksums.txt"
  :strip 1
  :bins {"step" "bin/step"}

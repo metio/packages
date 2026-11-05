@@ -4,6 +4,7 @@
 
 {:description "A Kubernetes TUI, reimagined in Rust - built on kube-rs and ratatui, async-first from the ground up",
  :source {:github "nklmilojevic/sofka"}
+ :tests [["sofka" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "sofka-{tag}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "sofka-{tag}-aarch64-unknown-linux-musl.tar.gz"}

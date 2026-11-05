@@ -3,6 +3,7 @@
 
 {:description "A no-frills time tracking toolkit for command line nerds"
  :source {:github "dhth/hours"}
+ :tests [["hours" "--version"]]
  :platforms {"linux-x86_64" {:asset "hours_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "hours_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "hours_{version}_darwin_amd64.tar.gz"}

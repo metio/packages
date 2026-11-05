@@ -3,6 +3,7 @@
 
 {:description "The Prometheus monitoring system and time series database",
  :source {:github "prometheus/prometheus"},
+ :tests [["promtool" "--version"]]
  :checksum "sha256sums.txt",
  :strip 1
  :platforms {"linux-x86_64" {:asset "prometheus-{version}.linux-amd64.tar.gz"}

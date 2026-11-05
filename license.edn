@@ -4,5 +4,6 @@
 
 {:description "Command line license text generator",
  :source {:github "nishanths/license"}
+ :tests [["license" "--version"]]
  :checksum "SHA256SUMS.txt"
  :platforms {"linux-x86_64" {:asset "license-{tag}-linux-amd64"}}}

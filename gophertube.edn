@@ -3,6 +3,7 @@
 
 {:description "A modern terminal user interface for searching and watching YouTube videos using mpv and chafa."
  :source {:github "KrishnaSSH/gophertube"}
+ :tests [["gophertube" "--version"]]
  :platforms {"linux-x86_64" {:asset "gophertube-linux-amd64-v{version}"}
              "linux-aarch64" {:asset "gophertube-linux-arm64-v{version}"}
              "darwin-x86_64" {:asset "gophertube-darwin-amd64-v{version}"}

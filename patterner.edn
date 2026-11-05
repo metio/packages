@@ -4,6 +4,7 @@
 
 {:description "patterner is a tool to analyze and present best practices (patterns) for Tailor Platform applications",
  :source {:github "tailor-platform/patterner"}
+ :tests [["patterner" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "patterner_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "patterner_{tag}_linux_arm64.tar.gz"}

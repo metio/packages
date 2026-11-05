@@ -4,6 +4,7 @@
 
 {:description "The command line tool for PipeCD",
  :source {:github "pipe-cd/pipecd"}
+ :tests [["pipectl" "--version"]]
  :platforms {"linux-x86_64" {:asset "pipectl_{tag}_linux_amd64"}
              "linux-aarch64" {:asset "pipectl_{tag}_linux_arm64"}
              "darwin-x86_64" {:asset "pipectl_{tag}_darwin_amd64"}

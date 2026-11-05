@@ -3,6 +3,7 @@
 
 {:description "High-performance observability data pipeline for logs, metrics and traces"
  :source {:github "vectordotdev/vector"}
+ :tests [["vector" "--version"]]
  :checksum "vector-{version}-SHA256SUMS"
  :strip 2
  :bins {"vector" "bin/vector"}

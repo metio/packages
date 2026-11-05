@@ -4,6 +4,7 @@
 
 {:description "SmartyPants for Korean language",
  :source {:github "dahlia/seonbi"}
+ :tests [["seonbi" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "seonbi-{tag}.linux-x86_64.tar.bz2"}
              "linux-aarch64" {:asset "seonbi-{tag}.linux-arm64.tar.bz2"}

@@ -4,6 +4,7 @@
 
 {:description "Volta: JS Toolchains as Code",
  :source {:github "volta-cli/volta"}
+ :tests [["volta" "--version"]]
  :platforms {"linux-x86_64" {:asset "volta-{version}-linux.tar.gz"}
              "darwin-x86_64" {:asset "volta-{version}-macos.tar.gz"}
              "darwin-aarch64" {:asset "volta-{version}-macos.tar.gz"}}}

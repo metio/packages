@@ -4,6 +4,7 @@
 
 {:description "Review Access - kubectl plugin to show an access matrix for k8s server resources",
  :source {:github "corneliusweig/rakkess"}
+ :tests [["rakkess" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "rakkess-amd64-linux.tar.gz" :bins {"rakkess" "rakkess-amd64-linux"}}
              "darwin-x86_64" {:asset "rakkess-amd64-darwin.tar.gz" :bins {"rakkess" "rakkess-amd64-darwin"}}

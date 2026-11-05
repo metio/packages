@@ -3,6 +3,7 @@
 
 {:description "The Rust toolchain installer, whose proxies run the toolchain a rust-toolchain.toml or rustup default selects"
  :source {:text "https://static.rust-lang.org/rustup/release-stable.toml"
+ :tests [["rustup" "--version"]]
           :match "(?m)^version = '([^']+)'"}
  :tag-prefix ""
  :checksum "{asset}.sha256"

@@ -3,6 +3,7 @@
 
 {:description "An analytics database that puts JSON and relational tables on equal footing"
  :source {:github "superdb/super"}
+ :tests [["super" "--version"]]
  :platforms {"linux-x86_64" {:asset "super-v{version}.linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "super-v{version}.linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "super-v{version}.darwin-amd64.tar.gz"}

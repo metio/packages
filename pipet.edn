@@ -4,6 +4,7 @@
 
 {:description "a swiss-army tool for scraping and extracting data from online assets, made for hackers",
  :source {:github "bjesus/pipet"}
+ :tests [["pipet" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "pipet-linux-amd64.tar.gz" :bins {"pipet" "pipet-linux-amd64"}}
              "linux-aarch64" {:asset "pipet-linux-arm64.tar.gz" :bins {"pipet" "pipet-linux-arm64"}}

@@ -3,6 +3,7 @@
 
 {:description "Process manager for Procfile-based applications and tmux"
  :source {:github "DarthSim/overmind"}
+ :tests [["overmind" "--version"]]
  :checksum "{asset}.sha256sum"
  :platforms {"linux-x86_64" {:asset "overmind-v{version}-linux-amd64.gz"}
              "linux-aarch64" {:asset "overmind-v{version}-linux-arm64.gz"}

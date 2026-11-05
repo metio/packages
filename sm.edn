@@ -4,6 +4,7 @@
 
 {:description "AWS Secrets Manager CLI Tool",
  :source {:github "clok/sm"}
+ :tests [["sm" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "sm_{version}_linux_amd64.tar.gz" :bins {"sm" "sm_{version}_linux_amd64/sm"}}
              "linux-aarch64" {:asset "sm_{version}_linux_arm64.tar.gz" :bins {"sm" "sm_{version}_linux_arm64/sm"}}

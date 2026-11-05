@@ -4,6 +4,7 @@
 
 {:description "KUbernetes Test TooL (kuttl)",
  :source {:github "kudobuilder/kuttl"}
+ :tests [["kubectl-kuttl" "--version"]]
  :checksum "checksums.txt"
  :bins {"kubectl-kuttl" "kubectl-kuttl"}
  :platforms {"linux-x86_64" {:asset "kuttl_{version}_linux_x86_64.tar.gz"}

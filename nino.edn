@@ -3,5 +3,6 @@
 
 {:description "My personal text editor"
  :source {:github "evanlin96069/nino"}
+ :tests [["nino" "--version"]]
  :platforms {"linux-x86_64" {:asset "nino-x86_64-linux"}
              "linux-aarch64" {:asset "nino-aarch64-linux"}}}

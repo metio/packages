@@ -3,6 +3,7 @@
 
 {:description "a terminal weather app with ascii animation"
  :source {:github "Veirt/weathr"}
+ :tests [["weathr" "--version"]]
  :platforms {"linux-x86_64" {:asset "weathr-linux-musl-amd64"}
              "linux-aarch64" {:asset "weathr-linux-musl-arm64"}
              "darwin-x86_64" {:asset "weathr-macos-amd64"}

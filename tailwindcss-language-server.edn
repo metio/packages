@@ -3,4 +3,5 @@
 
 {:description "Language server for Tailwind CSS"
  :source {:npm "@tailwindcss/language-server"}
+ :tests [["tailwindcss-language-server" "--version"]]
  :bins {"tailwindcss-language-server" "node_modules/.bin/tailwindcss-language-server"}}

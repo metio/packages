@@ -3,6 +3,7 @@
 
 {:description "TUI for Telegram written in Rust"
  :source {:github "FedericoBruzzone/tgt"}
+ :tests [["tgt" "--version"]]
  :platforms {"linux-x86_64" {:asset "tgt-v{version}-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "tgt-v{version}-aarch64-unknown-linux-gnu.tar.gz"}
              "darwin-aarch64" {:asset "tgt-v{version}-aarch64-apple-darwin.tar.gz"}}}

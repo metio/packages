@@ -4,6 +4,7 @@
 
 {:description "Build standalone PHP binaries on Linux, macOS, FreeBSD, Windows, with PHP project together, with popular extensions included",
  :source {:github "crazywhalecc/static-php-cli"}
+ :tests [["spc" "--version"]]
  :tag-prefix ""
  :bins {"spc" "spc"}
  :platforms {"linux-x86_64" {:asset "spc-linux-x86_64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "A lightweight TUI application to view and query tabular data files, such as CSV, TSV, and parquet."
  :source {:github "shshemi/tabiew"}
+ :tests [["tabiew" "--version"]]
  :platforms {"linux-x86_64" {:asset "tw-x86_64-unknown-linux-musl"}
              "linux-aarch64" {:asset "tw-aarch64-unknown-linux-musl"}
              "darwin-x86_64" {:asset "tw-x86_64-apple-darwin"}

@@ -3,6 +3,7 @@
 
 {:description "CLI time-tracker for Redmine.",
  :source {:github "metio/redclock"},
+ :tests [["redclock" "--version"]]
  :tag-prefix "",
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "redclock-x86_64-unknown-linux-gnu.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "SurrealDB multi-model database server and command-line client"
  :source {:github "surrealdb/surrealdb"}
+ :tests [["surreal" "--version"]]
  :bins {"surreal" "surreal"}
  :platforms {"linux-x86_64" {:asset "surreal-v{version}.linux-amd64.tgz"}
              "linux-aarch64" {:asset "surreal-v{version}.linux-arm64.tgz"}

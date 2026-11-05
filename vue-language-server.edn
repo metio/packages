@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Language server for Vue single-file components"
+ :tests [["vue-language-server" "--version"]]
  :source {:npm "@vue/language-server"}}

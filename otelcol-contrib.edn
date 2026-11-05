@@ -3,6 +3,7 @@
 
 {:description "OpenTelemetry Collector with the contrib components"
  :source {:github "open-telemetry/opentelemetry-collector-releases"}
+ :tests [["otelcol-contrib" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "otelcol-contrib_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "otelcol-contrib_{version}_linux_arm64.tar.gz"}

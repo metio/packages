@@ -4,6 +4,7 @@
 
 {:description "Easily find roles and cluster roles attached to any user, service account, or group name in your Kubernetes cluster",
  :source {:github "FairwindsOps/rbac-lookup"}
+ :tests [["rbac-lookup" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "rbac-lookup_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "rbac-lookup_{version}_Linux_arm64.tar.gz"}

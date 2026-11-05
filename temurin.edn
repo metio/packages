@@ -3,6 +3,7 @@
 
 {:description "Eclipse Temurin OpenJDK, the newest generally available feature release"
  :source {:json "https://api.adoptium.net/v3/info/release_names?release_type=ga&sort_order=DESC&page_size=1&os=linux&architecture=x64&image_type=jdk&vendor=eclipse"
+ :tests [["temurin" "--version"]]
           :version [:releases 0]}
  :tag-prefix "jdk-"
  :vars {:feature {:match "^(\\d+)"} :file-version {:replace ["+" "_"]}}

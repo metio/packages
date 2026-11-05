@@ -4,6 +4,7 @@
 
 {:description "Programming in YAML",
  :source {:github "yaml/yamlscript"}
+ :tests [["ys" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "ys-{tag}-linux-x64.tar.xz" :bins {"ys" "ys-{tag}-linux-x64/ys"}}
              "linux-aarch64" {:asset "ys-{tag}-linux-aarch64.tar.xz" :bins {"ys" "ys-{tag}-linux-aarch64/ys"}}

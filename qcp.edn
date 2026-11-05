@@ -3,6 +3,7 @@
 
 {:description "Quick File Copy using QUIC"
  :source {:github "crazyscot/qcp"}
+ :tests [["qcp" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "qcp-linux-x86_64-musl.tar.gz"}
              "linux-aarch64" {:asset "qcp-linux-aarch64-musl.tar.gz"}

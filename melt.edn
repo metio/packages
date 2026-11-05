@@ -3,6 +3,7 @@
 
 {:description "Backs up and restores Ed25519 SSH keys as seed words"
  :source {:github "charmbracelet/melt"}
+ :tests [["melt" "--version"]]
  :checksum "checksums.txt"
  :strip 1
  :man ["manpages/melt.1.gz"]

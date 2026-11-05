@@ -4,6 +4,7 @@
 
 {:description "Generate and validate Terraform plugin/provider documentation",
  :source {:github "hashicorp/terraform-plugin-docs"}
+ :tests [["tfplugindocs" "--version"]]
  :checksum "tfplugindocs_{version}_SHA256SUMS"
  :bins {"tfplugindocs" "tfplugindocs"}
  :platforms {"linux-x86_64" {:asset "tfplugindocs_{version}_linux_amd64.zip"}

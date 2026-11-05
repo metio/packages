@@ -4,6 +4,7 @@
 
 {:description "Backup and migrate Kubernetes applications and their persistent volumes",
  :source {:github "velero-io/velero"}
+ :tests [["velero" "--version"]]
  :checksum "CHECKSUM"
  :platforms {"linux-x86_64" {:asset "velero-{tag}-linux-amd64.tar.gz" :bins {"velero" "velero-{tag}-linux-amd64/velero"}}
              "linux-aarch64" {:asset "velero-{tag}-linux-arm64.tar.gz" :bins {"velero" "velero-{tag}-linux-arm64/velero"}}

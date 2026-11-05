@@ -4,6 +4,7 @@
 
 {:description "Superseded by https://github.com/aquasecurity/trivy-operator",
  :source {:github "aquasecurity/starboard"}
+ :tests [["kubectl-starboard" "--version"]]
  :checksum "checksums.txt"
  :bins {"kubectl-starboard" "starboard", "starboard" "starboard"}
  :platforms {"linux-x86_64" {:asset "starboard_linux_x86_64.tar.gz"}

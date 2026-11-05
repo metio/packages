@@ -3,6 +3,7 @@
 
 {:description "reader is for your command line what the “readability” view is for modern browsers: A lightweight tool offering better readability of web pages (and EML files!) on the CLI. (https://tty.fail/mrus/reader)"
  :source {:github "mrusme/reader"}
+ :tests [["reader" "--version"]]
  :platforms {"linux-x86_64" {:asset "reader_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "reader_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "reader_{version}_darwin_amd64.tar.gz"}

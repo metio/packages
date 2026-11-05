@@ -3,6 +3,7 @@
 
 {:description "LogCLI is the command-line interface to Grafana Loki",
  :source {:github "grafana/loki"},
+ :tests [["lokitool" "--version"]]
  :checksum "SHA256SUMS",
  :platforms {"linux-x86_64" {:asset "lokitool-linux-amd64.zip" :bins {"lokitool" "lokitool-linux-amd64"}}
              "linux-aarch64" {:asset "lokitool-linux-arm64.zip" :bins {"lokitool" "lokitool-linux-arm64"}}

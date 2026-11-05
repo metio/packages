@@ -3,6 +3,7 @@
 
 {:description "Fast featureful friendly wifi terminal UI."
  :source {:github "shazow/wifitui"}
+ :tests [["wifitui" "--version"]]
  :platforms {"linux-x86_64" {:asset "wifitui-{version}-linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "wifitui-{version}-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "wifitui-{version}-darwin-x86_64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "The TLA+ tools jar with the TLC model checker, SANY and PlusCal, which the command tlc runs on the java of the project; the project links the jar into its bin directory"
  :source {:github "tlaplus/tlaplus"}
+ :tests [["tla2tools.jar" "--version"]]
  :verify false
  :asset "tla2tools.jar"
  :bins {"tla2tools.jar" "tla2tools.jar"}

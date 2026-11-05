@@ -4,6 +4,7 @@
 
 {:description "Terraform HTTP Backend implementation that uses Git repository as storage",
  :source {:github "plumber-cd/terraform-backend-git"}
+ :tests [["terraform-backend-git" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "terraform-backend-git-linux-amd64"}
              "linux-aarch64" {:asset "terraform-backend-git-linux-arm64"}

@@ -4,6 +4,7 @@
 
 {:description "Yet Another JSON Schema Validator [CLI]",
  :source {:github "neilpa/yajsv"}
+ :tests [["yajsv" "--version"]]
  :platforms {"linux-x86_64" {:asset "yajsv.linux.amd64"}
              "darwin-x86_64" {:asset "yajsv.darwin.amd64"}
              "darwin-aarch64" {:asset "yajsv.darwin.arm64"}}}

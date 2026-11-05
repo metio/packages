@@ -3,6 +3,7 @@
 
 {:description "Vulnerability scanning just got lazier"
  :source {:github "owenrumney/lazytrivy"}
+ :tests [["lazytrivy" "--version"]]
  :platforms {"linux-x86_64" {:asset "lazytrivy-linux-amd64"}
              "linux-aarch64" {:asset "lazytrivy-linux-arm64"}
              "darwin-x86_64" {:asset "lazytrivy-darwin-amd64"}

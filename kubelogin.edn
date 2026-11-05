@@ -3,6 +3,7 @@
 
 {:description "kubectl plugin for Kubernetes OpenID Connect authentication (kubectl oidc-login)",
  :source {:github "int128/kubelogin"},
+ :tests [["kubectl-oidc_login" "--version"]]
  :checksum "{asset}.sha256",
  :bins {"kubectl-oidc_login" "kubelogin"}
  :platforms {"linux-x86_64" {:asset "kubelogin_linux_amd64.zip"}

@@ -3,6 +3,7 @@
 
 {:description "A better rust version of pokeget."
  :source {:github "talwat/pokeget-rs"}
+ :tests [["pokeget" "--version"]]
  :tag-prefix ""
  :bins {"pokeget" "pokeget"}
  :platforms {"linux-x86_64" {:asset "pokeget-Linux-x86_64.tar.gz"}

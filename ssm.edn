@@ -4,6 +4,7 @@
 
 {:description "AWS SSM Parameter Store CLI",
  :source {:github "adhocteam/ssm"}
+ :tests [["ssm" "--version"]]
  :checksum "{asset}.sha"
  :platforms {"linux-x86_64" {:asset "ssm-linux-amd64"}
              "darwin-x86_64" {:asset "ssm-darwin-amd64"}

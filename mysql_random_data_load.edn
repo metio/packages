@@ -4,6 +4,7 @@
 
 {:description "MySQL random data loader",
  :source {:github "Percona-Lab/mysql_random_data_load"}
+ :tests [["mysql_random_data_load" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "mysql_random_data_load_{version}_Linux_x86_64.tar.gz"}
              "darwin-x86_64" {:asset "mysql_random_data_load_{version}_Darwin_x86_64.tar.gz"}}}

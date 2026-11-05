@@ -3,6 +3,7 @@
 
 {:description "Continuous peer-to-peer file synchronization"
  :source {:github "syncthing/syncthing"}
+ :tests [["syncthing" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "syncthing-linux-amd64-v{version}.tar.gz"}
              "linux-aarch64" {:asset "syncthing-linux-arm64-v{version}.tar.gz"}

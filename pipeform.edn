@@ -4,6 +4,7 @@
 
 {:description "Terraform runtime TUI",
  :source {:github "magodo/pipeform"}
+ :tests [["pipeform" "--version"]]
  :checksum "pipeform_{version}_SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "pipeform_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "pipeform_{version}_linux_arm64.zip"}

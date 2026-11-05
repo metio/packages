@@ -4,6 +4,7 @@
 
 {:description "PowerShell for every system",
  :source {:github "PowerShell/PowerShell"}
+ :tests [["pwsh" "--version"]]
  :bins {"pwsh" "pwsh"}
  :platforms {"linux-x86_64" {:asset "powershell-{version}-linux-x64.tar.gz"}
              "linux-aarch64" {:asset "powershell-{version}-linux-arm64.tar.gz"}

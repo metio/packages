@@ -4,6 +4,7 @@
 
 {:description "Redpanda is a streaming data platform for developers. Kafka API compatible. 10x faster. No ZooKeeper. No JVM",
  :source {:github "redpanda-data/redpanda"}
+ :tests [["rpk" "--version"]]
  :checksum "rpk_{version}_checksums.txt"
  :bins {"rpk" "rpk"}
  :platforms {"linux-x86_64" {:asset "rpk-linux-amd64.zip"}

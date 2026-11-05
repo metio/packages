@@ -3,6 +3,7 @@
 
 {:description "Generates type-safe code from SQL"
  :source {:github "sqlc-dev/sqlc"}
+ :tests [["sqlc" "--version"]]
  :platforms {"linux-x86_64" {:asset "sqlc_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "sqlc_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "sqlc_{version}_darwin_amd64.tar.gz"}

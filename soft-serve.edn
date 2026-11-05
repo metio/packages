@@ -3,6 +3,7 @@
 
 {:description "Self-hostable Git server for the command line"
  :source {:github "charmbracelet/soft-serve"}
+ :tests [["soft" "--version"]]
  :checksum "checksums.txt"
  :strip 1
  :bins {"soft" "soft"}

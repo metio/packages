@@ -4,5 +4,6 @@
 
 {:description "Animate your exercise maps",
  :source {:github "NathanBaulch/rainbow-roads"}
+ :tests [["rainbow-roads" "--version"]]
  :platforms {"linux-x86_64" {:asset "rainbow-roads-{tag}-linux-amd64.tar.gz"}
              "darwin-x86_64" {:asset "rainbow-roads-{tag}-darwin-amd64.tar.gz"}}}

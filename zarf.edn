@@ -4,6 +4,7 @@
 
 {:description "The Airgap Native Packager Manager for Kubernetes",
  :source {:github "zarf-dev/zarf"}
+ :tests [["zarf" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "zarf_{tag}_Linux_amd64"}
              "linux-aarch64" {:asset "zarf_{tag}_Linux_arm64"}

@@ -4,6 +4,7 @@
 
 {:description "self-contained, portable perl binaries",
  :source {:github "skaji/relocatable-perl"}
+ :tests [["cpanm" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "perl-linux-amd64.tar.gz" :bins {"cpanm" "perl-linux-amd64/bin/cpanm", "perl" "perl-linux-amd64/bin/perl", "perldoc" "perl-linux-amd64/bin/perldoc", "prove" "perl-linux-amd64/bin/prove"}}
              "linux-aarch64" {:asset "perl-linux-arm64.tar.gz" :bins {"cpanm" "perl-linux-arm64/bin/cpanm" "perl" "perl-linux-arm64/bin/perl" "perldoc" "perl-linux-arm64/bin/perldoc" "prove" "perl-linux-arm64/bin/prove"}}
