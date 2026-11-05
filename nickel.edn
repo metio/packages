@@ -7,5 +7,4 @@
  :tests [{:args ["nickel" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "nickel-x86_64-linux"}
-             "linux-aarch64" {:asset "nickel-arm64-linux"}
-             "darwin-aarch64" {:asset "nickel-arm64-macos"}}}
+             "linux-aarch64" {:asset "nickel-arm64-linux"}}}
