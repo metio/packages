@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Reports the known vulnerabilities that affect Go code"
+ :tests [["govulncheck" "--version"]]
  :source {:go "golang.org/x/vuln" :package "golang.org/x/vuln/cmd/govulncheck"}}

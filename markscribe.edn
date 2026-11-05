@@ -4,6 +4,7 @@
 
 {:description "Your personal markdown scribe with template-engine and Git(Hub) & RSS powers",
  :source {:github "muesli/markscribe"}
+ :tests [["markscribe" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "markscribe_{version}_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "markscribe_{version}_linux_arm64.tar.gz"}

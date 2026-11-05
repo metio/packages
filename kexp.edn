@@ -4,6 +4,7 @@
 
 {:description "k'exp - Kubernetes Explorer",
  :source {:github "iximiuz/kexp"}
+ :tests [["kexp" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kexp_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kexp_linux_arm64.tar.gz"}

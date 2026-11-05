@@ -4,6 +4,7 @@
 
 {:description "Develop your applications directly in your Kubernetes Cluster",
  :source {:github "okteto/okteto"}
+ :tests [["okteto" "--help"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "okteto-Linux-x86_64"}

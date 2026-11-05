@@ -3,6 +3,7 @@
 
 {:description "TUI and CLI for browsing models.dev, benchmarks, coding agents, and statuses for AI providers."
  :source {:github "reyamira/models"}
+ :tests [["models" "--version"]]
  :platforms {"linux-x86_64" {:asset "models-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "models-aarch64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "models-x86_64-apple-darwin.tar.gz"}

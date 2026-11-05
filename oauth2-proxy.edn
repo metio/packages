@@ -3,6 +3,7 @@
 
 {:description "Reverse proxy that authenticates users through OAuth2 and OpenID Connect providers"
  :source {:github "oauth2-proxy/oauth2-proxy"}
+ :tests [["oauth2-proxy" "--version"]]
  :checksum "{asset}-sha256sum.txt"
  :strip 1
  :platforms {"linux-x86_64" {:asset "oauth2-proxy-v{version}.linux-amd64.tar.gz"}

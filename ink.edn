@@ -4,6 +4,7 @@
 
 {:description "Terminal markdown reader with syntax highlighting, inline images, and themes",
  :source {:github "borghei/ink"}
+ :tests [["ink" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "ink-linux-amd64"}
              "linux-aarch64" {:asset "ink-linux-arm64"}

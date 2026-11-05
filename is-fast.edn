@@ -3,6 +3,7 @@
 
 {:description "Check the internet as fast as possible"
  :source {:github "Magic-JD/is-fast"}
+ :tests [["is-fast" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "is-fast-x86_64-unknown-linux-musl.tar.xz"}
              "linux-aarch64" {:asset "is-fast-aarch64-unknown-linux-gnu.tar.xz"}

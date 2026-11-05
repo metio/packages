@@ -4,6 +4,7 @@
 
 {:description "High performance, self-hosted, newsletter and mailing list manager with a modern dashboard. Single binary app",
  :source {:github "knadh/listmonk"}
+ :tests [["listmonk" "--version"]]
  :checksum "listmonk_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "listmonk_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "listmonk_{version}_linux_arm64.tar.gz"}

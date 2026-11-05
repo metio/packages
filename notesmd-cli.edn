@@ -3,6 +3,7 @@
 
 {:description "Obsidian CLI (Community) - Interact with Obsidian in the terminal!"
  :source {:github "Yakitrak/notesmd-cli"}
+ :tests [["notesmd-cli" "--version"]]
  :platforms {"linux-x86_64" {:asset "notesmd-cli_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "notesmd-cli_{version}_linux_arm64.tar.gz"}
              "darwin-aarch64" {:asset "notesmd-cli_{version}_darwin_all.tar.gz"}}}

@@ -3,6 +3,7 @@
 
 {:description "Let AI agents message, watch, and spawn each other across terminals. Claude Code, Codex, Antigravity CLI, Cursor CLI, OpenCode, Kilo, Pi, Kimi"
  :source {:github "aannoo/hcom"}
+ :tests [["hcom" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "hcom-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "hcom-aarch64-unknown-linux-musl.tar.gz"}

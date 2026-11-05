@@ -4,6 +4,7 @@
 
 {:description "CFSSL: Cloudflare's PKI and TLS toolkit",
  :source {:github "cloudflare/cfssl"}
+ :tests [["multirootca" "--help"]]
  :checksum "cfssl_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "multirootca_{version}_linux_amd64"}
              "linux-aarch64" {:asset "multirootca_{version}_linux_arm64"}

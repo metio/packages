@@ -4,6 +4,7 @@
 
 {:description "Moor is a pager. It's designed to just do the right thing without any configuration",
  :source {:github "walles/moor"}
+ :tests [["moor" "--version"]]
  :platforms {"linux-x86_64" {:asset "moor-{tag}-linux-amd64"}
              "darwin-x86_64" {:asset "moor-{tag}-darwin-amd64"}
              "darwin-aarch64" {:asset "moor-{tag}-darwin-arm64"}}}

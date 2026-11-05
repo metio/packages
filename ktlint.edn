@@ -4,6 +4,7 @@
 
 {:description "An anti-bikeshedding Kotlin linter with built-in formatter",
  :source {:github "ktlint/ktlint"}
+ :tests [["ktlint" "--version"]]
  :tag-prefix ""
  :bins {"ktlint" "ktlint-{tag}/bin/ktlint"}
  :platforms {"linux-x86_64" {:asset "ktlint-{tag}.zip"}}}

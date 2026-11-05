@@ -4,6 +4,7 @@
 
 {:description "A fast Go implementation of the Jekyll blogging engine",
  :source {:github "osteele/gojekyll"}
+ :tests [["gojekyll" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gojekyll_Linux_x86_64v1.tar.gz"}
              "linux-aarch64" {:asset "gojekyll_Linux_arm64.tar.gz"}

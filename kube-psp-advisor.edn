@@ -4,6 +4,7 @@
 
 {:description "Help building an adaptive and fine-grained pod security policy",
  :source {:github "sysdiglabs/kube-psp-advisor"}
+ :tests [["kube-psp-advisor" "--version"]]
  :checksum "kube-psp-advisor_{version}_checksums.txt"
  :bins {"kube-psp-advisor" "kubectl-advise-psp", "kubectl-advise_psp" "kubectl-advise-psp"}
  :platforms {"linux-x86_64" {:asset "kube-psp-advisor_{tag}_linux_amd64.tar.gz"}

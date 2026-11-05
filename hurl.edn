@@ -4,6 +4,7 @@
 
 {:description "Hurl, run and test HTTP requests with plain text",
  :source {:github "Orange-OpenSource/hurl"}
+ :tests [["hurl" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "hurl-{tag}-x86_64-unknown-linux-gnu.tar.gz" :bins {"hurl" "hurl-{tag}-x86_64-unknown-linux-gnu/bin/hurl", "hurlfmt" "hurl-{tag}-x86_64-unknown-linux-gnu/bin/hurlfmt"}}

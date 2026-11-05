@@ -3,6 +3,7 @@
 
 {:description "CLI password manager using age.",
  :source {:github "metio/pasejo"},
+ :tests [["pasejo" "--version"]]
  :tag-prefix "",
  :checksum "SHA256SUMS",
  :completions {:bash {:env {"COMPLETE" "bash"}}}

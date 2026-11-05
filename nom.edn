@@ -3,6 +3,7 @@
 
 {:description "RSS reader for the terminal"
  :source {:github "guyfedwards/nom"}
+ :tests [["nom" "--help"]]
  :platforms {"linux-x86_64" {:asset "nom_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "nom_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "nom_{version}_darwin_amd64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Golang YAML Tool",
  :source {:github "takumin/gyaml"}
+ :tests [["gyaml" "--version"]]
  :checksum "gyaml_sha256sums.txt"
  :platforms {"linux-x86_64" {:asset "gyaml_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "gyaml_linux_arm64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Polyglot tool version manager, environment variable manager and task runner"
  :source {:github "jdx/mise"}
+ :tests [["mise" "--version"]]
  :checksum "SHASUMS256.txt"
  :strip 1
  :bins {"mise" "bin/mise"}

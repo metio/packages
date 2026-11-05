@@ -4,6 +4,7 @@
 
 {:description "CLI to manage emails",
  :source {:github "pimalaya/himalaya"}
+ :tests [["himalaya" "--version"]]
  :man ["share/man/*.1.gz"],
  :completions {:bash "share/completions/himalaya.bash",
                :zsh "share/completions/_himalaya",

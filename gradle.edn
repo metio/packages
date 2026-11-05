@@ -3,6 +3,7 @@
 
 {:description "The Gradle build tool, which runs on the java found through JAVA_HOME or PATH"
  :source {:json "https://services.gradle.org/versions/current" :version ["version"]}
+ :tests [["gradle" "--version"]]
  :tag-prefix ""
  :url "https://services.gradle.org/distributions/{asset}"
  :checksum "{asset}.sha256"

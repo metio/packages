@@ -4,6 +4,7 @@
 
 {:description "MicroShift in Container",
  :source {:github "minc-org/minc"}
+ :tests [["minc" "--help"]]
  :checksum "sha256sum.txt"
  :platforms {"linux-x86_64" {:asset "minc_linux_amd64"}
              "linux-aarch64" {:asset "minc_linux_arm64"}

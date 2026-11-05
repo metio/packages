@@ -4,6 +4,7 @@
 
 {:description "Tool for dumping manifests from your Kubernetes clusters",
  :source {:github "sj14/kubedump"}
+ :tests [["kubedump" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kubedump_{version}_linux_amd64"}
              "linux-aarch64" {:asset "kubedump_{version}_linux_arm64"}

@@ -3,6 +3,7 @@
 
 {:description "The Janet programming language"
  :source {:github "janet-lang/janet"}
+ :tests [["janet" "--version"]]
  :strip 2
  :layout :tree
  :bins {"janet" "bin/janet"}

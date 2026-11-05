@@ -3,6 +3,7 @@
 
 {:description "A license scanner for container images and filesystems."
  :source {:github "anchore/grant"}
+ :tests [["grant" "--version"]]
  :platforms {"linux-x86_64" {:asset "grant_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "grant_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "grant_{version}_darwin_amd64.tar.gz"}

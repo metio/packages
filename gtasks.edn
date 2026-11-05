@@ -3,6 +3,7 @@
 
 {:description "A CLI client for Google Tasks, written in Go"
  :source {:github "BRO3886/gtasks"}
+ :tests [["gtasks" "--version"]]
  :platforms {"linux-x86_64" {:asset "gtasks_linux_amd64_v{version}.tar.gz"}
              "linux-aarch64" {:asset "gtasks_linux_arm64_v{version}.tar.gz"}
              "darwin-x86_64" {:asset "gtasks_mac_amd64_v{version}.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "The Open Source Firebase Alternative with GraphQL."
  :source {:github "nhost/nhost"}
+ :tests [["nhost" "--version"]]
  :tag-prefix "cli@"
  :bins {"nhost" "cli"}
  :platforms {"linux-x86_64" {:asset "cli-{version}-linux-amd64.tar.gz"}

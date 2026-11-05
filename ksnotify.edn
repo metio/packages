@@ -4,5 +4,6 @@
 
 {:description "A CLI command to parse kubectl diff result and notify it to GitLab/GitHub",
  :source {:github "hirosassa/ksnotify"}
+ :tests [["ksnotify" "--version"]]
  :platforms {"linux-x86_64" {:asset "ksnotify-x86_64-linux.tar.gz"}
              "darwin-x86_64" {:asset "ksnotify-x86_64-darwin.tar.gz"}}}

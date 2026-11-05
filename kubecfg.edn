@@ -4,6 +4,7 @@
 
 {:description "A tool for managing complex enterprise Kubernetes environments as code",
  :source {:github "kubecfg/kubecfg"}
+ :tests [["kubecfg" "--help"]]
  :platforms {"linux-x86_64" {:asset "kubecfg_Linux_X64"}
              "linux-aarch64" {:asset "kubecfg_Linux_ARM64"}
              "darwin-aarch64" {:asset "kubecfg_macOS_ARM64"}}}
