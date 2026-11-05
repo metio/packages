@@ -4,6 +4,7 @@
 
 {:description "Fast and customizable vulnerability scanner based on simple YAML based DSL",
  :source {:github "projectdiscovery/nuclei"}
+ :tests [{:args ["nuclei" "-version"] :expect "{version}"}]
  :checksum "nuclei_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "nuclei_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "nuclei_{version}_linux_arm64.zip"}

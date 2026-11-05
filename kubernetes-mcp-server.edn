@@ -4,6 +4,7 @@
 
 {:description "Model Context Protocol (MCP) server for Kubernetes and OpenShift",
  :source {:github "containers/kubernetes-mcp-server"}
+ :tests [{:args ["kubernetes-mcp-server" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "kubernetes-mcp-server-linux-amd64"}
              "linux-aarch64" {:asset "kubernetes-mcp-server-linux-arm64"}
              "darwin-x86_64" {:asset "kubernetes-mcp-server-darwin-amd64"}

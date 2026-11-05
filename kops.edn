@@ -4,6 +4,7 @@
 
 {:description "Kubernetes Operations (kops) - Production Grade K8s Installation, Upgrades, and Management",
  :source {:github "kubernetes/kops"}
+ :tests [{:args ["kops" "version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "kops-linux-amd64"}
              "linux-aarch64" {:asset "kops-linux-arm64"}

@@ -4,6 +4,7 @@
 
 {:description "Open source data anonymization and synthetic data orchestration for developers. Create high fidelity synthetic data and sync it across your environments",
  :source {:github "nucleuscloud/neosync"}
+ :tests [{:args ["neosync" "--version"] :expect "{version}"}]
  :checksum "neosync_{version}_SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "neosync_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "neosync_{version}_linux_arm64.tar.gz"}

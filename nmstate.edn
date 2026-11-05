@@ -4,5 +4,6 @@
 
 {:description "Nmstate is a library with an accompanying command line tool that manages host networking settings in a declarative manner",
  :source {:github "nmstate/nmstate"}
+ :tests [{:args ["nmstatectl" "--version"] :expect "{version}"}]
  :bins {"nmstatectl" "nmstatectl"}
  :platforms {"linux-x86_64" {:asset "nmstatectl-linux-x64.zip"}}}

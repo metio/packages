@@ -4,6 +4,7 @@
 
 {:description "Go from Docker Compose to Kubernetes",
  :source {:github "kubernetes/kompose"}
+ :tests [{:args ["kompose" "version"] :expect "{version}"}]
  :checksum "SHA256_SUM"
  :platforms {"linux-x86_64" {:asset "kompose-linux-amd64"}
              "linux-aarch64" {:asset "kompose-linux-arm64"}

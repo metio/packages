@@ -4,6 +4,7 @@
 
 {:description "Check for broken links in markup files",
  :source {:github "becheran/mlc"}
+ :tests [{:args ["mlc" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "mlc-x86_64-linux"}
              "linux-aarch64" {:asset "mlc-aarch64-linux"}
              "darwin-aarch64" {:asset "mlc-aarch64-apple-darwin"}}}

@@ -4,6 +4,7 @@
 
 {:description "Modern CLI for Apache Kafka, written in Go",
  :source {:github "birdayz/kaf"}
+ :tests [{:args ["kaf" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kaf_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "kaf_{version}_Linux_arm64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Packages, customizes and applies Kubernetes configuration as data"
  :source {:github "kptdev/kpt"}
+ :tests [{:args ["kpt" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"kpt" "{asset}"}
  :platforms {"linux-x86_64" {:asset "kpt_linux_amd64"}

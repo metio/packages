@@ -4,6 +4,7 @@
 
 {:description "TUI for viewing logs from journald, auditd, file system, Docker and Podman containers, Compose stacks and Kubernetes pods with support for log highlighting and several filtering modes",
  :source {:github "Lifailon/lazyjournal"}
+ :tests [{:args ["lazyjournal" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "lazyjournal-{tag}-linux-amd64"}
              "linux-aarch64" {:asset "lazyjournal-{tag}-linux-arm64"}

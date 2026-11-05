@@ -4,6 +4,7 @@
 
 {:description "Let's Encrypt/ACME client and library written in Go",
  :source {:github "go-acme/lego"}
+ :tests [{:args ["lego" "-v"] :expect "{version}"}]
  :checksum "lego_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "lego_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "lego_{tag}_linux_arm64.tar.gz"}

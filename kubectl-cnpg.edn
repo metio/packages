@@ -4,6 +4,7 @@
 
 {:description "CloudNativePG is a comprehensive platform designed to seamlessly manage PostgreSQL databases within Kubernetes environments, covering the entire operational lifecycle from initial deployment to ongoing maintenance",
  :source {:github "cloudnative-pg/cloudnative-pg"}
+ :tests [{:args ["kubectl-cnpg" "version"] :expect "{version}"}]
  :checksum "cnpg-{version}-checksums.txt"
  :platforms {"linux-x86_64" {:asset "kubectl-cnpg_{version}_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "kubectl-cnpg_{version}_linux_arm64.tar.gz"}

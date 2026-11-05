@@ -4,5 +4,6 @@
 
 {:description "Command line tool to create and query container image manifest list/indexes",
  :source {:github "estesp/manifest-tool"}
+ :tests [{:args ["manifest-tool" "--version"] :expect "{version}"}]
  :checksum "binaries-manifest-tool-{version}.tar.gz.sha256sum"
  :platforms {"linux-x86_64" {:asset "binaries-manifest-tool-{version}.tar.gz" :bins {"manifest-tool" "manifest-tool-linux-amd64"}}}}

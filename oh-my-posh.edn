@@ -4,6 +4,7 @@
 
 {:description "The most customisable and low-latency cross platform/shell prompt renderer",
  :source {:github "JanDeDobbeleer/oh-my-posh"}
+ :tests [{:args ["oh-my-posh" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "posh-linux-amd64"}
              "linux-aarch64" {:asset "posh-linux-arm64"}

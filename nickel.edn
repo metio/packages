@@ -4,6 +4,7 @@
 
 {:description "Better configuration for less",
  :source {:github "nickel-lang/nickel"}
+ :tests [{:args ["nickel" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "nickel-x86_64-linux"}
              "linux-aarch64" {:asset "nickel-arm64-linux"}

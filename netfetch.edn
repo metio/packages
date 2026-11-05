@@ -4,6 +4,7 @@
 
 {:description "Kubernetes tool for scanning clusters for network policies and identifying unprotected workloads",
  :source {:github "deggja/netfetch"}
+ :tests [{:args ["netfetch" "version"] :expect "{version}"}]
  :checksum "netfetch_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "netfetch_{version}_linux_amd64.tar.gz" :bins {"netfetch" "netfetch_{version}_linux_amd64/netfetch"}}
              "linux-aarch64" {:asset "netfetch_{version}_linux_arm64.tar.gz" :bins {"netfetch" "netfetch_{version}_linux_arm64/netfetch"}}

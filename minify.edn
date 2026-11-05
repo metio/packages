@@ -4,6 +4,7 @@
 
 {:description "Go minifiers for web formats",
  :source {:github "tdewolff/minify"}
+ :tests [{:args ["minify" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "minify_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "minify_linux_arm64.tar.gz"}

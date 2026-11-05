@@ -4,6 +4,7 @@
 
 {:description "Nosey Parker is a command-line tool that finds secrets and sensitive information in textual data and Git history",
  :source {:github "praetorian-inc/noseyparker"}
+ :tests [{:args ["noseyparker" "-V"] :expect "{version}"}]
  :bins {"noseyparker" "bin/noseyparker"}
  :platforms {"linux-x86_64" {:asset "noseyparker-{tag}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "noseyparker-{tag}-aarch64-unknown-linux-musl.tar.gz"}

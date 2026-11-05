@@ -4,6 +4,7 @@
 
 {:description "CLI for the Red Hat OpenShift Cluster Manager",
  :source {:github "openshift-online/ocm-cli"}
+ :tests [{:args ["ocm" "version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
  :bins {"ocm" "{asset}"}
  :platforms {"linux-x86_64" {:asset "ocm-linux-amd64"}

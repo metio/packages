@@ -4,6 +4,7 @@
 
 {:description "A cross-platform TUI database management tool written in Go",
  :source {:github "jorgerojas26/lazysql"}
+ :tests [{:args ["lazysql" "-version"] :expect "{version}"}]
  :checksum "lazysql_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "lazysql_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "lazysql_Linux_arm64.tar.gz"}

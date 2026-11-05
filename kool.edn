@@ -4,6 +4,7 @@
 
 {:description "From local development to the cloud: web apps development with containers made easy",
  :source {:github "kool-dev/kool"}
+ :tests [{:args ["kool" "--version"] :expect "{version}"}]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "kool-linux-amd64"}

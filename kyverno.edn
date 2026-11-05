@@ -3,6 +3,7 @@
 
 {:description "Cloud Native Policy Management",
  :source {:github "kyverno/kyverno"},
+ :tests [{:args ["kyverno" "version"] :expect "{version}"}]
  :checksum "checksums.txt",
  :signature {:bundle "{asset}.sigstore.json",
              :identity "https://github.com/kyverno/kyverno/.github/workflows/release.yaml@refs/tags/{tag}",

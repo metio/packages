@@ -4,6 +4,7 @@
 
 {:description "Unix like utilities for object store",
  :source {:github "minio/mc"}
+ :tests [["mc" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256sum"
  :platforms {"linux-x86_64" {:asset "mc.linux-amd64.{tag}"}

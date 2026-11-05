@@ -4,6 +4,7 @@
 
 {:description "Colored `cat` command",
  :source {:github "toshimaru/nyan"}
+ :tests [{:args ["nyan" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "nyan_Linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "nyan_Linux_arm64.tar.gz"}

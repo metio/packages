@@ -4,6 +4,7 @@
 
 {:description "A CLI for having Okta as the IdP for AWS CLI operations",
  :source {:github "okta/okta-aws-cli"}
+ :tests [{:args ["okta-aws-cli" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "okta-aws-cli_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "okta-aws-cli_{version}_linux_arm64.tar.gz"}

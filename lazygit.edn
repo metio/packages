@@ -4,6 +4,7 @@
 
 {:description "simple terminal UI for git commands",
  :source {:github "jesseduffield/lazygit"}
+ :tests [{:args ["lazygit" "-v"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "lazygit_{version}_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "lazygit_{version}_linux_arm64.tar.gz"}

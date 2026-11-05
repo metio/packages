@@ -4,6 +4,7 @@
 
 {:description "Manage multiple kubeconfigs easily",
  :source {:github "particledecay/kconf"}
+ :tests [{:args ["kconf" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kconf-linux-x86_64-{version}.tar.gz"}
              "linux-aarch64" {:asset "kconf-linux-arm64-{version}.tar.gz"}

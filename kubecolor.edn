@@ -3,6 +3,7 @@
 
 {:description "Colorizes kubectl output"
  :source {:github "kubecolor/kubecolor"}
+ :tests [{:args ["kubecolor" "--kubecolor-version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "kubecolor_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kubecolor_{version}_linux_arm64.tar.gz"}

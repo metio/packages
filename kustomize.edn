@@ -3,6 +3,7 @@
 
 {:description "Customization of kubernetes YAML configurations",
  :source {:github "kubernetes-sigs/kustomize"},
+ :tests [{:args ["kustomize" "version"] :expect "{version}"}]
  :tag-prefix "kustomize/"
  :platforms {"linux-x86_64" {:asset "kustomize_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kustomize_{version}_linux_arm64.tar.gz"}

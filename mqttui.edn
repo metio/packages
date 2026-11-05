@@ -4,6 +4,7 @@
 
 {:description "Subscribe to a MQTT Topic or publish something quickly from the terminal",
  :source {:github "EdJoPaTo/mqttui"}
+ :tests [{:args ["mqttui" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "mqttui-{tag}-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "mqttui-{tag}-aarch64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "mqttui-{tag}-x86_64-apple-darwin.tar.gz"}

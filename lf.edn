@@ -4,6 +4,7 @@
 
 {:description "Terminal file manager",
  :source {:github "gokcehan/lf"}
+ :tests [{:args ["lf" "-version"] :expect "{version}"}]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "lf-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "lf-linux-arm64.tar.gz"}
