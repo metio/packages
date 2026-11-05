@@ -4,6 +4,7 @@
 
 {:description "Split your file into encrypted fragments so that you don't need to remember a passcode",
  :source {:github "jesseduffield/horcrux"}
+ :tests [["horcrux" "version"]]
  :checksum "horcrux_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "horcrux_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "horcrux_{version}_Linux_arm64.tar.gz"}

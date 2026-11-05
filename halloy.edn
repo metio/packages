@@ -3,6 +3,7 @@
 
 {:description "IRC application written in Rust.",
  :source {:github "squidowl/halloy"},
+ :tests [["halloy" "version"]]
  :tag-prefix "",
  :strip 1,
  :bins {"halloy" "bin/halloy"}

@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "The Haskell language server, installed with ghcup, with one server per supported GHC version and the wrapper that picks it"
+ :tests [["haskell-language-server" "version"]]
  :source {:ghcup "hls"}}

@@ -4,6 +4,7 @@
 
 {:description "Unix `test` command for Version comparison",
  :source {:github "babarot/vtest"}
+ :tests [["vtest" "version"]]
  :checksum "vtest_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "vtest_linux_x86_64.tar.gz"}
              "darwin-x86_64" {:asset "vtest_darwin_x86_64.tar.gz"}}}

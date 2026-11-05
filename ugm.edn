@@ -3,5 +3,6 @@
 
 {:description "A terminal based UNIX user and group browser"
  :source {:github "ariasmn/ugm"}
+ :tests [["ugm" "version"]]
  :platforms {"linux-x86_64" {:asset "ugm_{version}_linux_amd64"}
              "linux-aarch64" {:asset "ugm_{version}_linux_arm64"}}}

@@ -3,6 +3,7 @@
 
 {:description "qpdf: A content-preserving PDF document transformer"
  :source {:github "qpdf/qpdf"}
+ :tests [["qpdf" "version"]]
  :bins {"qpdf" "bin/qpdf"}
  :platforms {"linux-x86_64" {:asset "qpdf-{version}-bin-linux-x86_64.zip"}
              "linux-aarch64" {:asset "qpdf-{version}-bin-linux-aarch64.zip"}

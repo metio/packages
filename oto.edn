@@ -4,6 +4,7 @@
 
 {:description "Go driven rpc code generation tool for right now",
  :source {:github "pacedotdev/oto"}
+ :tests [["oto" "version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "oto_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "oto_linux_arm64.tar.gz"}

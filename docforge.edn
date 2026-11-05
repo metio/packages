@@ -4,6 +4,7 @@
 
 {:description "Scalable build tool for distributed documentation sources",
  :source {:github "gardener/docforge"}
+ :tests [["docforge" "version"]]
  :platforms {"linux-x86_64" {:asset "docforge-linux-amd64"}
              "linux-aarch64" {:asset "docforge-linux-arm64"}
              "darwin-x86_64" {:asset "docforge-darwin-amd64"}
