@@ -2,6 +2,7 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "The Rust toolchain installer, whose proxies run the toolchain a rust-toolchain.toml or rustup default selects"
+ :tests [["rustup" "--version"]]
  :source {:text "https://static.rust-lang.org/rustup/release-stable.toml"
           :match "(?m)^version = '([^']+)'"}
  :tag-prefix ""
