@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "A fast port scanner that hands the open ports to nmap, built from its crate"
+ :tests [["rustscan" "--version"]]
  :source {:cargo "rustscan"}}

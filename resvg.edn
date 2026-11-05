@@ -4,6 +4,7 @@
 
 {:description "An SVG rendering library",
  :source {:github "linebender/resvg"}
+ :tests [["resvg" "--version"]]
  :platforms {"linux-x86_64" {:asset "resvg-linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "resvg-linux-aarch64.tar.gz"}
              "darwin-x86_64" {:asset "resvg-macos-x86_64.zip"}

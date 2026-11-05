@@ -3,6 +3,7 @@
 
 {:description "Bulk domain availability checking via RDAP, DNS, and WHOIS, with prefix/suffix permutations, regex patterns, MCP, and multiple output formats"
  :source {:github "brandonyoungdev/tldx"}
+ :tests [["tldx" "--version"]]
  :platforms {"linux-x86_64" {:asset "tldx_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tldx_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "tldx_{version}_darwin_amd64.tar.gz"}

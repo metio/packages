@@ -3,6 +3,7 @@
 
 {:description "Talos TUI for real-time node monitoring, log streaming, etcd health, and diagnostics"
  :source {:github "Handfish/talos-pilot"}
+ :tests [["talos-pilot" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "talos-pilot-x86_64-unknown-linux-musl.tar.xz"}
              "linux-aarch64" {:asset "talos-pilot-aarch64-unknown-linux-musl.tar.xz"}

@@ -3,6 +3,7 @@
 
 {:description "A cute cat(1) for the terminal with advanced code viewing, Markdown rendering, tree-sitter syntax highlighting, images view and more."
  :source {:github "guilhermeprokisch/see"}
+ :tests [["see" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "see-cat-x86_64-unknown-linux-gnu.tar.xz"}
              "darwin-aarch64" {:asset "see-cat-aarch64-apple-darwin.tar.xz"}}}

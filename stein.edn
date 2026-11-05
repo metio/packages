@@ -4,6 +4,7 @@
 
 {:description "A linter for config files with a customizable rule set",
  :source {:github "babarot/stein"}
+ :tests [["stein" "--version"]]
  :checksum "stein_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "stein_linux_x86_64.tar.gz"}
              "darwin-x86_64" {:asset "stein_darwin_x86_64.tar.gz"}}}

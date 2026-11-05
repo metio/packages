@@ -3,6 +3,7 @@
 
 {:description "plakar is a backup solution powered by Kloset and ptar"
  :source {:github "PlakarKorp/plakar"}
+ :tests [["plakar" "--help"]]
  :platforms {"linux-x86_64" {:asset "plakar_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "plakar_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "plakar_{version}_darwin_amd64.tar.gz"}

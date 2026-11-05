@@ -4,6 +4,7 @@
 
 {:description "Go static analysis, detecting bugs, performance issues, and much more",
  :source {:github "dominikh/go-tools"}
+ :tests [["staticcheck" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :bins {"staticcheck" "staticcheck/staticcheck"}

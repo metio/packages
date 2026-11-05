@@ -3,6 +3,7 @@
 
 {:description "SSH directory for picking a host to connect to"
  :source {:github "charmbracelet/wishlist"}
+ :tests [["wishlist" "--version"]]
  :checksum "checksums.txt"
  :strip 1
  :man ["manpages/wishlist.1.gz"]

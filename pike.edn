@@ -4,6 +4,7 @@
 
 {:description "Pike is a tool for determining the permissions or policy required for IAC code",
  :source {:github "jamesWoolfenden/pike"}
+ :tests [["pike" "--version"]]
  :checksum "pike_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "pike_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "pike_{version}_linux_arm64.tar.gz"}

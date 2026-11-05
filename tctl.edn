@@ -4,6 +4,7 @@
 
 {:description "Temporal CLI",
  :source {:github "temporalio/tctl"}
+ :tests [["tctl" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tctl_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tctl_{version}_linux_arm64.tar.gz"}

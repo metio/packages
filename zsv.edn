@@ -3,6 +3,7 @@
 
 {:description "zsv+lib: tabular data swiss-army knife CLI + world's fastest (simd) CSV parser"
  :source {:github "liquidaty/zsv"}
+ :tests [["zsv" "--version"]]
  :bins {"zsv" "bin/zsv"}
  :platforms {"linux-x86_64" {:asset "zsv-{version}-amd64-linux-musl.zip"}
              "darwin-x86_64" {:asset "zsv-{version}-amd64-macosx-gcc.zip"}

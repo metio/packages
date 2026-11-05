@@ -4,6 +4,7 @@
 
 {:description "sq data wrangler",
  :source {:github "neilotoole/sq"}
+ :tests [["sq" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "sq-{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "sq-{version}-linux-arm64.tar.gz"}

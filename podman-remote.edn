@@ -3,6 +3,7 @@
 
 {:description "Podman: A tool for managing OCI containers and pods."
  :source {:github "podman-container-tools/podman"}
+ :tests [["podman-remote" "--version"]]
  :strip 1
  :bins {"podman-remote" "podman-remote-static-linux_amd64"}
  :platforms {"linux-x86_64" {:asset "podman-remote-static-linux_amd64.tar.gz"}}}

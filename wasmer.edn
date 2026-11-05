@@ -4,6 +4,7 @@
 
 {:description "The leading WebAssembly Runtime supporting WASI and Emscripten",
  :source {:github "wasmerio/wasmer"}
+ :tests [["wasmer" "--version"]]
  :bins {"wasmer" "bin/wasmer", "wasmer-headless" "bin/wasmer-headless"}
  :platforms {"linux-x86_64" {:asset "wasmer-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "wasmer-linux-aarch64.tar.gz"}

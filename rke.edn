@@ -4,6 +4,7 @@
 
 {:description "Rancher Kubernetes Engine (RKE), an extremely simple, lightning fast Kubernetes distribution that runs entirely within containers",
  :source {:github "rancher-archives/rke"}
+ :tests [["rke" "--version"]]
  :platforms {"linux-x86_64" {:asset "rke_linux-amd64"}
              "linux-aarch64" {:asset "rke_linux-arm64"}
              "darwin-x86_64" {:asset "rke_darwin-amd64"}}}

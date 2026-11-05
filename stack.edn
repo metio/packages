@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "The Haskell build tool that manages GHC versions per project, installed with ghcup"
+ :tests [["stack" "--version"]]
  :source {:ghcup "stack"}}

@@ -3,6 +3,7 @@
 
 {:description "Realtime backend with an embedded database, authentication and admin UI in one file"
  :source {:github "pocketbase/pocketbase"}
+ :tests [["pocketbase" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "pocketbase_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "pocketbase_{version}_linux_arm64.zip"}

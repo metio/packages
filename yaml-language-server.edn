@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Language server for YAML with JSON Schema validation and Kubernetes support"
+ :tests [["yaml-language-server" "--version"]]
  :source {:npm "yaml-language-server"}}

@@ -4,6 +4,7 @@
 
 {:description "Universal command-line interface for SQL databases",
  :source {:github "xo/usql"}
+ :tests [["usql" "--version"]]
  :platforms {"linux-x86_64" {:asset "usql-{version}-linux-amd64.tar.bz2"}
              "linux-aarch64" {:asset "usql-{version}-linux-arm64.tar.bz2"}
              "darwin-x86_64" {:asset "usql-{version}-darwin-amd64.tar.bz2"}

@@ -4,6 +4,7 @@
 
 {:description "tcmux is a terminal and coding agent mux viewer",
  :source {:github "k1LoW/tcmux"}
+ :tests [["tcmux" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tcmux_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tcmux_{tag}_linux_arm64.tar.gz"}

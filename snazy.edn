@@ -4,6 +4,7 @@
 
 {:description "a snazzy json log viewer (with one z)",
  :source {:github "chmouel/snazy"}
+ :tests [["snazy" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "snazy-v{tag}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "snazy-v{tag}-linux-arm64.tar.gz"}

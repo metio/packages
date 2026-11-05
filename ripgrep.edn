@@ -4,6 +4,7 @@
 
 {:description "ripgrep recursively searches directories for a regex pattern while respecting your gitignore",
  :source {:github "BurntSushi/ripgrep"}
+ :tests [["rg" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "ripgrep-{tag}-x86_64-unknown-linux-musl.tar.gz" :bins {"rg" "ripgrep-{tag}-x86_64-unknown-linux-musl/rg"}}

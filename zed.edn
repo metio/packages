@@ -4,6 +4,7 @@
 
 {:description "Official command-line tool for managing SpiceDB",
  :source {:github "authzed/zed"}
+ :tests [["zed" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "zed_{version}_linux_amd64_gnu.tar.gz"}
              "linux-aarch64" {:asset "zed_{version}_linux_arm64_gnu.tar.gz"}

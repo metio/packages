@@ -4,6 +4,7 @@
 
 {:description "CLI tool to organize your Terraform code",
  :source {:github "dthagard/tforganize"}
+ :tests [["tforganize" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tforganize_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tforganize_{version}_linux_arm64.tar.gz"}

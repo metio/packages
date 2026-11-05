@@ -4,6 +4,7 @@
 
 {:description "Language Server for protocol buffers",
  :source {:github "coder3101/protols"}
+ :tests [["protols" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "protols-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "protols-aarch64-unknown-linux-gnu.tar.gz"}

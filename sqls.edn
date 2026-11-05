@@ -4,6 +4,7 @@
 
 {:description "SQL language server written in Go",
  :source {:github "sqls-server/sqls"}
+ :tests [["sqls" "--version"]]
  :platforms {"linux-x86_64" {:asset "sqls-linux-{version}.zip"}
              "darwin-x86_64" {:asset "sqls-darwin-{version}.zip"}
              "darwin-aarch64" {:asset "sqls-darwin-{version}.zip"}}}

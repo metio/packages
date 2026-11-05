@@ -3,6 +3,7 @@
 
 {:description "Package manager for Linux, macOS and Windows built on the conda ecosystem"
  :source {:github "prefix-dev/pixi"}
+ :tests [["pixi" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "pixi-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "pixi-aarch64-unknown-linux-musl.tar.gz"}

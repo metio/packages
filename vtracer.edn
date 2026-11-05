@@ -4,6 +4,7 @@
 
 {:description "Raster to Vector Graphics Converter",
  :source {:github "visioncortex/vtracer"}
+ :tests [["vtracer" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "vtracer-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "vtracer-aarch64-unknown-linux-musl.tar.gz"}

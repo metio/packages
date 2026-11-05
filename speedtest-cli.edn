@@ -4,6 +4,7 @@
 
 {:description "Command line client for LibreSpeed",
  :source {:github "librespeed/speedtest-cli"}
+ :tests [["librespeed-cli" "--version"]]
  :checksum "checksums.txt"
  :bins {"librespeed-cli" "librespeed-cli"}
  :platforms {"linux-x86_64" {:asset "librespeed-cli_{version}_linux_amd64.tar.gz"}

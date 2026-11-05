@@ -3,6 +3,7 @@
 
 {:description "commandline tools for slicing and dicing JSON records."
  :source {:github "benbernard/RecordStream"}
+ :tests [["recordstream" "--version"]]
  :platforms {"linux-x86_64" {:asset "recs-linux-x64"}
              "linux-aarch64" {:asset "recs-linux-arm64"}
              "darwin-x86_64" {:asset "recs-darwin-x64"}

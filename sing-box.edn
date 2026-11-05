@@ -3,6 +3,7 @@
 
 {:description "Universal proxy platform"
  :source {:github "SagerNet/sing-box"}
+ :tests [["sing-box" "--help"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "sing-box-{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "sing-box-{version}-linux-arm64.tar.gz"}

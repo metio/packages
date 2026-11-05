@@ -4,6 +4,7 @@
 
 {:description "Generate documentation from Terraform modules in various output formats",
  :source {:github "terraform-docs/terraform-docs"}
+ :tests [["terraform-docs" "--version"]]
  :checksum "terraform-docs-{tag}.sha256sum"
  :platforms {"linux-x86_64" {:asset "terraform-docs-{tag}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "terraform-docs-{tag}-linux-arm64.tar.gz"}

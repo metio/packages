@@ -3,6 +3,7 @@
 
 {:description "VictoriaMetrics agent, alerting, backup and migration tools"
  :source {:github "VictoriaMetrics/VictoriaMetrics"}
+ :tests [["vmagent" "--version"]]
  :bins {"vmagent" "vmagent-prod"
         "vmalert" "vmalert-prod"
         "vmalert-tool" "vmalert-tool-prod"

@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Counts lines of code, comments and blanks per language, built from its crate"
+ :tests [["tokei" "--version"]]
  :source {:cargo "tokei"}}

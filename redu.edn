@@ -3,6 +3,7 @@
 
 {:description "ncdu for your restic repository"
  :source {:github "drdo/redu"}
+ :tests [["redu" "--version"]]
  :platforms {"linux-x86_64" {:asset "redu-{version}-linux-x86_64.bz2"}
              "linux-aarch64" {:asset "redu-{version}-linux-arm64.bz2"}
              "darwin-x86_64" {:asset "redu-{version}-darwin-x86_64.bz2"}

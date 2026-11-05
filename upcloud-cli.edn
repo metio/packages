@@ -4,6 +4,7 @@
 
 {:description "UpCloud command line client (upctl)",
  :source {:github "UpCloudLtd/upcloud-cli"}
+ :tests [["upctl" "--help"]]
  :checksum "checksums.txt"
  :bins {"upctl" "upctl"}
  :platforms {"linux-x86_64" {:asset "upcloud-cli_{version}_linux_x86_64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Executing shell commands via HTTP server",
  :source {:github "msoap/shell2http"}
+ :tests [["shell2http" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "shell2http_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "shell2http_{version}_linux_arm64.tar.gz"}

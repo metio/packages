@@ -4,6 +4,7 @@
 
 {:description "HTML site generator for protobuf schema",
  :source {:github "ymmt2005/pbschema-lens"}
+ :tests [["pbschema-lens" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "pbschema-lens_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "pbschema-lens_linux_arm64.tar.gz"}

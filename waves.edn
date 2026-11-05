@@ -3,6 +3,7 @@
 
 {:description "Terminal music player with Soulseek integration, MusicBrainz tagging, Last.fm scrobbling, and radio mode. Built with Go and Bubble Tea."
  :source {:github "llehouerou/waves"}
+ :tests [["waves" "--version"]]
  :platforms {"linux-x86_64" {:asset "waves_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "waves_{version}_darwin_amd64.tar.gz"}
              "darwin-aarch64" {:asset "waves_{version}_darwin_arm64.tar.gz"}}}

@@ -3,6 +3,7 @@
 
 {:description "A standalone system that can perform backup and restore functions for a wide variety of pluggable data systems"
  :source {:github "shieldproject/shield"}
+ :tests [["shield" "--version"]]
  :strip 1
  :bins {"shield" "cli/shield"}
  :platforms {"linux-x86_64" {:asset "shield-server-linux-amd64.tar.gz"}}}

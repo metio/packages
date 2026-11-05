@@ -3,6 +3,7 @@
 
 {:description "Private certificate authority and ACME server for X.509 and SSH"
  :source {:github "smallstep/certificates"}
+ :tests [["step-ca" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "step-ca_linux_{version}_amd64.tar.gz"}
              "linux-aarch64" {:asset "step-ca_linux_{version}_arm64.tar.gz"}

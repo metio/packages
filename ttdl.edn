@@ -3,4 +3,5 @@
 
 {:description "TTDL - Terminal Todo List Manager.",
  :source {:github "VladimirMarkelov/ttdl"},
+ :tests [["ttdl" "--version"]]
  :platforms {"linux-x86_64" {:asset "ttdl_{version}_linux-x64-musl.tar.gz"}}}

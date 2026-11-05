@@ -3,6 +3,7 @@
 
 {:description "Block everything. Allow only what matters. A DNS tool for productivity, focus, and child safety. Allowlist-only internet for distraction-free work."
  :source {:github "berbyte/sinkzone"}
+ :tests [["sinkzone" "--help"]]
  :platforms {"linux-x86_64" {:asset "sinkzone-linux-amd64"}
              "linux-aarch64" {:asset "sinkzone-linux-arm64"}
              "darwin-x86_64" {:asset "sinkzone-darwin-amd64"}

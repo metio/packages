@@ -3,6 +3,7 @@
 
 {:description "Collects and analyzes diagnostic information from a Kubernetes cluster"
  :source {:github "replicatedhq/troubleshoot"}
+ :tests [["support-bundle" "--help"]]
  :checksum "troubleshoot_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "support-bundle_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "support-bundle_linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Open source ngrok alternative designed for teams. Tunnel http, tcp or websocket connections",
  :source {:github "amalshaji/portr"}
+ :tests [["portr" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "portr_{version}_Linux_x86_64.zip"}
              "linux-aarch64" {:asset "portr_{version}_Linux_arm64.zip"}

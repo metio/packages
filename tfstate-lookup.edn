@@ -4,6 +4,7 @@
 
 {:description "Lookup resource attributes in tfstate",
  :source {:github "fujiwara/tfstate-lookup"}
+ :tests [["tfstate-lookup" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "tfstate-lookup_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "tfstate-lookup_{version}_linux_arm64.tar.gz"}

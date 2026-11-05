@@ -4,5 +4,6 @@
 
 {:description "UPX - the Ultimate Packer for eXecutables",
  :source {:github "upx/upx"}
+ :tests [["upx" "--version"]]
  :platforms {"linux-x86_64" {:asset "upx-{version}-amd64_linux.tar.xz" :bins {"upx" "upx-{version}-amd64_linux/upx"}}
              "linux-aarch64" {:asset "upx-{version}-arm64_linux.tar.xz" :bins {"upx" "upx-{version}-arm64_linux/upx"}}}}

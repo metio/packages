@@ -3,6 +3,7 @@
 
 {:description "VPN terminal UI (TUI) for WireGuard and OpenVPN with multi-tunnel control, real-time telemetry, and leak guarding."
  :source {:github "Harry-kp/vortix"}
+ :tests [["vortix" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "vortix-x86_64-unknown-linux-musl.tar.xz"}
              "linux-aarch64" {:asset "vortix-aarch64-unknown-linux-musl.tar.xz"}

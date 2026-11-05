@@ -3,6 +3,7 @@
 
 {:description "Command-line interface for STACKIT cloud resources"
  :source {:github "stackitcloud/stackit-cli"}
+ :tests [["stackit" "--version"]]
  :checksum "stackit-cli_{version}_checksums.txt"
  :bins {"stackit" "stackit"}
  :completions {:bash "completions/stackit.bash" :zsh "completions/stackit.zsh" :fish "completions/stackit.fish"}

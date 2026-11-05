@@ -4,6 +4,7 @@
 
 {:description "AWS RI expiration detector",
  :source {:github "fujiwara/riex"}
+ :tests [["riex" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "riex_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "riex_{version}_linux_arm64.tar.gz"}

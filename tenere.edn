@@ -3,6 +3,7 @@
 
 {:description "TUI for LLMs"
  :source {:github "pythops/tenere"}
+ :tests [["tenere" "--version"]]
  :platforms {"linux-x86_64" {:asset "tenere-x86_64-unknown-linux-musl"}
              "darwin-x86_64" {:asset "tenere-x86_64-apple-darwin"}
              "darwin-aarch64" {:asset "tenere-aarch64-apple-darwin"}}}
