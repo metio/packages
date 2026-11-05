@@ -3,4 +3,5 @@
 
 {:description "DooM in the terminal!"
  :source {:github "wojciech-graj/doom-ascii"}
+ :tests [["doom-ascii" "-h"]]
  :platforms {"linux-x86_64" {:asset "doom-ascii-{version}-x86_64-linux.zip"}}}

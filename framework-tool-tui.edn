@@ -3,5 +3,6 @@
 
 {:description "A TUI for controlling and monitoring Framework Computers hardware built in Rust"
  :source {:github "grouzen/framework-tool-tui"}
+ :tests [["framework-tool-tui" "-h"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "framework-tool-tui-v{version}-x86_64-unknown-linux-gnu.tar.gz"}}}

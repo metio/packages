@@ -4,6 +4,7 @@
 
 {:description "CLI application to listen to SomaFM stations",
  :source {:github "nicarl/somafm"}
+ :tests [["somafm" "-h"]]
  :platforms {"linux-x86_64" {:asset "somafm-{tag}-linux-amd64"}
              "darwin-x86_64" {:asset "somafm-{tag}-darwin-amd64"}
              "darwin-aarch64" {:asset "somafm-{tag}-darwin-arm64"}}}

@@ -3,6 +3,7 @@
 
 {:description "The Kotlin compiler for the JVM, which runs on the java found through JAVA_HOME or PATH"
  :source {:github "JetBrains/kotlin"}
+ :tests [["kotlin" "-h"]]
  :checksum "{asset}.sha256"
  :strip 1
  :layout :tree

@@ -3,6 +3,7 @@
 
 {:description "Security risk analysis for Kubernetes resources"
  :source {:github "controlplaneio/kubesec"}
+ :tests [["kubesec" "-h"]]
  :checksum "kubesec_checksums.txt"
  :platforms {"linux-x86_64" {:asset "kubesec_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kubesec_linux_arm64.tar.gz"}

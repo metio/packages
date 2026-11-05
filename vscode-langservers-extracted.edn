@@ -3,6 +3,7 @@
 
 {:description "The HTML, CSS, JSON, ESLint and Markdown language servers of VS Code"
  :source {:npm "vscode-langservers-extracted"}
+ :tests [["vscode-html-language-server" "-h"]]
  :bins {"vscode-html-language-server" "node_modules/.bin/vscode-html-language-server"
         "vscode-css-language-server" "node_modules/.bin/vscode-css-language-server"
         "vscode-json-language-server" "node_modules/.bin/vscode-json-language-server"

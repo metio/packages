@@ -4,6 +4,7 @@
 
 {:description "Pre-indexed code knowledge graph for coding agents",
  :source {:github "colbymchenry/codegraph"}
+ :tests [["codegraph" "-h"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "codegraph-linux-x64.tar.gz" :bins {"codegraph" "codegraph-linux-x64/bin/codegraph"}}
              "linux-aarch64" {:asset "codegraph-linux-arm64.tar.gz" :bins {"codegraph" "codegraph-linux-arm64/bin/codegraph"}}

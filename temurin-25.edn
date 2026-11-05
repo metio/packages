@@ -3,6 +3,7 @@
 
 {:description "Eclipse Temurin OpenJDK 25, the newest update of the 25 long-term support release"
  :source {:github "adoptium/temurin25-binaries"}
+ :tests [["temurin-25" "-h"]]
  :tag-prefix "jdk-"
  :vars {:file-version {:replace ["+" "_"]}}
  :checksum "{asset}.sha256.txt"

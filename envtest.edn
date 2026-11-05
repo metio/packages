@@ -3,6 +3,7 @@
 
 {:description "The etcd, kube-apiserver and kubectl binaries controller-runtime's envtest starts"
  :source {:github "kubernetes-sigs/controller-tools"}
+ :tests [["envtest" "-h"]]
  :tag-prefix "envtest-v"
  :layout :tree
  :bins {}

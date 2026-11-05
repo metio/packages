@@ -3,6 +3,7 @@
 
 {:description "Go-powered CLI to surf global radio waves via a sleek TUI. Tune in & let's Go !"
  :source {:github "matteo-pacini/RadioGoGo"}
+ :tests [["radiogogo" "-h"]]
  :platforms {"linux-x86_64" {:asset "radiogogo_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "radiogogo_{version}_linux_arm64.zip"}
              "darwin-x86_64" {:asset "radiogogo_{version}_darwin_amd64.zip"}

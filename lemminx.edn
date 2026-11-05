@@ -3,6 +3,7 @@
 
 {:description "Language server for XML"
  :source {:github "redhat-developer/vscode-xml"}
+ :tests [["lemminx" "-h"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "lemminx-linux-x86_64.zip" :bins {"lemminx" "lemminx-linux-x86_64"}}
              "linux-aarch64" {:asset "lemminx-linux-aarch_64.zip" :bins {"lemminx" "lemminx-linux-aarch_64"}}

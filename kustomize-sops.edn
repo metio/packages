@@ -4,6 +4,7 @@
 
 {:description "KSOPS - A Flexible Kustomize Plugin for SOPS Encrypted Resources",
  :source {:github "viaduct-ai/kustomize-sops"}
+ :tests [["ksops" "-h"]]
  :checksum "checksums.txt"
  :bins {"ksops" "ksops"}
  :platforms {"linux-x86_64" {:asset "ksops_{version}_Linux_x86_64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Manage your GitHub Actions from Terminal with great UI",
  :source {:github "termkit/gama"}
+ :tests [["gama" "-h"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "gama-linux-amd64"}
              "linux-aarch64" {:asset "gama-linux-arm64"}

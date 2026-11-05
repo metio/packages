@@ -3,6 +3,7 @@
 
 {:description "Run a command when files change"
  :source {:github "cespare/reflex"}
+ :tests [["reflex" "-h"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "reflex_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "reflex_linux_arm64.tar.gz"}

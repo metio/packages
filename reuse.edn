@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Checks and adds copyright and licensing information following the REUSE specification"
+ :tests [["reuse" "-h"]]
  :source {:pypi "reuse"}}

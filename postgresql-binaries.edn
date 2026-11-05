@@ -4,6 +4,7 @@
 
 {:description "PostgreSQL, the server and its client programs such as initdb, pg_ctl and psql, built relocatable by theseus-rs"
  :source {:github "theseus-rs/postgresql-binaries"}
+ :tests [["postgresql-binaries" "-h"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :strip 1

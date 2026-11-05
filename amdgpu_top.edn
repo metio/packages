@@ -3,5 +3,6 @@
 
 {:description "Tool to display AMDGPU usage"
  :source {:github "Umio-Yasuno/amdgpu_top"}
+ :tests [["amdgpu_top" "-h"]]
  :platforms {"linux-x86_64" {:asset "amdgpu_top-{version}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "amdgpu_top-{version}-aarch64-unknown-linux-gnu.tar.gz"}}}

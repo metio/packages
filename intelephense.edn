@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Language server for PHP"
+ :tests [["intelephense" "-h"]]
  :source {:npm "intelephense"}}
