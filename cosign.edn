@@ -3,6 +3,7 @@
 
 {:description "Code signing and transparency for containers and binaries",
  :source {:github "sigstore/cosign"},
+ :tests [{:args ["cosign" "version"] :expect "{version}"}]
  :checksum "cosign_checksums.txt",
  :signature {:bundle "{asset}.sigstore.json",
              :identity "keyless@projectsigstore.iam.gserviceaccount.com",

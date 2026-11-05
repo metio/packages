@@ -4,6 +4,7 @@
 
 {:description "Utility to simplify running applications in docker containers",
  :source {:github "jwilder/dockerize"}
+ :tests [{:args ["dockerize" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "dockerize-linux-amd64-{tag}.tar.gz"}
              "linux-aarch64" {:asset "dockerize-linux-arm64-{tag}.tar.gz"}
              "darwin-x86_64" {:asset "dockerize-darwin-amd64-{tag}.tar.gz"}

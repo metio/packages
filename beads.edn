@@ -4,6 +4,7 @@
 
 {:description "Beads - A memory upgrade for your coding agent",
  :source {:github "gastownhall/beads"}
+ :tests [{:args ["bd" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"bd" "bd"}
  :platforms {"linux-x86_64" {:asset "beads_{version}_linux_amd64.tar.gz"}

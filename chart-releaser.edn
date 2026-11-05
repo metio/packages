@@ -4,6 +4,7 @@
 
 {:description "Hosting Helm Charts via GitHub Pages and Releases",
  :source {:github "helm/chart-releaser"}
+ :tests [{:args ["cr" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :bins {"cr" "cr"}
  :platforms {"linux-x86_64" {:asset "chart-releaser_{version}_linux_amd64.tar.gz"}

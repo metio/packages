@@ -4,6 +4,7 @@
 
 {:description "Generate HTTP load and plot the results in real-time",
  :source {:github "nakabonne/ali"}
+ :tests [{:args ["ali" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "ali_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "ali_{version}_linux_arm64.tar.gz"}

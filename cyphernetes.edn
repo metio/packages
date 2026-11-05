@@ -4,6 +4,7 @@
 
 {:description "A Kubernetes Query Language",
  :source {:github "AvitalTamir/cyphernetes"}
+ :tests [{:args ["cyphernetes" "version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "cyphernetes-linux-amd64"}
              "linux-aarch64" {:asset "cyphernetes-linux-arm64"}
              "darwin-x86_64" {:asset "cyphernetes-darwin-amd64"}

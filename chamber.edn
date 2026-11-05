@@ -4,6 +4,7 @@
 
 {:description "CLI for managing secrets",
  :source {:github "segmentio/chamber"}
+ :tests [{:args ["chamber" "version"] :expect "{version}"}]
  :checksum "chamber-{tag}.sha256sums"
  :platforms {"linux-x86_64" {:asset "chamber-{tag}-linux-amd64"}
              "linux-aarch64" {:asset "chamber-{tag}-linux-arm64"}

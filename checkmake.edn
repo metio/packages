@@ -4,6 +4,7 @@
 
 {:description "Linter/analyzer for Makefiles",
  :source {:github "checkmake/checkmake"}
+ :tests [{:args ["checkmake" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "checkmake-{tag}.linux.amd64"}
              "linux-aarch64" {:asset "checkmake-{tag}.linux.arm64"}

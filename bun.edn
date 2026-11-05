@@ -3,6 +3,7 @@
 
 {:description "JavaScript runtime, package manager, bundler and test runner"
  :source {:github "oven-sh/bun"}
+ :tests [{:args ["bun" "--version"] :expect "{version}"}]
  :tag-prefix "bun-v"
  :checksum "SHASUMS256.txt"
  :strip 1

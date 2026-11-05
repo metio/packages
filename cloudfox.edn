@@ -4,6 +4,7 @@
 
 {:description "Automating situational awareness for cloud penetration tests",
  :source {:github "BishopFox/cloudfox"}
+ :tests [{:args ["cloudfox" "--version"] :expect "{version}"}]
  :bins {"cloudfox" "cloudfox/cloudfox"}
  :platforms {"linux-x86_64" {:asset "cloudfox-linux-amd64.zip"}
              "linux-aarch64" {:asset "cloudfox-linux-arm64.zip"}

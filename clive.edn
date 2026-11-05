@@ -4,6 +4,7 @@
 
 {:description "Automates terminal operations",
  :source {:github "koki-develop/clive"}
+ :tests [{:args ["clive" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "clive_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "clive_Linux_arm64.tar.gz"}

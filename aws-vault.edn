@@ -3,6 +3,7 @@
 
 {:description "Stores AWS credentials in the operating system keyring and hands out temporary credentials"
  :source {:github "ByteNess/aws-vault"}
+ :tests [{:args ["aws-vault" "--version"] :expect "{version}"}]
  :checksum "aws-vault_sha256_checksums.txt"
  :bins {"aws-vault" "{asset}"}
  :platforms {"linux-x86_64" {:asset "aws-vault-linux-amd64"}

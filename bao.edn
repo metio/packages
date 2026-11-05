@@ -4,6 +4,7 @@
 
 {:description "OpenBao exists to provide a software solution to manage, store, and distribute sensitive data including secrets, certificates, and keys",
  :source {:github "openbao/openbao"}
+ :tests [{:args ["bao" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "openbao_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "openbao_{version}_linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "A Better Secrets Scanner built for configurability and speed",
  :source {:github "betterleaks/betterleaks"}
+ :tests [{:args ["betterleaks" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "betterleaks_{version}_linux_x64.tar.gz"}
              "linux-aarch64" {:asset "betterleaks_{version}_linux_arm64.tar.gz"}

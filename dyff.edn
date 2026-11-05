@@ -4,6 +4,7 @@
 
 {:description "/ˈdʏf/ - diff tool for YAML files, and sometimes JSON",
  :source {:github "homeport/dyff"}
+ :tests [{:args ["dyff" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "dyff_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "dyff_{version}_linux_arm64.tar.gz"}

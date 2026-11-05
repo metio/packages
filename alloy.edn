@@ -4,6 +4,7 @@
 
 {:description "OpenTelemetry Collector distribution with programmable pipelines",
  :source {:github "grafana/alloy"}
+ :tests [{:args ["alloy" "--version"] :expect "{version}"}]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "alloy-linux-amd64.zip" :bins {"alloy" "alloy-linux-amd64"}}
              "linux-aarch64" {:asset "alloy-linux-arm64.zip" :bins {"alloy" "alloy-linux-arm64"}}

@@ -4,6 +4,7 @@
 
 {:description "CLI tool for linting and testing Helm charts, with the chart schema and yamllint config it reads through CT_CONFIG_DIR"
  :source {:github "helm/chart-testing"}
+ :tests [["ct" "--help"]]
  :checksum "checksums.txt"
  :layout :tree
  :bins {"ct" "ct"}

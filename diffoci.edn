@@ -4,6 +4,7 @@
 
 {:description "diff for Docker and OCI container images",
  :source {:github "reproducible-containers/diffoci"}
+ :tests [{:args ["diffoci" "--version"] :expect "{version}"}]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "diffoci-{tag}.linux-amd64"}
              "linux-aarch64" {:asset "diffoci-{tag}.linux-arm64"}

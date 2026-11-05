@@ -4,6 +4,7 @@
 
 {:description "Terraform Pull Request Automation",
  :source {:github "runatlantis/atlantis"}
+ :tests [{:args ["atlantis" "version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "atlantis_linux_amd64.zip"}
              "linux-aarch64" {:asset "atlantis_linux_arm64.zip"}

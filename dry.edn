@@ -4,6 +4,7 @@
 
 {:description "dry - A Docker manager for the terminal @",
  :source {:github "moncho/dry"}
+ :tests [{:args ["dry" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "dry-linux-amd64"}
              "linux-aarch64" {:asset "dry-linux-arm64"}
              "darwin-x86_64" {:asset "dry-darwin-amd64"}

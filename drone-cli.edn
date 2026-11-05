@@ -4,6 +4,7 @@
 
 {:description "Command Line Tools for Drone CI",
  :source {:github "harness/drone-cli"}
+ :tests [{:args ["drone" "--version"] :expect "{version}"}]
  :checksum "drone_checksums.txt"
  :bins {"drone" "drone"}
  :platforms {"linux-x86_64" {:asset "drone_linux_amd64.tar.gz"}

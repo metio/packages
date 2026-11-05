@@ -4,6 +4,7 @@
 
 {:description "A tool to verify that your files are in harmony with your .editorconfig",
  :source {:github "editorconfig-checker/editorconfig-checker"}
+ :tests [{:args ["editorconfig-checker" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "editorconfig-checker-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "editorconfig-checker-linux-arm64.tar.gz"}
