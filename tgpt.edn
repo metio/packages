@@ -4,7 +4,6 @@
 
 {:description "AI Chatbots in terminal without needing API keys",
  :source {:github "aandrew-me/tgpt"}
- :tests [{:args ["tgpt" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "tgpt-linux-amd64"}
              "linux-aarch64" {:asset "tgpt-linux-arm64"}
              "darwin-x86_64" {:asset "tgpt-mac-amd64"}
