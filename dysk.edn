@@ -5,4 +5,5 @@
 {:description "A linux utility to get information on filesystems, like df but better",
  :source {:github "Canop/dysk"}
  :tests [{:args ["dysk" "--version"] :expect "{version}"}]
- :platforms {"linux-x86_64" {:asset "dysk_{version}.zip" :bins {"dysk" "build/x86_64-unknown-linux-musl/dysk"}}}}
+ :platforms {"linux-x86_64" {:asset "dysk_{version}.zip" :bins {"dysk" "x86_64-unknown-linux-musl/dysk"}}
+             "linux-aarch64" {:asset "dysk_{version}.zip" :bins {"dysk" "aarch64-unknown-linux-musl/dysk"}}}}

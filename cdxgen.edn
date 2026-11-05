@@ -6,4 +6,5 @@
  :source {:github "cdxgen/cdxgen"}
  :tests [{:args ["cdxgen" "--version"] :expect "{version}"}]
  :checksum "{asset}.sha256"
- :platforms {"linux-x86_64" {:asset "cdxgen-linux-amd64-musl"}}}
+ :platforms {"linux-x86_64" {:asset "cdxgen-linux-amd64"}
+             "linux-aarch64" {:asset "cdxgen-linux-arm64"}}}

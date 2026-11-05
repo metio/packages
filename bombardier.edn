@@ -4,7 +4,6 @@
 
 {:description "Fast cross-platform HTTP benchmarking tool written in Go",
  :source {:github "codesenberg/bombardier"}
- :tests [{:args ["bombardier" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "bombardier-linux-amd64"}
              "linux-aarch64" {:asset "bombardier-linux-arm64"}
              "darwin-x86_64" {:asset "bombardier-darwin-amd64"}

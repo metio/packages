@@ -7,5 +7,5 @@
  :tests [{:args ["age-plugin-se" "--version"] :expect "{version}"}]
  :platforms {"linux-x86_64" {:asset "age-plugin-se-{tag}-x86_64-linux.tgz" :bins {"age-plugin-se" "age-plugin-se-{tag}-x86_64-linux/usr/bin/age-plugin-se"}}
              "linux-aarch64" {:asset "age-plugin-se-{tag}-aarch64-linux.tgz" :bins {"age-plugin-se" "age-plugin-se-{tag}-aarch64-linux/usr/bin/age-plugin-se"}}
-             "darwin-x86_64" {:asset "age-plugin-se-{tag}-macos.zip" :bins {"age-plugin-se" "age-plugin-se-{tag}-macos/usr/bin/age-plugin-se"}}
-             "darwin-aarch64" {:asset "age-plugin-se-{tag}-macos.zip" :bins {"age-plugin-se" "age-plugin-se-{tag}-macos/usr/bin/age-plugin-se"}}}}
+             "darwin-x86_64" {:asset "age-plugin-se-{tag}-macos.zip"}
+             "darwin-aarch64" {:asset "age-plugin-se-{tag}-macos.zip"}}}

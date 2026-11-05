@@ -7,5 +7,4 @@
  :tests [["black" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "black_linux"}
-             "darwin-x86_64" {:asset "black_macos"}
              "darwin-aarch64" {:asset "black_macos"}}}

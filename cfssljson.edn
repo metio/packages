@@ -7,5 +7,4 @@
  :tests [{:args ["cfssljson" "--version"] :expect "{version}"}]
  :checksum "cfssl_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "cfssljson_{version}_linux_amd64"}
-             "linux-aarch64" {:asset "cfssljson_{version}_linux_arm64"}
-             "darwin-x86_64" {:asset "cfssljson_{version}_darwin_amd64"}}}
+             "linux-aarch64" {:asset "cfssljson_{version}_linux_arm64"}}}
