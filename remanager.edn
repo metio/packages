@@ -4,7 +4,6 @@
 
 {:description "Linux, MacOS, and Windows desktop app for managing mods on reMarkable tablets",
  :source {:github "rmitchellscott/reManager"}
+ :bins {"remanager" "reManager"}
  :platforms {"linux-x86_64" {:asset "reManager-linux-amd64.tar.gz"}
-             "linux-aarch64" {:asset "reManager-linux-arm64.tar.gz"}
-             "darwin-x86_64" {:asset "reManager-macos-universal.zip"}
-             "darwin-aarch64" {:asset "reManager-macos-universal.zip"}}}
+             "linux-aarch64" {:asset "reManager-linux-arm64.tar.gz"}}}
