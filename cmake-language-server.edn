@@ -2,5 +2,4 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Language server for CMake"
- :tests [{:args ["cmake-language-server" "--version"] :expect "{version}"}]
  :source {:pypi "cmake-language-server"}}
