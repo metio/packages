@@ -4,6 +4,7 @@
 
 {:description "Automatic container image update for Argo CD",
  :source {:github "argoproj-labs/argocd-image-updater"}
+ :tests [["argocd-image-updater" "--version"]]
  :checksum "release-{tag}.sha256"
  :platforms {"linux-x86_64" {:asset "argocd-image-updater-linux_amd64"}
              "linux-aarch64" {:asset "argocd-image-updater-linux_arm64"}

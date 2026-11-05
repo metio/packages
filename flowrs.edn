@@ -3,6 +3,7 @@
 
 {:description "Flowrs is a TUI application for Apache Airflow that allows you to monitor, inspect and trigger Airflow DAGs from the comforts of your terminal."
  :source {:github "jvanbuel/flowrs"}
+ :tests [["flowrs" "--version"]]
  :tag-prefix "flowrs-tui-v"
  :strip 1
  :platforms {"linux-x86_64" {:asset "flowrs-tui-x86_64-unknown-linux-gnu.tar.xz"}

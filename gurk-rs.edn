@@ -3,6 +3,7 @@
 
 {:description "Signal Messenger client for terminal"
  :source {:github "boxdot/gurk-rs"}
+ :tests [["gurk" "--version"]]
  :bins {"gurk" "gurk"}
  :platforms {"linux-x86_64" {:asset "gurk-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "gurk-aarch64-unknown-linux-musl.tar.gz"}

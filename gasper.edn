@@ -4,6 +4,7 @@
 
 {:description "Your Cloud in a Binary",
  :source {:github "sdslabs/gasper"}
+ :tests [["gasper" "--version"]]
  :platforms {"linux-x86_64" {:asset "gasper_{tag}_linux_amd64.tar.gz" :bins {"gasper" "gasper_{tag}_linux_amd64/gasper"}}
              "linux-aarch64" {:asset "gasper_{tag}_linux_arm64.tar.gz" :bins {"gasper" "gasper_{tag}_linux_arm64/gasper"}}
              "darwin-x86_64" {:asset "gasper_{tag}_darwin_amd64.tar.gz" :bins {"gasper" "gasper_{tag}_darwin_amd64/gasper"}}}}

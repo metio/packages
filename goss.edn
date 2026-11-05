@@ -3,6 +3,7 @@
 
 {:description "Quick and Easy server testing/validation",
  :source {:github "goss-org/goss"},
+ :tests [["goss" "--version"]]
  :checksum "goss_{version}_SHA256SUMS",
  :platforms {"linux-x86_64" {:asset "goss_{version}_linux_x86_64.tar.gz"
                              :history [{:before "0.4.10" :asset "goss-linux-amd64" :checksum "goss-linux-amd64.sha256"}]}

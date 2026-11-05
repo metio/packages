@@ -4,6 +4,7 @@
 
 {:description "Go Version Manager (written in Go for cross-platform usability)",
  :source {:github "andrewkroh/gvm"}
+ :tests [["gvm" "--version"]]
  :checksum "gvm_{version}_SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "gvm-linux-amd64"}
              "linux-aarch64" {:asset "gvm-linux-arm64"}

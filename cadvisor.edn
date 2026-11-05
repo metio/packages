@@ -3,5 +3,6 @@
 
 {:description "Analyzes resource usage and performance characteristics of running containers."
  :source {:github "google/cadvisor"}
+ :tests [["cadvisor" "--version"]]
  :platforms {"linux-x86_64" {:asset "cadvisor-v{version}-linux-amd64"}
              "linux-aarch64" {:asset "cadvisor-v{version}-linux-arm64"}}}

@@ -4,6 +4,7 @@
 
 {:description "Fast and Simple Serverless Functions for Kubernetes",
  :source {:github "fission/fission"}
+ :tests [["fission" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "fission-{tag}-linux-amd64"}
              "linux-aarch64" {:asset "fission-{tag}-linux-arm64"}

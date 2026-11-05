@@ -3,6 +3,7 @@
 
 {:description "Keeps files that many repositories share in line with rules"
  :source {:github "metio/krei"}
+ :tests [["krei" "--version"]]
  :tag-prefix ""
  :checksum "krei_{version}_SHA256SUMS"
  :bins {"krei" "{asset}"}

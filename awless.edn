@@ -4,5 +4,6 @@
 
 {:description "A Mighty CLI for AWS",
  :source {:github "wallix/awless"}
+ :tests [["awless" "--version"]]
  :platforms {"linux-x86_64" {:asset "awless-linux-amd64.tar.gz"}
              "darwin-x86_64" {:asset "awless-darwin-amd64.tar.gz"}}}

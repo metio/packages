@@ -4,6 +4,7 @@
 
 {:description "Push markdown files to Confluence Cloud",
  :source {:github "justmiles/go-markdown2confluence"}
+ :tests [["markdown2confluence" "--version"]]
  :checksum "checksums.txt"
  :bins {"markdown2confluence" "markdown2confluence"}
  :platforms {"linux-x86_64" {:asset "go-markdown2confluence_{version}_linux_x86_64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Environment variables substitution for Go",
  :source {:github "a8m/envsubst"}
+ :tests [["envsubst" "--version"]]
  :platforms {"linux-x86_64" {:asset "envsubst-Linux-x86_64"}
              "linux-aarch64" {:asset "envsubst-Linux-arm64"}
              "darwin-x86_64" {:asset "envsubst-Darwin-x86_64"}

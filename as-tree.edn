@@ -4,6 +4,7 @@
 
 {:description "Print a list of paths as a tree of paths",
  :source {:github "jez/as-tree"}
+ :tests [["as-tree" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "as-tree-{tag}-linux.zip"}
              "darwin-x86_64" {:asset "as-tree-{tag}-osx.zip"}

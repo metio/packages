@@ -4,6 +4,7 @@
 
 {:description "a fast, scalable, multi-language and extensible build system",
  :source {:github "bazelbuild/bazel"}
+ :tests [["bazel" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "bazel-{tag}-linux-x86_64"}

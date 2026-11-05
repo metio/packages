@@ -4,6 +4,7 @@
 
 {:description "Frictionless way of managing project-specific commands",
  :source {:github "gopinath-langote/1build"}
+ :tests [["1build" "--version"]]
  :checksum "1build_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "1build_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "1build_Linux_arm64.tar.gz"}

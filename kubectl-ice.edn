@@ -4,6 +4,7 @@
 
 {:description "A kubectl plugin that allows you to easily view advanced configuration of all containers that are running inside pods",
  :source {:github "NimbleArchitect/kubectl-ice"}
+ :tests [["kubectl-ice" "--version"]]
  :checksum "kubectl-ice_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "kubectl-ice_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kubectl-ice_linux_arm64.tar.gz"}

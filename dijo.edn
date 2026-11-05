@@ -4,5 +4,6 @@
 
 {:description "scriptable, curses-based, digital habit tracker",
  :source {:github "oppiliappan/dijo"}
+ :tests [["dijo" "--version"]]
  :platforms {"linux-x86_64" {:asset "dijo-x86_64-linux"}
              "darwin-x86_64" {:asset "dijo-x86_64-apple"}}}

@@ -4,6 +4,7 @@
 
 {:description "Define and run multi-container applications with Docker",
  :source {:github "docker/compose"}
+ :tests [["docker-cli-plugin-docker-compose" "--version"]]
  :checksum "{asset}.sha256"
  :bins {"docker-cli-plugin-docker-compose" "{asset}"}
  :platforms {"linux-x86_64" {:asset "docker-compose-linux-x86_64"}

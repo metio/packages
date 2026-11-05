@@ -3,6 +3,7 @@
 
 {:description "Command-line interface for IONOS Cloud infrastructure"
  :source {:github "ionos-cloud/ionosctl"}
+ :tests [["ionosctl" "--version"]]
  :checksum "ionosctl-{version}-SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "ionosctl-{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "ionosctl-{version}-linux-arm64.tar.gz"}

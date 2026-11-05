@@ -3,6 +3,7 @@
 
 {:description "Terminal session manager for AI coding agents. One TUI for Claude, Gemini, OpenCode, Codex, and more."
  :source {:github "asheshgoplani/agent-deck"}
+ :tests [["agent-deck" "--version"]]
  :platforms {"linux-x86_64" {:asset "agent-deck_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "agent-deck_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "agent-deck_{version}_darwin_amd64.tar.gz"}

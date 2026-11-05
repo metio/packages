@@ -4,6 +4,7 @@
 
 {:description "kcp is a Kubernetes-like control plane for workloads on many clusters",
  :source {:github "kcp-dev/kcp"}
+ :tests [["kcp" "--version"]]
  :checksum "kcp_{version}_checksums.txt"
  :bins {"kcp" "bin/kcp"}
  :platforms {"linux-x86_64" {:asset "kcp_{version}_linux_amd64.tar.gz"}

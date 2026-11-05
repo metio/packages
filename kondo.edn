@@ -3,6 +3,7 @@
 
 {:description "Cleans dependencies and build artifacts from software projects"
  :source {:github "tbillington/kondo"}
+ :tests [["kondo" "--version"]]
  :platforms {"linux-x86_64" {:asset "kondo-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "kondo-aarch64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "kondo-x86_64-apple-darwin.tar.gz"}

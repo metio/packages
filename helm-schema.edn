@@ -3,6 +3,7 @@
 
 {:description "Generate jsonschemas from helm charts",
  :source {:github "dadav/helm-schema"},
+ :tests [["helm-schema" "--version"]]
  :tag-prefix "",
  :checksum "checksums.txt"
  :platforms {"darwin-aarch64" {:asset "helm-schema_{version}_Darwin_arm64.tar.gz"}

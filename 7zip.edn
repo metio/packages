@@ -3,6 +3,7 @@
 
 {:description "7-Zip file archiver with a high compression ratio"
  :source {:github "ip7z/7zip"}
+ :tests [["7zz" "--version"]]
  :tag-prefix ""
  :vars {:short {:replace ["." ""]}}
  :bins {"7zz" "7zz"}

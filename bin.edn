@@ -4,6 +4,7 @@
 
 {:description "Effortless binary manager",
  :source {:github "marcosnils/bin"}
+ :tests [["bin" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "bin_{version}_linux_amd64"}
              "linux-aarch64" {:asset "bin_{version}_linux_arm64"}

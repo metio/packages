@@ -4,4 +4,5 @@
 
 {:description "Stop half-done APIs! Cherrybomb is a CLI tool that helps you avoid undefined user behaviour by auditing your API specifications, validating them and running API security tests",
  :source {:github "blst-security/cherrybomb"}
+ :tests [["cherrybomb" "--version"]]
  :platforms {"linux-x86_64" {:asset "cherrybomb_linux_gnu"}}}

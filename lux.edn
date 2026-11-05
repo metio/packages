@@ -4,6 +4,7 @@
 
 {:description "Fast and simple video download library and CLI tool written in Go",
  :source {:github "iawia002/lux"}
+ :tests [["lux" "--version"]]
  :checksum "lux_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "lux_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "lux_{version}_Linux_arm64.tar.gz"}

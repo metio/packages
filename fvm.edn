@@ -4,6 +4,7 @@
 
 {:description "Flutter Version Management: A simple CLI to manage Flutter SDK versions",
  :source {:github "btwld/fvm"}
+ :tests [["fvm" "--version"]]
  :tag-prefix ""
  :bins {"fvm" "fvm/fvm"}
  :platforms {"linux-x86_64" {:asset "fvm-{tag}-linux-x64.tar.gz"}

@@ -3,5 +3,6 @@
 
 {:description "Manage your GnuPG keys with ease!"
  :source {:github "orhun/gpg-tui"}
+ :tests [["gpg-tui" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "gpg-tui-{version}-x86_64-unknown-linux-gnu.tar.gz"}}}

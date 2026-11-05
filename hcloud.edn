@@ -3,6 +3,7 @@
 
 {:description "Command-line interface for Hetzner Cloud"
  :source {:github "hetznercloud/cli"}
+ :tests [["hcloud" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "hcloud-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "hcloud-linux-arm64.tar.gz"}

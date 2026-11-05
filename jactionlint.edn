@@ -4,6 +4,7 @@
 
 {:description "Static checker for GitHub Actions workflow files",
  :source {:github "jdx/jactionlint"}
+ :tests [["jactionlint" "--version"]]
  :checksum "jactionlint_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "jactionlint_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "jactionlint_{version}_linux_arm64.tar.gz"}

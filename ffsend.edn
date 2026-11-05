@@ -4,4 +4,5 @@
 
 {:description "Easily and securely share files from the command line. A fully featured Firefox Send client",
  :source {:github "timvisee/ffsend"}
+ :tests [["ffsend" "--version"]]
  :platforms {"linux-x86_64" {:asset "ffsend-{tag}-linux-x64-static"}}}

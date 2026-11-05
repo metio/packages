@@ -4,6 +4,7 @@
 
 {:description "A modern replacement for ‘ls’",
  :source {:github "ogham/exa"}
+ :tests [["exa" "--version"]]
  :bins {"exa" "bin/exa"}
  :superseded-by "eza"
  :platforms {"linux-x86_64" {:asset "exa-linux-x86_64-musl-{tag}.zip"}

@@ -4,6 +4,7 @@
 
 {:description "Top-like interface for container metrics",
  :source {:github "bcicen/ctop"}
+ :tests [["ctop" "--version"]]
  :checksum "sha256sums.txt"
  :platforms {"linux-x86_64" {:asset "ctop-{version}-linux-amd64"}
              "linux-aarch64" {:asset "ctop-{version}-linux-arm64"}

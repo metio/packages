@@ -3,6 +3,7 @@
 
 {:description "Linux kernel manager and activity monitor"
  :source {:github "orhun/kmon"}
+ :tests [["kmon" "--version"]]
  :strip 1
  :checksum "{asset}.sha512"
  :man ["man/kmon.8"]

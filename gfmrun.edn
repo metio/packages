@@ -4,6 +4,7 @@
 
 {:description "GitHub-Flavored Markdown Runner",
  :source {:github "urfave/gfmrun"}
+ :tests [["gfmrun" "--version"]]
  :platforms {"linux-x86_64" {:asset "gfmrun-linux-amd64-{tag}"}
              "linux-aarch64" {:asset "gfmrun-linux-arm64-{tag}"}
              "darwin-x86_64" {:asset "gfmrun-darwin-amd64-{tag}"}

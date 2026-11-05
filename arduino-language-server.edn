@@ -4,6 +4,7 @@
 
 {:description "An Arduino Language Server based on Clangd to Arduino code autocompletion",
  :source {:github "arduino/arduino-language-server"}
+ :tests [["arduino-language-server" "--version"]]
  :tag-prefix ""
  :checksum "{tag}-checksums.txt"
  :platforms {"linux-x86_64" {:asset "arduino-language-server_{tag}_Linux_64bit.tar.gz"}

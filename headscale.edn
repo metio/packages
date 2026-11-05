@@ -4,6 +4,7 @@
 
 {:description "An open source, self-hosted implementation of the Tailscale control server",
  :source {:github "juanfont/headscale"}
+ :tests [["headscale" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "headscale_{version}_linux_amd64"}
              "linux-aarch64" {:asset "headscale_{version}_linux_arm64"}

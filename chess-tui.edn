@@ -3,6 +3,7 @@
 
 {:description "Play chess in any terminal. Rust TUI, Stockfish, Lichess."
  :source {:github "thomas-mauran/chess-tui"}
+ :tests [["chess-tui" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "chess-tui-{version}-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "chess-tui-{version}-aarch64-unknown-linux-gnu.tar.gz"}

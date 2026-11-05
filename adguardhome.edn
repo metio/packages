@@ -3,6 +3,7 @@
 
 {:description "Network-wide ad and tracker blocking DNS server"
  :source {:github "AdguardTeam/AdGuardHome"}
+ :tests [["AdGuardHome" "--version"]]
  :checksum "checksums.txt"
  :bins {"AdGuardHome" "AdGuardHome"}
  :platforms {"linux-x86_64" {:asset "AdGuardHome_linux_amd64.tar.gz" :strip 2}

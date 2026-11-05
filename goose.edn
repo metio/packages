@@ -3,6 +3,7 @@
 
 {:description "Database migration tool for SQL migrations and Go functions"
  :source {:github "pressly/goose"}
+ :tests [["goose" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "goose_linux_x86_64"}
              "linux-aarch64" {:asset "goose_linux_arm64"}

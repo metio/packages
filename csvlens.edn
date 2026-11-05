@@ -4,6 +4,7 @@
 
 {:description "Command line csv viewer",
  :source {:github "YS-L/csvlens"}
+ :tests [["csvlens" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "csvlens-x86_64-unknown-linux-musl.tar.xz" :bins {"csvlens" "csvlens-x86_64-unknown-linux-musl/csvlens"}}
              "linux-aarch64" {:asset "csvlens-aarch64-unknown-linux-gnu.tar.xz" :bins {"csvlens" "csvlens-aarch64-unknown-linux-gnu/csvlens"}}

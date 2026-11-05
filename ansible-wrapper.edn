@@ -3,6 +3,7 @@
 
 {:description "Wrapper around various Ansible commands to automatically manage dependencies",
  :source {:github "metio/ansible-wrapper"}
+ :tests [["ansible-wrapper" "--version"]]
  :tag-prefix ""
  :checksum "SHA256SUMS"
  :bins {"ansible-wrapper" "ansible-wrapper"

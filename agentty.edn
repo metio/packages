@@ -3,6 +3,7 @@
 
 {:description "AI pair programming in your terminal — one static binary, sub-ms startup, any model"
  :source {:github "agentty-org/agentty"}
+ :tests [["agentty" "--version"]]
  :platforms {"linux-x86_64" {:asset "agentty-linux-x86_64"}
              "linux-aarch64" {:asset "agentty-linux-aarch64"}
              "darwin-x86_64" {:asset "agentty-macos-x86_64"}

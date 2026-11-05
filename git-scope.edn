@@ -3,6 +3,7 @@
 
 {:description "A fast TUI to see the status of all git repositories on your machine."
  :source {:github "Bharath-code/git-scope"}
+ :tests [["git-scope" "--version"]]
  :platforms {"linux-x86_64" {:asset "git-scope_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "git-scope_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "git-scope_{version}_darwin_amd64.tar.gz"}

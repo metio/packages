@@ -3,5 +3,6 @@
 
 {:description "Simplify your Git workflow with visual feedback, keyboard-driven controls, and a streamlined experience."
  :source {:github "thewizardshell/froggit"}
+ :tests [["froggit" "--version"]]
  :bins {"froggit" "froggit-linux-amd64"}
  :platforms {"linux-x86_64" {:asset "linux-amd64.zip"}}}

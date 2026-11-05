@@ -4,6 +4,7 @@
 
 {:description "FalconHound is a blue team multi-tool. It allows you to utilize and enhance the power of BloodHound in a more automated fashion. It is designed to be used in conjunction with a SIEM or other log aggregation tool",
  :source {:github "FalconForceTeam/FalconHound"}
+ :tests [["falconhound" "--version"]]
  :bins {"falconhound" "FalconHound"}
  :platforms {"linux-x86_64" {:asset "FalconHound_Linux_x86_64.zip"}
              "linux-aarch64" {:asset "FalconHound_Linux_arm64.zip"}

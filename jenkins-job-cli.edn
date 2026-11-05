@@ -4,6 +4,7 @@
 
 {:description "Jenkins-job-CLI - Runs Jenkins job from the Command Line",
  :source {:github "artemsalimov/jenkins-job-cli"}
+ :tests [["jj" "--version"]]
  :checksum "sha256sums.txt"
  :bins {"jj" "{asset}"}
  :platforms {"linux-x86_64" {:asset "jenkins-job-cli-{version}-linux-amd64"}

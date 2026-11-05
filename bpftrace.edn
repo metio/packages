@@ -3,5 +3,6 @@
 
 {:description "High-level tracing language for Linux, built on eBPF"
  :source {:github "bpftrace/bpftrace"}
+ :tests [["bpftrace" "--version"]]
  :platforms {"linux-x86_64" {:asset "bpftrace-x86_64"}
              "linux-aarch64" {:asset "bpftrace-aarch64"}}}

@@ -4,6 +4,7 @@
 
 {:description "Run your GitHub Actions locally",
  :source {:github "nektos/act"}
+ :tests [["act" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "act_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "act_Linux_arm64.tar.gz"}

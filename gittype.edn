@@ -3,6 +3,7 @@
 
 {:description "A CLI code-typing game that turns your source code into typing challenges"
  :source {:github "unhappychoice/gittype"}
+ :tests [["gittype" "--version"]]
  :platforms {"linux-x86_64" {:asset "gittype-v{version}-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "gittype-v{version}-aarch64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "gittype-v{version}-x86_64-apple-darwin.tar.gz"}

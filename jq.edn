@@ -3,6 +3,7 @@
 
 {:description "Command-line JSON processor"
  :source {:github "jqlang/jq"}
+ :tests [["jq" "--version"]]
  :tag-prefix "jq-"
  :checksum "sha256sum.txt"
  :bins {"jq" "{asset}"}

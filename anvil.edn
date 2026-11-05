@@ -3,6 +3,7 @@
 
 {:description "CLI to streamline config management and tool installation. Install your full dev tool-chain in one command and sync configurations across machines seamlessly, leverages homebrew and private repos."
  :source {:github "0xjuanma/anvil"}
+ :tests [["anvil" "--version"]]
  :platforms {"linux-x86_64" {:asset "anvil-linux-amd64"}
              "linux-aarch64" {:asset "anvil-linux-arm64"}
              "darwin-x86_64" {:asset "anvil-darwin-amd64"}

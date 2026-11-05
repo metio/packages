@@ -3,6 +3,7 @@
 
 {:description "The Dart SDK"
  :source {:json "https://storage.googleapis.com/dart-archive/channels/stable/release/latest/VERSION" :version ["version"]}
+ :tests [["dart" "--version"]]
  :tag-prefix ""
  :url "https://storage.googleapis.com/dart-archive/channels/stable/release/{version}/sdk/{asset}"
  :checksum "{asset}.sha256sum"

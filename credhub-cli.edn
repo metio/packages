@@ -4,6 +4,7 @@
 
 {:description "CredHub CLI provides a command line interface to interact with CredHub servers",
  :source {:github "cloudfoundry/credhub-cli"}
+ :tests [["credhub" "--version"]]
  :tag-prefix ""
  :bins {"credhub" "credhub"}
  :platforms {"linux-x86_64" {:asset "credhub-linux-amd64-{tag}.tgz"}

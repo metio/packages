@@ -4,6 +4,7 @@
 
 {:description "A tool to bring existing Azure resources under Terraform's management",
  :source {:github "Azure/aztfexport"}
+ :tests [["aztfexport" "--version"]]
  :checksum "aztfexport_SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "aztfexport_{tag}_linux_amd64.zip"}
              "linux-aarch64" {:asset "aztfexport_{tag}_linux_arm64.zip"}

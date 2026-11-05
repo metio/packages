@@ -4,6 +4,7 @@
 
 {:description "Maintainable configuration files",
  :source {:github "dhall-lang/dhall-haskell"}
+ :tests [["dhall" "--version"]]
  :tag-prefix ""
  :bins {"dhall" "bin/dhall"}
  :platforms {"linux-x86_64" {:asset "dhall-{tag}-x86_64-linux.tar.bz2"}

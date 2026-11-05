@@ -3,6 +3,7 @@
 
 {:description "A simple, remotely configurable monitoring service."
  :source {:github "thevxn/dish"}
+ :tests [["dish" "--version"]]
  :platforms {"linux-x86_64" {:asset "dish-{version}.linux-x86_64.gz"}
              "linux-aarch64" {:asset "dish-{version}.linux-arm64.gz"}
              "darwin-x86_64" {:asset "dish-{version}.macos-x86_64.gz"}

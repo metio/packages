@@ -4,4 +4,5 @@
 
 {:description "Standalone, daemon-less, unprivileged Dockerfile and OCI compatible container image builder",
  :source {:github "genuinetools/img"}
+ :tests [["img" "--version"]]
  :platforms {"linux-x86_64" {:asset "img-linux-amd64"}}}

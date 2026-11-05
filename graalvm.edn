@@ -3,6 +3,7 @@
 
 {:description "Oracle GraalVM, a JDK with the native-image compiler, in the newest feature release Oracle publishes for download"
  :source {:text "https://api.foojay.io/disco/v3.0/packages?distribution=graalvm&latest=available&operating_system=linux&architecture=x64&archive_type=tar.gz&package_type=jdk&release_status=ga"
+ :tests [["graalvm" "--version"]]
           :match "\"filename\":\"graalvm-jdk-(\\d+\\.\\d+\\.\\d+)_linux-x64_bin\\.tar\\.gz\""}
  :tag-prefix ""
  :vars {:feature {:match "^(\\d+)"}}

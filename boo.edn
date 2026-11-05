@@ -4,6 +4,7 @@
 
 {:description "A GNU screen style terminal multiplexer built on libghostty",
  :source {:github "coder/boo"}
+ :tests [["boo" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "boo-x86_64-linux.tar.gz"}
              "linux-aarch64" {:asset "boo-aarch64-linux.tar.gz"}

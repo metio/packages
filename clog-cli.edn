@@ -4,6 +4,7 @@
 
 {:description "Generate beautiful changelogs from your Git commit history",
  :source {:github "clog-tool/clog-cli"}
+ :tests [["clog" "--version"]]
  :bins {"clog" "clog"}
  :platforms {"linux-x86_64" {:asset "clog-{tag}-x86_64-unknown-linux-musl.tar.gz"}
              "linux-aarch64" {:asset "clog-{tag}-aarch64-unknown-linux-gnu.tar.gz"}

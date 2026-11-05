@@ -3,6 +3,7 @@
 
 {:description "GO Simple Tunnel, a proxy and tunnel supporting many protocols"
  :source {:github "go-gost/gost"}
+ :tests [["gost" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gost_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "gost_{version}_linux_arm64.tar.gz"}

@@ -4,6 +4,7 @@
 
 {:description "Analyse binaries for missing security features, information disclosure and more",
  :source {:github "liamg/extrude"}
+ :tests [["extrude" "--version"]]
  :checksum "extrude_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "extrude-linux-amd64"}
              "linux-aarch64" {:asset "extrude-linux-arm64"}

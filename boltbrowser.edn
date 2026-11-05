@@ -4,6 +4,7 @@
 
 {:description "A CLI Browser for BoltDB Files",
  :source {:github "br0xen/boltbrowser"}
+ :tests [["boltbrowser" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "boltbrowser.linux64"}
              "darwin-x86_64" {:asset "boltbrowser.darwin64"}

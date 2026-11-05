@@ -4,6 +4,7 @@
 
 {:description "Convert CSV files to Apache Parquet. This package is part of Arrow CLI tools",
  :source {:github "domoritz/arrow-tools"}
+ :tests [["csv2parquet" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "csv2parquet-x86_64-unknown-linux-gnu.tar.xz" :bins {"csv2parquet" "csv2parquet-x86_64-unknown-linux-gnu/csv2parquet"}}
              "linux-aarch64" {:asset "csv2parquet-aarch64-unknown-linux-gnu.tar.xz" :bins {"csv2parquet" "csv2parquet-aarch64-unknown-linux-gnu/csv2parquet"}}

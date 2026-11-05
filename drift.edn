@@ -3,6 +3,7 @@
 
 {:description "Terminal screensaver that activates when you're idle, constellations, rain, particles & more. Press any key to resume. Just drift away!"
  :source {:github "phlx0/drift"}
+ :tests [["drift" "--version"]]
  :platforms {"linux-x86_64" {:asset "drift_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "drift_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "drift_darwin_amd64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Ping, but with a graph"
  :source {:github "orf/gping"}
+ :tests [["gping" "--version"]]
  :tag-prefix "gping-v"
  :man ["gping.1"]
  :platforms {"linux-x86_64" {:asset "gping-Linux-musl-x86_64.tar.gz"}

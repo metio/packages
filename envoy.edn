@@ -3,5 +3,6 @@
 
 {:description "Cloud-native edge and service proxy"
  :source {:github "envoyproxy/envoy"}
+ :tests [["envoy" "--version"]]
  :platforms {"linux-x86_64" {:asset "envoy-{version}-linux-x86_64"}
              "linux-aarch64" {:asset "envoy-{version}-linux-aarch_64"}}}

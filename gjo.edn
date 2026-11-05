@@ -4,6 +4,7 @@
 
 {:description "Small utility to create JSON objects",
  :source {:github "skanehira/gjo"}
+ :tests [["gjo" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "Linux.zip"}
              "darwin-x86_64" {:asset "MacOS.zip"}

@@ -4,6 +4,7 @@
 
 {:description "A powerful tool for using AWS Identity Center for the CLI and web console",
  :source {:github "synfinatic/aws-sso-cli"}
+ :tests [["aws-sso" "--version"]]
  :bins {"aws-sso" "{asset}"}
  :platforms {"linux-x86_64" {:asset "aws-sso-{version}-linux-amd64"}
              "linux-aarch64" {:asset "aws-sso-{version}-linux-arm64"}

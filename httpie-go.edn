@@ -4,6 +4,7 @@
 
 {:description "httpie-like HTTP client written in Go",
  :source {:github "nojima/httpie-go"}
+ :tests [["ht" "--version"]]
  :bins {"ht" "{asset}"}
  :platforms {"linux-x86_64" {:asset "httpie-go_linux_amd64"}
              "darwin-x86_64" {:asset "httpie-go_darwin_amd64"}}}

@@ -3,6 +3,7 @@
 
 {:description "A simple command line notebook"
  :source {:github "dnote/dnote"}
+ :tests [["dnote" "--version"]]
  :tag-prefix "cli-v"
  :platforms {"linux-x86_64" {:asset "dnote_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "dnote_{version}_linux_arm64.tar.gz"}

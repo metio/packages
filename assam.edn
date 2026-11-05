@@ -4,6 +4,7 @@
 
 {:description "Get a credential by AssumeRoleWithSAML for AWS CLI and SDK",
  :source {:github "cybozu/assam"}
+ :tests [["assam" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "assam_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "assam_{version}_Linux_arm64.tar.gz"}

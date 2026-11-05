@@ -4,6 +4,7 @@
 
 {:description "Modern cloud native development environments",
  :source {:github "jumppad-labs/jumppad"}
+ :tests [["jumppad" "--version"]]
  :tag-prefix ""
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "jumppad_{tag}_linux_x86_64.tar.gz"}

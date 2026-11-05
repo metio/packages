@@ -3,6 +3,7 @@
 
 {:description "manage reproducible build environments.",
  :source {:github "metio/ilo"},
+ :tests [["ilo" "--version"]]
  :tag-prefix "",
  :checksum "{asset}.sha512",
  :strip 1,

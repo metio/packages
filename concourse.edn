@@ -4,6 +4,7 @@
 
 {:description "Concourse is a container-based continuous thing-doer written in Go",
  :source {:github "concourse/concourse"}
+ :tests [["concourse" "--version"]]
  :bins {"concourse" "concourse/bin/concourse"}
  :platforms {"linux-x86_64" {:asset "concourse-{version}-linux-amd64.tgz"}
              "linux-aarch64" {:asset "concourse-{version}-linux-arm64.tgz"}

@@ -3,6 +3,7 @@
 
 {:description "Prometheus exporter probing endpoints over HTTP, HTTPS, DNS, TCP, ICMP and gRPC"
  :source {:github "prometheus/blackbox_exporter"}
+ :tests [["blackbox_exporter" "--version"]]
  :checksum "sha256sums.txt"
  :strip 1
  :platforms {"linux-x86_64" {:asset "blackbox_exporter-{version}.linux-amd64.tar.gz"}

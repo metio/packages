@@ -4,6 +4,7 @@
 
 {:description "[DEPRECATED] Use https://github.com/lycheeverse/lychee",
  :source {:github "suzuki-shunsuke/durl"}
+ :tests [["durl" "--version"]]
  :checksum "durl_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "durl_{version}_linux_amd64.tar.gz"}
              "darwin-x86_64" {:asset "durl_{version}_darwin_amd64.tar.gz"}}}

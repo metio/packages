@@ -4,6 +4,7 @@
 
 {:description "The user-friendly command line shell",
  :source {:github "fish-shell/fish-shell"}
+ :tests [["fish" "--version"]]
  :tag-prefix ""
  :bins {"fish" "fish"}
  :platforms {"linux-x86_64" {:asset "fish-{tag}-linux-x86_64.tar.xz"}

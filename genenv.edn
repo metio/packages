@@ -4,6 +4,7 @@
 
 {:description "A simple CLI tool to generate .env files from template files, automatically filling in placeholders with cryptographically secure random values",
  :source {:github "yashikota/genenv"}
+ :tests [["genenv" "--version"]]
  :platforms {"linux-x86_64" {:asset "genenv-linux-amd64"}
              "linux-aarch64" {:asset "genenv-linux-arm64"}
              "darwin-x86_64" {:asset "genenv-darwin-amd64"}

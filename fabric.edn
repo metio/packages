@@ -3,6 +3,7 @@
 
 {:description "Runs crowdsourced AI prompt patterns from the command line"
  :source {:github "danielmiessler/fabric"}
+ :tests [["fabric" "--version"]]
  :checksum "fabric_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "fabric_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "fabric_Linux_arm64.tar.gz"}

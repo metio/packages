@@ -3,6 +3,7 @@
 
 {:description "Brute-forces URIs, DNS subdomains, virtual hosts and cloud buckets"
  :source {:github "OJ/gobuster"}
+ :tests [["gobuster" "--version"]]
  :checksum "gobuster_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "gobuster_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "gobuster_Linux_arm64.tar.gz"}

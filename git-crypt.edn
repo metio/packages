@@ -4,5 +4,6 @@
 
 {:description "Transparent file encryption in git",
  :source {:github "AGWA/git-crypt"}
+ :tests [["git-crypt" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "git-crypt-{tag}-linux-x86_64"}}}

@@ -4,6 +4,7 @@
 
 {:description "a structural diff that understands syntax",
  :source {:github "Wilfred/difftastic"}
+ :tests [["difft" "--version"]]
  :tag-prefix ""
  :bins {"difft" "difft"}
  :platforms {"linux-x86_64" {:asset "difft-{tag}-x86_64-unknown-linux-musl.tar.gz"}

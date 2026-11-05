@@ -4,6 +4,7 @@
 
 {:description "a subprocess caching utility, available as a command line binary and a Rust library",
  :source {:github "dimo414/bkt"}
+ :tests [["bkt" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "bkt.v{tag}.x86_64-unknown-linux-musl.zip"}
              "linux-aarch64" {:asset "bkt.v{tag}.aarch64-unknown-linux-gnu.zip"}

@@ -3,6 +3,7 @@
 
 {:description "DNS proxy and ad blocker for the local network"
  :source {:github "0xERR0R/blocky"}
+ :tests [["blocky" "--version"]]
  :checksum "blocky_checksums.txt"
  :platforms {"linux-x86_64" {:asset "blocky_v{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "blocky_v{version}_Linux_arm64.tar.gz"}

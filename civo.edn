@@ -3,6 +3,7 @@
 
 {:description "Command-line interface for Civo cloud resources"
  :source {:github "civo/cli"}
+ :tests [["civo" "--version"]]
  :checksum "civo-{version}-checksums.sha256"
  :platforms {"linux-x86_64" {:asset "civo-{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "civo-{version}-linux-arm64.tar.gz"}

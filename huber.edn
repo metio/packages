@@ -4,6 +4,7 @@
 
 {:description "Huber: A package installer for GitHub repository releases",
  :source {:github "innobead/huber"}
+ :tests [["huber" "--version"]]
  :checksum "{asset}.sha256sum"
  :platforms {"linux-x86_64" {:asset "huber-x86_64-unknown-linux-musl"}
              "linux-aarch64" {:asset "huber-aarch64-unknown-linux-musl"}

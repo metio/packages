@@ -3,6 +3,7 @@
 
 {:description "Google Translate TUI (Originally). Currently supports Apertium, Bing, DeepL, DeepLX, Google, LibreTranslate, Reverso."
  :source {:github "eeeXun/gtt"}
+ :tests [["gtt" "--version"]]
  :platforms {"linux-x86_64" {:asset "gtt-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "gtt-linux-arm64.tar.gz"}
              "darwin-aarch64" {:asset "gtt-darwin-arm64.tar.gz"}}}

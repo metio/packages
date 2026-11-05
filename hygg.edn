@@ -3,6 +3,7 @@
 
 {:description "Simplifying the way you read. Minimalistic Vim-like TUI document reader."
  :source {:github "kruseio/hygg"}
+ :tests [["hygg" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "hygg-cli-{version}-x86_64-linux.tar.gz"}
              "darwin-x86_64" {:asset "hygg-cli-{version}-macos-universal.tar.gz"}

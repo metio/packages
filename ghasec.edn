@@ -4,6 +4,7 @@
 
 {:description "Catch security risks in your GitHub Actions workflows",
  :source {:github "koki-develop/ghasec"}
+ :tests [["ghasec" "--version"]]
  :checksum "ghasec_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "ghasec_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "ghasec_Linux_arm64.tar.gz"}

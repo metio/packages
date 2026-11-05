@@ -4,6 +4,7 @@
 
 {:description "kibertas is a CLI tool for achieving end-to-end (E2E) testing of Kubernetes environments",
  :source {:github "chatwork/kibertas"}
+ :tests [["kibertas" "--version"]]
  :checksum "kibertas_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "kibertas_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "kibertas_{version}_linux_arm64.tar.gz"}

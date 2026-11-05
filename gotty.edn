@@ -3,6 +3,7 @@
 
 {:description "Shares a terminal as a web application"
  :source {:github "sorenisanerd/gotty"}
+ :tests [["gotty" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "gotty_v{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "gotty_v{version}_linux_arm64.tar.gz"}

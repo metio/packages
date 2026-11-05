@@ -3,6 +3,7 @@
 
 {:description "Backlog.md - A tool for managing project collaboration between humans and AI Agents in a git ecosystem"
  :source {:github "MrLesk/Backlog.md"}
+ :tests [["backlog.md" "--version"]]
  :platforms {"linux-x86_64" {:asset "backlog-bun-linux-x64"}
              "linux-aarch64" {:asset "backlog-bun-linux-arm64"}
              "darwin-x86_64" {:asset "backlog-bun-darwin-x64"}

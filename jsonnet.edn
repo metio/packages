@@ -4,5 +4,6 @@
 
 {:description "Jsonnet - The data templating language",
  :source {:github "google/jsonnet"}
+ :tests [["jsonnet" "--version"]]
  :bins {"jsonnet" "jsonnet", "jsonnetfmt" "jsonnetfmt"}
  :platforms {"linux-x86_64" {:asset "jsonnet-bin-{tag}-linux.tar.gz"}}}

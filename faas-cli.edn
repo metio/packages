@@ -4,6 +4,7 @@
 
 {:description "Official CLI for OpenFaaS",
  :source {:github "openfaas/faas-cli"}
+ :tests [["faas-cli" "--version"]]
  :tag-prefix ""
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "faas-cli"}

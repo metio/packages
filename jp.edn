@@ -4,6 +4,7 @@
 
 {:description "Command line interface to JMESPath - http://jmespath.org",
  :source {:github "jmespath/jp"}
+ :tests [["jp" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "jp-linux-amd64"}
              "linux-aarch64" {:asset "jp-linux-arm64"}

@@ -4,6 +4,7 @@
 
 {:description "Koyeb cli",
  :source {:github "koyeb/koyeb-cli"}
+ :tests [["koyeb" "--version"]]
  :checksum "checksums.txt"
  :bins {"koyeb" "koyeb"}
  :platforms {"linux-x86_64" {:asset "koyeb-cli_{version}_linux_amd64.tar.gz"}

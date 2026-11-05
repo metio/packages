@@ -3,6 +3,7 @@
 
 {:description "DNS lookups against a chosen server over plain DNS, DoH, DoT, DoQ or DNSCrypt"
  :source {:github "ameshkov/dnslookup"}
+ :tests [["dnslookup" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "dnslookup-linux-amd64-v{version}.tar.gz"}
              "linux-aarch64" {:asset "dnslookup-linux-arm64-v{version}.tar.gz"}

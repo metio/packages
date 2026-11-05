@@ -3,6 +3,7 @@
 
 {:description "DNS proxy supporting DNSCrypt, DNS-over-HTTPS and anonymized DNS"
  :source {:github "DNSCrypt/dnscrypt-proxy"}
+ :tests [["dnscrypt-proxy" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "dnscrypt-proxy-linux_x86_64-{version}.tar.gz" :strip 1}
              "linux-aarch64" {:asset "dnscrypt-proxy-linux_arm64-{version}.tar.gz" :strip 1}

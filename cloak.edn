@@ -4,6 +4,7 @@
 
 {:description "Secrets automation for developers",
  :source {:github "purton-tech/cloak"}
+ :tests [["cloak" "--version"]]
  :platforms {"linux-x86_64" {:asset "cloak-linux"}
              "darwin-x86_64" {:asset "cloak-macos"}
              "darwin-aarch64" {:asset "cloak-macos"}}}

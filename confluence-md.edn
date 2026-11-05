@@ -4,6 +4,7 @@
 
 {:description "From Confluence to clean Markdown, images and all — just one command",
  :source {:github "jackchuka/confluence-md"}
+ :tests [["confluence-md" "--version"]]
  :checksum "confluence-md_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "confluence-md_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "confluence-md_{version}_linux_arm64.tar.gz"}

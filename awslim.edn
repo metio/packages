@@ -4,6 +4,7 @@
 
 {:description "A simplified alternative to the AWS CLI for limited use cases",
  :source {:github "fujiwara/awslim"}
+ :tests [["awslim" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "awslim_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "awslim_{version}_linux_arm64.tar.gz"}

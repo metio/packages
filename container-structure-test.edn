@@ -4,6 +4,7 @@
 
 {:description "validate the structure of your container images",
  :source {:github "GoogleContainerTools/container-structure-test"}
+ :tests [["container-structure-test" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "container-structure-test-linux-amd64"}
              "linux-aarch64" {:asset "container-structure-test-linux-arm64"}

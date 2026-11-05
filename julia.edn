@@ -3,6 +3,7 @@
 
 {:description "The Julia programming language"
  :source {:github "JuliaLang/julia"}
+ :tests [["julia" "--version"]]
  :vars {:minor {:match "^\\d+\\.\\d+"}}
  :checksum "https://julialang-s3.julialang.org/bin/checksums/julia-{version}.sha256"
  :strip 1

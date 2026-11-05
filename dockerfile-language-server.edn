@@ -3,4 +3,5 @@
 
 {:description "Language server for Dockerfiles"
  :source {:npm "dockerfile-language-server-nodejs"}
+ :tests [["docker-langserver" "--version"]]
  :bins {"docker-langserver" "node_modules/.bin/docker-langserver"}}

@@ -4,6 +4,7 @@
 
 {:description "Provision remote development environments via Terraform",
  :source {:github "coder/coder"}
+ :tests [["coder" "--version"]]
  :checksum "coder_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "coder_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "coder_{version}_linux_arm64.tar.gz"}

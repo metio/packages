@@ -3,6 +3,7 @@
 
 {:description "Version manager for many languages through plugins"
  :source {:github "asdf-vm/asdf"}
+ :tests [["asdf" "--version"]]
  :platforms {"linux-x86_64" {:asset "asdf-v{version}-linux-amd64.tar.gz"}
              "linux-aarch64" {:asset "asdf-v{version}-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "asdf-v{version}-darwin-amd64.tar.gz"}

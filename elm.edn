@@ -3,6 +3,7 @@
 
 {:description "The Elm compiler"
  :source {:github "elm/compiler"}
+ :tests [["elm" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "elm-{version}-linux-x64.gz"}
              "linux-aarch64" {:asset "elm-{version}-linux-arm.gz"}

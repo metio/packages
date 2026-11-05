@@ -3,6 +3,7 @@
 
 {:description "Clones and maintains the repositories of forge organizations and users, and generates sessions for them"
  :source {:github "metio/aro"}
+ :tests [["aro" "--version"]]
  :tag-prefix ""
  :checksum "aro_{version}_SHA256SUMS"
  :bins {"aro" "{asset}"}

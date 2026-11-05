@@ -4,6 +4,7 @@
 
 {:description "Supporting your devops by shortening your strings using common abbreviations and clever guesswork",
  :source {:github "dnnrly/abbreviate"}
+ :tests [["abbreviate" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "abbreviate_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "abbreviate_{version}_linux_arm64.tar.gz"}

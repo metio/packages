@@ -3,6 +3,7 @@
 
 {:description "Eclipse's language server for Java, which needs Java 25 or newer and python3"
  :source {:text "https://download.eclipse.org/jdtls/milestones/" :match "milestones/(\\d+\\.\\d+\\.\\d+)" :newest true}
+ :tests [["jdtls" "--version"]]
  :tag-prefix ""
  :vars {:build {:text "https://download.eclipse.org/jdtls/milestones/{version}/latest.txt"
                 :match "jdt-language-server-[^-]+-(\\d+)\\.tar\\.gz"}}

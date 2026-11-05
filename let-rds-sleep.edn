@@ -4,6 +4,7 @@
 
 {:description "Keep sleeping AWS RDS/Aurora Cluster",
  :source {:github "handlename/let-rds-sleep"}
+ :tests [["let-rds-sleep" "--version"]]
  :checksum "let-rds-sleep_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "let-rds-sleep_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "let-rds-sleep_{version}_linux_arm64.tar.gz"}

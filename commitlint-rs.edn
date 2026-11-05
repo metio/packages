@@ -4,6 +4,7 @@
 
 {:description "Lint commit messages  with conventional commit messages",
  :source {:github "KeisukeYamashita/commitlint-rs"}
+ :tests [["commitlint" "--version"]]
  :bins {"commitlint" "commitlint"}
  :platforms {"linux-x86_64" {:asset "commitlint-{tag}-x86_64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "commitlint-{tag}-x86_64-apple-darwin.tar.gz"}

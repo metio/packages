@@ -4,6 +4,7 @@
 
 {:description "Kubernetes-in-Kubernetes Made Simple",
  :source {:github "smartxworks/knest"}
+ :tests [["knest" "--version"]]
  :platforms {"linux-x86_64" {:asset "knest-linux-amd64"}
              "linux-aarch64" {:asset "knest-linux-arm64"}
              "darwin-x86_64" {:asset "knest-darwin-amd64"}

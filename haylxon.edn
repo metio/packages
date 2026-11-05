@@ -3,6 +3,7 @@
 
 {:description "Blazing-fast tool to grab screenshots of your domain list right from terminal."
  :source {:github "pwnwriter/haylxon"}
+ :tests [["hxn" "--version"]]
  :strip 1
  :bins {"hxn" "hxn"}
  :platforms {"linux-x86_64" {:asset "haylxon-{version}-x86_64-unknown-linux-musl.tar.gz"}

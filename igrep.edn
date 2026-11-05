@@ -4,6 +4,7 @@
 
 {:description "Interactive Grep",
  :source {:github "konradsz/igrep"}
+ :tests [["ig" "--version"]]
  :bins {"ig" "ig"}
  :platforms {"linux-x86_64" {:asset "igrep-{tag}-x86_64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "igrep-{tag}-x86_64-apple-darwin.tar.gz"}

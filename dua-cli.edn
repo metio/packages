@@ -3,6 +3,7 @@
 
 {:description "Shows disk usage interactively or as a summary, faster than du"
  :source {:github "Byron/dua-cli"}
+ :tests [["dua" "--version"]]
  :strip 1
  :bins {"dua" "dua"}
  :platforms {"linux-x86_64" {:asset "dua-v{version}-x86_64-unknown-linux-musl.tar.gz"}

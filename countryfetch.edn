@@ -3,6 +3,7 @@
 
 {:description "A Command-line tool similar to Neofetch for obtaining information about your country"
  :source {:github "nik-rev/countryfetch"}
+ :tests [["countryfetch" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "countryfetch-x86_64-unknown-linux-gnu.tar.xz"}
              "darwin-x86_64" {:asset "countryfetch-x86_64-apple-darwin.tar.xz"}

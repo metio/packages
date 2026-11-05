@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Language server for Ansible playbooks and roles"
+ :tests [["ansible-language-server" "--version"]]
  :source {:npm "@ansible/ansible-language-server"}}

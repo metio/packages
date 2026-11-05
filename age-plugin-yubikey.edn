@@ -3,6 +3,7 @@
 
 {:description "YubiKey plugin for age",
  :source {:github "str4d/age-plugin-yubikey"},
+ :tests [["age-plugin-yubikey" "--version"]]
  :strip 1
  :skip ["0.5.1"]
  :history [{:before "0.5.1" :verify false}]

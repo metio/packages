@@ -4,6 +4,7 @@
 
 {:description "A command line tool with fzf-like UI to search Wikipedia articles and open it in your browser quickly",
  :source {:github "sheepla/fzwiki"}
+ :tests [["fzwiki" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "fzwiki_{version}_Linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "fzwiki_{version}_Linux_arm64.tar.gz"}

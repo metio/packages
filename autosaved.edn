@@ -4,5 +4,6 @@
 
 {:description "Never worry about losing your code. Written in Go",
  :source {:github "nikochiko/autosaved"}
+ :tests [["autosaved" "--version"]]
  :platforms {"linux-x86_64" {:asset "autosaved_linux_amd64"}
              "darwin-x86_64" {:asset "autosaved_darwin_amd64"}}}

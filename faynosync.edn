@@ -3,6 +3,7 @@
 
 {:description "Self-hosted, open-source update server for desktop apps (Velopack, Electron, Tauri, native). Own your release pipeline: version metadata, stable/beta/nightly channels, S3 artifacts, simple checkVersion API."
  :source {:github "ku9nov/faynoSync"}
+ :tests [["faynoSync" "--version"]]
  :strip 1
  :bins {"faynoSync" "faynoSync"}
  :platforms {"linux-x86_64" {:asset "faynoSync_v{version}_linux_amd64.tar.gz"}

@@ -4,5 +4,6 @@
 
 {:description "SMTP Performance and Load Test Tool",
  :source {:github "c1982/bomberman"}
+ :tests [["bomberman" "--version"]]
  :platforms {"linux-x86_64" {:asset "bomberman_linux_amd64"}
              "darwin-x86_64" {:asset "bomberman_darwin_amd64"}}}

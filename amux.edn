@@ -3,6 +3,7 @@
 
 {:description "TUI for easily running parallel coding agents"
  :source {:github "andyrewlee/amux"}
+ :tests [["amux" "--version"]]
  :platforms {"linux-x86_64" {:asset "amux_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "amux_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "amux_{version}_darwin_amd64.tar.gz"}

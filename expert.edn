@@ -4,6 +4,7 @@
 
 {:description "Official Elixir Language Server Protocol implementation",
  :source {:github "expert-lsp/expert"}
+ :tests [["expert" "--version"]]
  :checksum "expert_checksums.txt"
  :platforms {"linux-x86_64" {:asset "expert_linux_amd64"}
              "linux-aarch64" {:asset "expert_linux_arm64"}
