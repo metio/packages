@@ -4,6 +4,7 @@
 
 {:description "Binary for GitHub Actions of DeNA/unity-meta-check",
  :source {:github "DeNA/unity-meta-check"}
+ :tests [["gh-action" "--version"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "gh-action-linux-amd64"}
              "linux-aarch64" {:asset "gh-action-linux-arm64"}}}

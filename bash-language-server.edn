@@ -2,4 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Language server for Bash"
+ :tests [["bash-language-server" "--version"]]
  :source {:npm "bash-language-server"}}

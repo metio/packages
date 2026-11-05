@@ -4,6 +4,7 @@
 
 {:description "Concourse is a container-based continuous thing-doer written in Go",
  :source {:github "concourse/concourse"}
+ :tests [["fly" "--version"]]
  :platforms {"linux-x86_64" {:asset "fly-{version}-linux-amd64.tgz"}
              "linux-aarch64" {:asset "fly-{version}-linux-arm64.tgz"}
              "darwin-x86_64" {:asset "fly-{version}-darwin-amd64.tgz"}

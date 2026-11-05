@@ -3,6 +3,7 @@
 
 {:description "Recipe Management CLI + embedded web-server in one binary"
  :source {:github "cooklang/cookcli"}
+ :tests [["cook" "--version"]]
  :bins {"cook" "cook"}
  :platforms {"linux-x86_64" {:asset "cook-{version}-linux-x86_64-musl.tar.gz"}
              "linux-aarch64" {:asset "cook-{version}-linux-aarch64-musl.tar.gz"}}}

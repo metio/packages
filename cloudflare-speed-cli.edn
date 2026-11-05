@@ -3,6 +3,7 @@
 
 {:description "CLI for internet speed test via cloudflare"
  :source {:github "kavehtehrani/cloudflare-speed-cli"}
+ :tests [["cloudflare-speed-cli" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "cloudflare-speed-cli-x86_64-unknown-linux-musl.tar.xz"}
              "linux-aarch64" {:asset "cloudflare-speed-cli-aarch64-unknown-linux-musl.tar.xz"}

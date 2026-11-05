@@ -3,5 +3,6 @@
 
 {:description "TUI for managing bluetooth on Linux"
  :source {:github "pythops/bluetui"}
+ :tests [["bluetui" "--version"]]
  :platforms {"linux-x86_64" {:asset "bluetui-x86_64-linux-musl"}
              "linux-aarch64" {:asset "bluetui-aarch64-linux-musl"}}}

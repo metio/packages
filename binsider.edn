@@ -3,6 +3,7 @@
 
 {:description "Terminal UI for analyzing ELF binaries"
  :source {:github "orhun/binsider"}
+ :tests [["binsider" "--version"]]
  :strip 1
  :checksum "{asset}.sha512"
  :platforms {"linux-x86_64" {:asset "binsider-{version}-x86_64-unknown-linux-musl.tar.gz"}

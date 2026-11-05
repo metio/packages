@@ -4,6 +4,7 @@
 
 {:description "Configuration Management for Localhost / dotfiles",
  :source {:github "comtrya/comtrya"}
+ :tests [["comtrya" "--version"]]
  :platforms {"linux-x86_64" {:asset "comtrya-x86_64-unknown-linux-musl"}
              "linux-aarch64" {:asset "comtrya-aarch64-unknown-linux-gnu"}
              "darwin-x86_64" {:asset "comtrya-x86_64-apple-darwin"}

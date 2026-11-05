@@ -3,5 +3,6 @@
 
 {:description "Give the agent a machine. Just not yours. Each AI coding agent gets its own isolated machine with root, Docker, and systemd - active defense detects and stops threats automatically."
  :source {:github "coipond/coi"}
+ :tests [["coi" "--version"]]
  :platforms {"linux-x86_64" {:asset "coi-linux-amd64"}
              "linux-aarch64" {:asset "coi-linux-arm64"}}}

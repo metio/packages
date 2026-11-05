@@ -3,6 +3,7 @@
 
 {:description "ContainerSSH: Launch containers on demand"
  :source {:github "ContainerSSH/ContainerSSH"}
+ :tests [["containerssh" "--help"]]
  :platforms {"linux-x86_64" {:asset "containerssh_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "containerssh_{version}_linux_arm64.tar.gz"}
              "darwin-x86_64" {:asset "containerssh_{version}_darwin_amd64.tar.gz"}

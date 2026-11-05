@@ -4,6 +4,7 @@
 
 {:description "A cli application for bluesky social",
  :source {:github "mattn/bsky"}
+ :tests [["bsky" "--version"]]
  :platforms {"linux-x86_64" {:asset "bsky-linux-{version}.zip"}
              "darwin-x86_64" {:asset "bsky-darwin-{version}.zip"}
              "darwin-aarch64" {:asset "bsky-darwin-{version}.zip"}}}

@@ -3,6 +3,7 @@
 
 {:description "A secure command-line tool for managing environment variables"
  :source {:github "humblepenguinn/envio"}
+ :tests [["envio" "--help"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "envio-v{version}-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "envio-v{version}-aarch64-unknown-linux-gnu.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Disk usage explorer with a TUI and live treemap"
  :source {:github "mrkatebzadeh/darya"}
+ :tests [["darya" "--version"]]
  :platforms {"linux-x86_64" {:asset "darya-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "darya-aarch64-unknown-linux-gnu.tar.gz"}
              "darwin-x86_64" {:asset "darya-x86_64-apple-darwin.tar.gz"}

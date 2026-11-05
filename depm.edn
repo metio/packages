@@ -4,6 +4,7 @@
 
 {:description "Visualize dependency packages and modules",
  :source {:github "goark/depm"}
+ :tests [["depm" "--help"]]
  :checksum "depm_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "depm_{version}_Linux_64bit.tar.gz"}
              "linux-aarch64" {:asset "depm_{version}_Linux_ARM64.tar.gz"}

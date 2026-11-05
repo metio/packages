@@ -3,6 +3,7 @@
 
 {:description "Fast multi-purpose DNS toolkit for running many queries against a list of resolvers"
  :source {:github "projectdiscovery/dnsx"}
+ :tests [["dnsx" "--version"]]
  :checksum "dnsx_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "dnsx_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "dnsx_{version}_linux_arm64.zip"}

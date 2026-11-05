@@ -3,6 +3,7 @@
 
 {:description "Interactive cheatsheets on the command line"
  :source {:github "cheat/cheat"}
+ :tests [["cheat" "--version"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "cheat-linux-amd64.gz"}
              "linux-aarch64" {:asset "cheat-linux-arm64.gz"}

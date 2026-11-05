@@ -3,6 +3,7 @@
 
 {:description "Attack surface mapping and external asset discovery"
  :source {:github "owasp-amass/amass"}
+ :tests [["amass" "--version"]]
  :checksum "amass_checksums.txt"
  :strip 1
  :platforms {"linux-x86_64" {:asset "amass_linux_amd64.tar.gz"}

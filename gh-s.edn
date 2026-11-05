@@ -3,6 +3,7 @@
 
 {:description "search github repositories interactively"
  :source {:github "gennaro-tedesco/gh-s"}
+ :tests [["gh-s" "--help"]]
  :platforms {"linux-x86_64" {:asset "linux-amd64"}
              "linux-aarch64" {:asset "linux-arm64"}
              "darwin-x86_64" {:asset "darwin-amd64"}

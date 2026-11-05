@@ -4,6 +4,7 @@
 
 {:description "The Firebase Command Line Tools",
  :source {:github "firebase/firebase-tools"}
+ :tests [["firebase" "--version"]]
  :bins {"firebase" "{asset}"}
  :platforms {"linux-x86_64" {:asset "firebase-tools-linux"}
              "darwin-x86_64" {:asset "firebase-tools-macos"}

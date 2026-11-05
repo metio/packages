@@ -4,6 +4,7 @@
 
 {:description "A portable devkit for CI/CD pipelines",
  :source {:github "dagger/dagger"}
+ :tests [["dagger" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "dagger_{tag}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "dagger_{tag}_linux_arm64.tar.gz"}

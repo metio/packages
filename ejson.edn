@@ -4,6 +4,7 @@
 
 {:description "EJSON is a small library to manage encrypted secrets using asymmetric encryption",
  :source {:github "Shopify/ejson"}
+ :tests [["ejson" "--version"]]
  :checksum "ejson_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "ejson_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "ejson_{version}_linux_arm64.tar.gz"}

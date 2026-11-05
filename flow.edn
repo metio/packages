@@ -3,6 +3,7 @@
 
 {:description "Flow Control: a programmer's text editor"
  :source {:github "neurocyte/flow"}
+ :tests [["flow" "--version"]]
  :platforms {"linux-x86_64" {:asset "flow-v{version}-linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "flow-v{version}-linux-aarch64.tar.gz"}
              "darwin-x86_64" {:asset "flow-v{version}-macos-x86_64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "A terminal user interface for searching, adding and installing cargo crates."
  :source {:github "tareqimbasher/cargo-seek"}
+ :tests [["cargo-seek" "--version"]]
  :platforms {"linux-x86_64" {:asset "cargo-seek-v{version}-linux-x86_64.tar.gz"}
              "linux-aarch64" {:asset "cargo-seek-v{version}-linux-arm64.tar.gz"}
              "darwin-x86_64" {:asset "cargo-seek-v{version}-macos-x86_64.tar.gz"}

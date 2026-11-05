@@ -4,6 +4,7 @@
 
 {:description "We all edit",
  :source {:github "microsoft/edit"}
+ :tests [["edit" "--version"]]
  :platforms {"linux-x86_64" {:asset "edit-{version}-x86_64-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "edit-{version}-aarch64-linux-gnu.tar.gz"}
              "darwin-aarch64" {:asset "edit-{version}-aarch64-apple-darwin.tar.gz"}}}

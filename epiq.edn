@@ -3,6 +3,7 @@
 
 {:description "Distributed, code-native issue tracker - audit workflows via time-travel"
  :source {:github "ljtn/epiq"}
+ :tests [["epiq" "--version"]]
  :platforms {"linux-x86_64" {:asset "epiq-linux-x64"}
              "linux-aarch64" {:asset "epiq-linux-arm64"}
              "darwin-x86_64" {:asset "epiq-macos-x64"}

@@ -3,6 +3,7 @@
 
 {:description "Fast, universal domain availability checker - 1,200+ TLDs, pattern generation, RDAP with WHOIS fallback. CLI + Rust library + MCP server for AI agents."
  :source {:github "saidutt46/domain-check"}
+ :tests [["domain-check" "--version"]]
  :platforms {"linux-x86_64" {:asset "domain-check-linux-x86_64-musl.tar.gz"}
              "darwin-x86_64" {:asset "domain-check-macos-x86_64.tar.gz"}
              "darwin-aarch64" {:asset "domain-check-macos-aarch64.tar.gz"}}}

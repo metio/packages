@@ -3,6 +3,7 @@
 
 {:description "A graphical process and system monitor for the terminal"
  :source {:github "ClementTsang/bottom"}
+ :tests [["btm" "--version"]]
  :tag-prefix ""
  :bins {"btm" "btm"}
  :completions {:bash "completion/btm.bash"}

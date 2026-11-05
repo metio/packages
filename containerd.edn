@@ -3,6 +3,7 @@
 
 {:description "Container runtime, statically linked, with ctr and the runc shim"
  :source {:github "containerd/containerd"}
+ :tests [["containerd" "--version"]]
  :checksum "{asset}.sha256sum"
  :bins {"containerd" "bin/containerd"
         "containerd-shim-runc-v2" "bin/containerd-shim-runc-v2"

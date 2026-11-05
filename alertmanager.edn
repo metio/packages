@@ -4,6 +4,7 @@
 
 {:description "Prometheus Alertmanager, with amtool, its command line client"
  :source {:github "prometheus/alertmanager"}
+ :tests [["alertmanager" "--version"]]
  :checksum "sha256sums.txt"
  :strip 1
  :bins {"alertmanager" "alertmanager" "amtool" "amtool"}

@@ -3,6 +3,7 @@
 
 {:description "Git with a cup of tea! Painless self-hosted all-in-one software development service, including Git hosting, code review, team collaboration, package registry and CI/CD"
  :source {:github "go-gitea/gitea"}
+ :tests [["gitea" "--version"]]
  :platforms {"linux-x86_64" {:asset "gitea-{version}-linux-amd64"}
              "darwin-x86_64" {:asset "gitea-{version}-darwin-amd64"}
              "darwin-aarch64" {:asset "gitea-{version}-darwin-arm64"}}}

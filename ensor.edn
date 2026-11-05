@@ -4,6 +4,7 @@
 
 {:description "A fast, interactive CLI for finding and redacting secrets in your codebase",
  :source {:github "pratyay360/ensor"}
+ :tests [["ensor" "--version"]]
  :tag-prefix ""
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "ensor_Linux_x86_64.tar.gz"}

@@ -3,6 +3,7 @@
 
 {:description "Snappy, batteries-included terminal file manager."
  :source {:github "elio-fm/elio"}
+ :tests [["elio" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "elio-{version}-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "elio-{version}-aarch64-unknown-linux-gnu.tar.gz"}

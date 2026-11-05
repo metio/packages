@@ -4,5 +4,6 @@
 
 {:description "firectl is a command-line tool to run Firecracker microVMs",
  :source {:github "firecracker-microvm/firectl"}
+ :tests [["firectl" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "firectl-{tag}"}}}

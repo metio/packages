@@ -3,6 +3,7 @@
 
 {:description "Bitwarden password manager command-line client, open-source build"
  :source {:github "bitwarden/clients"}
+ :tests [["bw" "--version"]]
  :tag-prefix "cli-v"
  :bins {"bw" "bw"}
  :platforms {"linux-x86_64" {:asset "bw-oss-linux-{version}.zip"}

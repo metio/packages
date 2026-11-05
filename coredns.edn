@@ -3,6 +3,7 @@
 
 {:description "DNS server built from a chain of plugins"
  :source {:github "coredns/coredns"}
+ :tests [["coredns" "--version"]]
  :checksum "{asset}.sha256"
  :platforms {"linux-x86_64" {:asset "coredns_{version}_linux_amd64.tgz"}
              "linux-aarch64" {:asset "coredns_{version}_linux_arm64.tgz"}

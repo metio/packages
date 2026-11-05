@@ -4,6 +4,7 @@
 
 {:description "Search how many keywords in GitHub Code tool",
  :source {:github "kyoshidajp/ghkw"}
+ :tests [["ghkw" "--version"]]
  :checksum "ghkw_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "ghkw_linux_x86_64.tar.gz"}
              "darwin-x86_64" {:asset "ghkw_darwin_x86_64.tar.gz"}}}

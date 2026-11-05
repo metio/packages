@@ -3,6 +3,7 @@
 
 {:description "Minimalist text editor with vim-compatible key bindings."
  :source {:github "aretext/aretext"}
+ :tests [["aretext" "--version"]]
  :strip 1
  :platforms {"linux-x86_64" {:asset "aretext_v{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "aretext_v{version}_linux_arm64.tar.gz"}

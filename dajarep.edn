@@ -4,6 +4,7 @@
 
 {:description "ダジャレを検索するコマンド",
  :source {:github "kurehajime/dajarep"}
+ :tests [["dajarep" "--help"]]
  :checksum "checksums.txt"
  :platforms {"linux-x86_64" {:asset "dajarep_{version}_linux_amd64.zip"}
              "linux-aarch64" {:asset "dajarep_{version}_linux_arm64.zip"}

@@ -3,5 +3,6 @@
 
 {:description "A neofetch alternative for GitHub quick view"
  :source {:github "Matars/gitfetch"}
+ :tests [["gitfetch" "--version"]]
  :platforms {"linux-x86_64" {:asset "gitfetch-linux-x86_64"}
              "darwin-aarch64" {:asset "gitfetch-macos-arm64"}}}

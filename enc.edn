@@ -3,6 +3,7 @@
 
 {:description "A modern and friendly CLI alternative to GnuPG: generate and download keys, encrypt, decrypt, and sign text and files, and more."
  :source {:github "life4/enc"}
+ :tests [["enc" "--help"]]
  :tag-prefix ""
  :platforms {"linux-x86_64" {:asset "enc_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "enc_{version}_linux_arm64.tar.gz"}

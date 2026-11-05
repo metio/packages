@@ -3,6 +3,7 @@
 
 {:description "Did you know you have rights? The FOSS says you do... Better Curl Saul is my homemade CLI 'http client' to make api reusability simple."
  :source {:github "DeprecatedLuar/better-curl-saul"}
+ :tests [["better-curl-saul" "--version"]]
  :platforms {"linux-x86_64" {:asset "saul-linux-amd64"}
              "linux-aarch64" {:asset "saul-linux-arm64"}
              "darwin-x86_64" {:asset "saul-darwin-amd64"}

@@ -3,6 +3,7 @@
 
 {:description "Language server for C and C++ from the LLVM project"
  :source {:github "clangd/clangd"}
+ :tests [["clangd" "--version"]]
  :tag-prefix ""
  :strip 1
  :layout :tree

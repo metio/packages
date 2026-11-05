@@ -4,6 +4,7 @@
 
 {:description "Run K3s Everywhere",
  :source {:github "cnrancher/autok3s"}
+ :tests [["autok3s" "--help"]]
  :checksum "sha256sum.txt"
  :platforms {"linux-x86_64" {:asset "autok3s_linux_amd64"}
              "linux-aarch64" {:asset "autok3s_linux_arm64"}

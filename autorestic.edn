@@ -3,6 +3,7 @@
 
 {:description "Configuration-driven backups with restic"
  :source {:github "cupcakearmy/autorestic"}
+ :tests [["autorestic" "--version"]]
  :checksum "SHA256SUMS"
  :platforms {"linux-x86_64" {:asset "autorestic_{version}_linux_amd64.bz2"}
              "linux-aarch64" {:asset "autorestic_{version}_linux_arm64.bz2"}

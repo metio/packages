@@ -4,6 +4,7 @@
 
 {:description "Official command-line interface for Floci",
  :source {:github "floci-io/floci-cli"}
+ :tests [["floci" "--version"]]
  :tag-prefix ""
  :checksum "sha256sums.txt"
  :bins {"floci" "{asset}"}

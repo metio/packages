@@ -4,6 +4,7 @@
 
 {:description "CLI for Banzai Cloud Pipeline platform",
  :source {:github "banzaicloud/banzai-cli"}
+ :tests [["banzai" "--version"]]
  :tag-prefix ""
  :checksum "banzai_checksums.txt"
  :bins {"banzai" "banzai"}

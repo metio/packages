@@ -3,6 +3,7 @@
 
 {:description "TUI Application to manage Obsidian notes directly from the terminal"
  :source {:github "erikjuhani/basalt"}
+ :tests [["basalt" "--version"]]
  :tag-prefix "basalt/v"
  :strip 1
  :platforms {"linux-x86_64" {:asset "basalt-{version}-x86_64-unknown-linux-musl.tar.gz"}

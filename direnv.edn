@@ -4,6 +4,7 @@
 
 {:description "unclutter your .profile",
  :source {:github "direnv/direnv"}
+ :tests [["direnv" "--version"]]
  :platforms {"linux-x86_64" {:asset "direnv.linux-amd64"}
              "linux-aarch64" {:asset "direnv.linux-arm64"}
              "darwin-x86_64" {:asset "direnv.darwin-amd64"}
