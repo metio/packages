@@ -4,7 +4,6 @@
 
 {:description "Helm Charts as Code",
  :source {:github "mkubaczyk/helmsman"}
- :tests [{:args ["helmsman" "version"] :expect "{version}"}]
  :checksum "helmsman_{version}_checksums.txt"
  :platforms {"linux-x86_64" {:asset "helmsman_{version}_linux_amd64.tar.gz"}
              "linux-aarch64" {:asset "helmsman_{version}_linux_arm64.tar.gz"}

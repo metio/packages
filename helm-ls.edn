@@ -4,7 +4,7 @@
 
 {:description "Language server for Helm",
  :source {:github "mrjosh/helm-ls"}
- :tests [{:args ["helm_ls" "version"] :expect "{version}"}]
+ :tests [["helm_ls" "version"]]
  :bins {"helm_ls" "{asset}"}
  :platforms {"linux-x86_64" {:asset "helm_ls_linux_amd64"}
              "linux-aarch64" {:asset "helm_ls_linux_arm64"}

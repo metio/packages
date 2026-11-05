@@ -6,8 +6,8 @@
  :source {:github "fwdcloudsec/granted"}
  :tests [{:args ["granted" "--version"] :expect "{version}"} {:args ["assume" "--version"] :expect "{version}"}]
  :checksum "checksums.txt"
- :bins {"assume" "assume", "assumego" "assumego", "granted" "granted"}
- :platforms {"linux-x86_64" {:asset "granted_{version}_linux_x86_64.tar.gz"}
-             "linux-aarch64" {:asset "granted_{version}_linux_arm64.tar.gz"}
+ :bins {"assume" "assume", "granted" "granted"}
+ :platforms {"linux-x86_64" {:asset "granted_{version}_linux_x86_64.tar.gz" :bins {"assume" "assume", "assumego" "assumego", "granted" "granted"}}
+             "linux-aarch64" {:asset "granted_{version}_linux_arm64.tar.gz" :bins {"assume" "assume", "assumego" "assumego", "granted" "granted"}}
              "darwin-x86_64" {:asset "granted_{version}_darwin_x86_64.tar.gz"}
              "darwin-aarch64" {:asset "granted_{version}_darwin_arm64.tar.gz"}}}

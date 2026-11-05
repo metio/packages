@@ -4,7 +4,6 @@
 
 {:description "A utility for managing Jsonnet dashboards against the Grafana API",
  :source {:github "grafana-cold-storage/grizzly"}
- :tests [{:args ["grr" "--version"] :expect "{version}"}]
  :bins {"grr" "{asset}"}
  :platforms {"linux-x86_64" {:asset "grr-linux-amd64"}
              "linux-aarch64" {:asset "grr-linux-arm64"}

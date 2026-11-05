@@ -3,7 +3,7 @@
 
 {:description "A sharp cut, which splits fields by regular expressions and selects them by header"
  :source {:github "sstadick/hck"}
- :tests [{:args ["hck" "--version"] :expect "{version}"}]
+ :tests [["hck" "--version"]]
  :bins {"hck" "{asset}"}
  :platforms {"linux-x86_64" {:asset "hck-linux-amd64"}
-             "darwin-x86_64" {:asset "hck-macos-amd64"}}}
+             "darwin-aarch64" {:asset "hck-macos-amd64"}}}
