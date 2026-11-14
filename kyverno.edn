@@ -6,7 +6,7 @@
  :tests [{:args ["kyverno" "version"] :expect "{version}"}]
  :checksum "checksums.txt",
  :signature {:bundle "{asset}.sigstore.json",
-             :identity "https://github.com/kyverno/kyverno/.github/workflows/release.yaml@refs/tags/{tag}",
+             :identity-regexp "^https://github\\.com/kyverno/kyverno/\\.github/workflows/release(-publish)?\\.yaml@refs/tags/v[0-9]+\\.[0-9]+\\.[0-9]+$",
              :issuer "https://token.actions.githubusercontent.com"}
  :platforms {"linux-x86_64" {:asset "kyverno-cli_{tag}_linux_x86_64.tar.gz"}
              "linux-aarch64" {:asset "kyverno-cli_{tag}_linux_arm64.tar.gz"}
