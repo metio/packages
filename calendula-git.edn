@@ -1,0 +1,6 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "CLI to manage calendars, built from the newest commit of its repository"
+ :tests [["calendula" "--version"]]
+ :source {:cargo "calendula" :git "pimalaya/calendula"}}

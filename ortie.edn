@@ -1,0 +1,14 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "CLI to manage OAuth tokens.",
+ :source {:github "pimalaya/ortie"}
+ :tests [["ortie" "--version"]]
+ :man ["share/man/*.1.gz"],
+ :completions {:bash "share/completions/ortie.bash",
+               :zsh "share/completions/_ortie",
+               :fish "share/completions/ortie.fish"}
+ :platforms {"linux-x86_64" {:asset "ortie.x86_64-linux.tgz"}
+             "linux-aarch64" {:asset "ortie.aarch64-linux.tgz"}
+             "darwin-x86_64" {:asset "ortie.x86_64-darwin.tgz"}
+             "darwin-aarch64" {:asset "ortie.aarch64-darwin.tgz"}}}

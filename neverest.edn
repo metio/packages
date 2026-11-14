@@ -1,0 +1,14 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "CLI to synchronize PIM collections: mail, contacts and calendars.",
+ :source {:github "pimalaya/neverest"}
+ :tests [["neverest" "--version"]]
+ :man ["share/man/*.1.gz"],
+ :completions {:bash "share/completions/neverest.bash",
+               :zsh "share/completions/_neverest",
+               :fish "share/completions/neverest.fish"}
+ :platforms {"linux-x86_64" {:asset "neverest.x86_64-linux.tgz"}
+             "linux-aarch64" {:asset "neverest.aarch64-linux.tgz"}
+             "darwin-x86_64" {:asset "neverest.x86_64-darwin.tgz"}
+             "darwin-aarch64" {:asset "neverest.aarch64-darwin.tgz"}}}
