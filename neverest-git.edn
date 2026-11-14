@@ -1,0 +1,7 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "CLI to synchronize PIM collections: mail, contacts and calendars, built from the newest commit of its repository"
+ :tests [["neverest" "--version"]]
+ :source {:cargo "neverest" :git "pimalaya/neverest"}
+ :bins {"neverest" "bin/neverest"}}
