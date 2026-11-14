@@ -3,4 +3,5 @@
 
 {:description "CLI to manage calendars, built from the newest commit of its repository"
  :tests [["calendula" "--version"]]
- :source {:cargo "calendula" :git "pimalaya/calendula"}}
+ :source {:cargo "calendula" :git "pimalaya/calendula"}
+ :bins {"calendula" "bin/calendula"}}
