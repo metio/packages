@@ -2,5 +2,5 @@
 ;; SPDX-License-Identifier: 0BSD
 
 {:description "Manages Sieve scripts on remote servers through ManageSieve"
- :tests [["sievemgr" "version"]]
+ :tests [{:args ["sievemgr" "man"] :expect "ManageSieve"}]
  :source {:go "go.guido-berhoerster.org/sievemgr" :package "go.guido-berhoerster.org/sievemgr/cmd/sievemgr"}}
