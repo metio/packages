@@ -1,0 +1,14 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Process system whose tickets derive their stage from signed facts"
+ :source {:github "metio/tik"}
+ :tests [["tik" "--help"]]
+ :tag-prefix ""
+ :checksum "SHA256SUMS"
+ :bins {"tik" "{asset}"}
+ :signature {:bundle "SHA256SUMS.bundle"
+             :identity "https://github.com/metio/tik/.github/workflows/release.yml@refs/heads/main"
+             :issuer "https://token.actions.githubusercontent.com"
+             :of :checksum}
+ :platforms {"linux-x86_64" {:asset "tik-linux-amd64-glibc"}}}
