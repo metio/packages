@@ -3,13 +3,13 @@
 
 {:description "Native Matrix desktop client built on Qt 6 and the Matrix Rust SDK"
  :source {:github "lightning-matrix/lightning"}
- :tests [{:args ["lightning" "--version"]
-          :env {"APPIMAGE_EXTRACT_AND_RUN" "1" "QT_QPA_PLATFORM" "offscreen"}
-          :expect "Lightning {version}"}]
+ :tests [{:args ["lightning" "--version"] :expect "Lightning {version}"}]
  :checksum "SHA256SUMS"
  :bins {"lightning" "{asset}"}
- :platforms {"linux-x86_64" {:asset "Lightning-{version}-x86_64.AppImage"}
-             "linux-aarch64" {:asset "Lightning-{version}-aarch64.AppImage"}
+ :platforms {"linux-x86_64" {:asset "Lightning-{version}-x86_64.AppImage"
+                             :tests [["lightning" "--appimage-extract" "AppRun"]]}
+             "linux-aarch64" {:asset "Lightning-{version}-aarch64.AppImage"
+                              :tests [["lightning" "--appimage-extract" "AppRun"]]}
              "darwin-aarch64" {:asset "Lightning-{version}-{commit}-macos-arm64.zip"
                                :vars {:commit {:text "https://github.com/lightning-matrix/lightning/releases/download/{tag}/SHA256SUMS"
                                                :match "Lightning-[^-]+-([0-9a-f]+)-macos-arm64\\.zip"}}
