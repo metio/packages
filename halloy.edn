@@ -6,4 +6,11 @@
  :tag-prefix "",
  :strip 1,
  :bins {"halloy" "bin/halloy"}
+ :desktop {:name "Halloy"
+           :comment "IRC client written in Rust"
+           :categories ["Network" "IRCClient"]
+           :mime-types ["x-scheme-handler/irc" "x-scheme-handler/ircs" "x-scheme-handler/halloy"]
+           :icon "share/icons/hicolor/256x256/apps/org.squidowl.halloy.png"
+           :args ["%U"]
+           :wm-class "org.squidowl.halloy"}
  :platforms {"linux-x86_64" {:asset "halloy-{version}-x86_64-linux.tar.gz"}}}

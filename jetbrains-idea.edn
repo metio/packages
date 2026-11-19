@@ -10,5 +10,10 @@
  :strip 1
  :layout :tree
  :bins {"jetbrains-idea" "bin/idea"}
- :links {"~/.local/bin/jetbrains-idea.svg" "bin/idea.svg"}
+ :desktop {:name "IntelliJ IDEA Ultimate"
+           :comment "The Leading Java and Kotlin IDE"
+           :categories ["Development" "IDE"]
+           :icon "bin/idea.svg"
+           :args ["%u"]
+           :wm-class "jetbrains-idea"}
  :platforms {"linux-x86_64" {:asset "idea-{version}.tar.gz"}}}

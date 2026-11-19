@@ -6,6 +6,12 @@
  :tests [{:args ["lightning" "--version"] :expect "Lightning {version}"}]
  :checksum "SHA256SUMS"
  :bins {"lightning" "{asset}"}
+ :desktop {:name "Lightning"
+           :comment "Chat and calls on Matrix"
+           :categories ["Network" "Chat" "InstantMessaging"]
+           :mime-types ["x-scheme-handler/matrix"]
+           :args ["--backend=rust" "%u"]
+           :wm-class "matrix-client"}
  :platforms {"linux-x86_64" {:asset "Lightning-{version}-x86_64.AppImage"
                              :tests [["lightning" "--appimage-extract" "AppRun"]]}
              "linux-aarch64" {:asset "Lightning-{version}-aarch64.AppImage"
