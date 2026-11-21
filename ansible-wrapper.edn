@@ -7,10 +7,13 @@
  :checksum "SHA256SUMS"
  :bins {"ansible-wrapper" "ansible-wrapper"
         "ansible" "ansible-wrapper"
+        "ansible-config" "ansible-wrapper"
+        "ansible-console" "ansible-wrapper"
         "ansible-doc" "ansible-wrapper"
         "ansible-galaxy" "ansible-wrapper"
         "ansible-inventory" "ansible-wrapper"
         "ansible-playbook" "ansible-wrapper"
+        "ansible-pull" "ansible-wrapper"
         "ansible-vault" "ansible-wrapper"}
  :platforms {"linux-x86_64" {:asset "ansible-wrapper-x86_64-unknown-linux-gnu.tar.gz"}
              "linux-aarch64" {:asset "ansible-wrapper-aarch64-unknown-linux-gnu.tar.gz"}
