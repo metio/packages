@@ -24,16 +24,16 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - id: gate
-        uses: metio/ci/needs-release@481c52330329f9256f7f3d895da0ff54ede66603 # 2026.11.23065533
+        uses: metio/ci/needs-release@950bfa5db1cddb933f0aeb6e53324f100d9ec41b # 2026.11.26194834
         with:
           paths: "*.edn LICENSES"
       - id: version
         if: steps.gate.outputs.needed == 'true'
-        uses: metio/ci/calver@481c52330329f9256f7f3d895da0ff54ede66603 # 2026.11.23065533
+        uses: metio/ci/calver@950bfa5db1cddb933f0aeb6e53324f100d9ec41b # 2026.11.26194834
       - id: notes
         name: Generate release notes
         if: steps.gate.outputs.needed == 'true'
-        uses: metio/ci/release-notes@481c52330329f9256f7f3d895da0ff54ede66603 # 2026.11.23065533
+        uses: metio/ci/release-notes@950bfa5db1cddb933f0aeb6e53324f100d9ec41b # 2026.11.26194834
         with:
           version: ${{ steps.version.outputs.version }}
           previous: ${{ steps.gate.outputs.last }}
@@ -49,7 +49,7 @@ jobs:
           (cd dist && sha256sum "packages-${VERSION}.tar.gz" > "packages_${VERSION}_SHA256SUMS")
       - name: Sign the checksums
         if: steps.gate.outputs.needed == 'true'
-        uses: metio/ci/cosign-sign-blob@481c52330329f9256f7f3d895da0ff54ede66603 # 2026.11.23065533
+        uses: metio/ci/cosign-sign-blob@950bfa5db1cddb933f0aeb6e53324f100d9ec41b # 2026.11.26194834
         with:
           file: dist/packages_${{ steps.version.outputs.version }}_SHA256SUMS
       - name: Tag and publish the GitHub release
