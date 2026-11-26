@@ -1,0 +1,14 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Notebook for agents: labelled entries with signed revisions and observations"
+ :source {:github "metio/kajero"}
+ :tests [{:args ["kajero" "help"] :expect "Usage: kajero serve"}]
+ :tag-prefix ""
+ :checksum "SHA256SUMS"
+ :bins {"kajero" "{asset}"}
+ :signature {:bundle "SHA256SUMS.bundle"
+             :identity "https://github.com/metio/kajero/.github/workflows/release.yml@refs/heads/main"
+             :issuer "https://token.actions.githubusercontent.com"
+             :of :checksum}
+ :platforms {"linux-x86_64" {:asset "kajero-linux-amd64-glibc"}}}
