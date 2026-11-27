@@ -1,0 +1,16 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "The Lean 4 theorem prover and programming language at one fixed version, with Lake, leanchecker and the bundled clang; unpacking its tar.zst archives needs zstd"
+ :source {:github "leanprover/lean4"}
+ :tests [{:args ["sh" "-c" "cat \"$(dirname \"$(readlink -f \"$(command -v lean)\")\")/../include/lean/version.h\""]
+          :expect "#define LEAN_VERSION_STRING \"{version}\""}]
+ :strip 1
+ :layout :tree
+ :bins {"lean" "bin/lean"
+        "lake" "bin/lake"
+        "leanchecker" "bin/leanchecker"}
+ :platforms {"linux-x86_64" {:asset "lean-{version}-linux.tar.zst"}
+             "linux-aarch64" {:asset "lean-{version}-linux_aarch64.tar.zst"}
+             "darwin-x86_64" {:asset "lean-{version}-darwin.tar.zst"}
+             "darwin-aarch64" {:asset "lean-{version}-darwin_aarch64.tar.zst"}}}
