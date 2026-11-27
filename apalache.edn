@@ -1,0 +1,13 @@
+;; SPDX-FileCopyrightText: The breto Authors
+;; SPDX-License-Identifier: 0BSD
+
+{:description "Apalache, the symbolic model checker for TLA+ on top of Z3, whose launcher apalache-mc runs its jar on the java found on PATH, Java 21 or newer"
+ :source {:github "apalache-mc/apalache"}
+ :tests [{:args ["sh" "-c" "unzip -p \"$(dirname \"$(readlink -f \"$(command -v apalache-mc)\")\")/../lib/apalache.jar\" META-INF/MANIFEST.MF"]
+          :expect "Implementation-Version: {version}"}]
+ :asset "apalache-{version}.tgz"
+ :checksum "sha256sum.txt"
+ :strip 1
+ :layout :tree
+ :bins {"apalache-mc" "bin/apalache-mc"}
+ :platforms {"linux-x86_64" {} "linux-aarch64" {} "darwin-x86_64" {} "darwin-aarch64" {}}}
